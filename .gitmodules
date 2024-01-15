@@ -1,0 +1,9 @@
+[submodule "modules/addon"]
+	path = modules/addon
+	url = git@gitlab.com:a3re/addon.git
+[submodule "modules/extension"]
+	path = modules/extension
+	url = git@gitlab.com:a3re/extension.git
+[submodule "modules/query_server"]
+	path = modules/query_server
+	url = git@gitlab.com:a3re/query_server.git

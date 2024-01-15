@@ -1,0 +1,29 @@
+#!/bin/bash
+
+MISSION_NAME="ROTR_Test2"
+MISSION_MAP="OPTRE_Madrigal"
+# MISSION_NAME="TEST"
+# MISSION_MAP="VR"
+
+ADDON_MODULE_DIR="modules/addon"
+MISSION_STATIC_DIR="mission/static_scripts"
+
+TEMP_DIR="tmp"
+OUTPUT_DIR="output"
+MISSION_OUTPUT_DIR="${OUTPUT_DIR}/missions"
+
+MISSION_ROOT_FOLDER="${MISSION_NAME}.${MISSION_MAP}"
+MISSION_FOLDER="${MISSION_OUTPUT_DIR}/${MISSION_ROOT_FOLDER}"
+
+# Mission packing
+mkdir ${MISSION_OUTPUT_DIR}
+mkdir ${MISSION_FOLDER}
+
+cp -r ${ADDON_MODULE_DIR}/mission/mission_scripts/* ${MISSION_FOLDER}
+cp -r ${MISSION_STATIC_DIR}/* ${MISSION_FOLDER}
+
+cd ${MISSION_OUTPUT_DIR}
+pbo_unpacker pack ${MISSION_ROOT_FOLDER}
+rm -rf ${MISSION_ROOT_FOLDER}
+
+cd ..

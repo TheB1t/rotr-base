@@ -1,0 +1,1 @@
+["zeus_init", []] call A3RE_M_fnc_callFunction;
