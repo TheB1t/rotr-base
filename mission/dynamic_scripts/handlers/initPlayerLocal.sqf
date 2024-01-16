@@ -10,8 +10,6 @@ private _init_sequence = [
 	["credits_init",		[]],
 	["credits_show",		[]],
 
-	["general_addAction",	[]],
-
 	["script_chatCommands",	[]],
 	["script_medMenu",		[]],
 	["script_playerSave",	[]],
