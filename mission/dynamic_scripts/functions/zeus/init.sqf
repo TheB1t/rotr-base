@@ -1,4 +1,17 @@
-"zeus_process" call A3RE_M_fnc_loadFunction;
-"zeus_curator_create" call A3RE_M_fnc_loadFunction;
+["zeus_curator_init", []] call A3RE_M_fnc_call;
 
-["zeus_curator_init", []] call A3RE_M_fnc_callFunction;
+zeusmodule = [
+	"76561198849607210",
+	"76561198242248288",
+	"76561197960287930",
+	"76561198870777804",
+	"76561198420473950",
+	"76561198285867886",
+	"76561198814567212",
+	"76561199005129551",
+	"76561198084186592",
+	"76561199102443174",
+	"76561197960287930",
+	"76561198937232342"
+];
+publicVariable "zeusmodule";

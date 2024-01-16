@@ -1,5 +1,4 @@
-waitUntil {local player};
 player enableAimPrecision false;
-Weapon_AIM_Coef = addMissionEventHandler ["EachFrame", {
+addMissionEventHandler ["EachFrame", {
 	player setCustomAimCoef 0;
 }];

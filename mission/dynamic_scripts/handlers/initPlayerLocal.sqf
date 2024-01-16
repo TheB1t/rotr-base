@@ -1,33 +1,30 @@
 params ["_player", "_didJIP"];
+["InitializePlayer", [player, true]] call BIS_fnc_dynamicGroups;
 
 private _loadStart = time;
 
-["InitializePlayer", [player, true]] call BIS_fnc_dynamicGroups;
+private _init_sequence = [
+	["zeus_verify",		_player],
+	["zeus_stats_init",		[]],
 
+	["credits_init",		[]],
+	["credits_show",		[]],
+
+	["general_addAction",	[]],
+
+	["script_chatCommands",	[]],
+	["script_medMenu",		[]],
+	["script_playerSave",	[]],
+	["script_weaponHand",	[]],
+
+	["script_rank",		_player]
+];
+
+{
+	_x call A3RE_M_fnc_call;
+} forEach _init_sequence;
+
+private _loadTime = time - _loadStart;
+
+(format ["[%1] Loading took %2 seconds", name _player, _loadTime]) call A3RE_M_fnc_logServer;
 (format ["Player (%1) %2 connected to the server", getPlayerUID _player, name _player]) remoteExec ["diag_log", 0];
-
-"arc_redBacta" call A3RE_M_fnc_loadFunction;
-"arc_stimulator" call A3RE_M_fnc_loadFunction;
-
-"general_addAction" call A3RE_M_fnc_loadFunction;
-
-["zeus_stats_init", []] call A3RE_M_fnc_callFunction;
-
-["credits_show", []] call A3RE_M_fnc_callFunction;
-
-["rank", [_player]] call A3RE_M_fnc_callScript;
-["chatCommands", []] call A3RE_M_fnc_callScript;
-["medMenu", []] call A3RE_M_fnc_callScript;
-["playerSave", []] call A3RE_M_fnc_callScript;
-["weaponHand", []] call A3RE_M_fnc_callScript;
-
-_playerUID = getPlayerUID _player;
-if (_playerUID in zeusmodule) then {
-	_player call zeus_add;
-};
-
-call general_addAction;
-
-private _loadDone = time;
-
-systemChat format ["Loading took %1 seconds", _loadDone - _loadStart];

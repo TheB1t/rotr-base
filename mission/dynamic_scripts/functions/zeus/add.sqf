@@ -5,7 +5,7 @@ _dedman = format["dedman%1", _index];
 	params ["_name", "_player"];
 	missionNamespace setVariable [_name, _player, true];
 
-	[_name] remoteExec ["zeus_process", 2];
+	["zeus_process", _name] remoteExec ["A3RE_M_fnc_call", 2];
 
 	[{
 		_index = getPlayerUID player;
