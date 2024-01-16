@@ -33,6 +33,12 @@
     [_rpchat] remoteExec ["systemChat"];
 }] call CAU_xChat_fnc_addCommand;
 
+["nrp",{
+    _argument = _this joinString " ";
+    _nrpchat = format ["NRP  %1: (( %2 ))", name player, _argument];
+    [_nrpchat] remoteExec ["systemChat"];
+}] call CAU_xChat_fnc_addCommand;
+
 ["save",{
 	profileNamespace setVariable ["saved_uniform", uniform player];
 	profileNamespace setVariable ["saved_uniform_items", uniformItems player];

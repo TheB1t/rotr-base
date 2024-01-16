@@ -1,5 +1,3 @@
-params ["_unit"];
-
 _setRankIf = {
 	params ["_unit", "_array", "_rank"];
 
@@ -12,26 +10,26 @@ _setRankIf = {
 	} forEach _array;
 };
 
-[_unit, [
+[_this, [
 	"CPL", "CPS"
 ], "CORPORAL"] call _setRankIf;
 
-[_unit, [
+[_this, [
 	"SGT", "SSG", "SGM", "MSG", "FPO", "FMS", "MCPO"
 ], "SERGEANT"] call _setRankIf;
 
-[_unit, [
+[_this, [
 	"WO", "SPLT", "SLT", "LT", "Fl.LT", "LCM"
 ], "LIEUTENANT"] call _setRankIf;
 
-[_unit, [
+[_this, [
 	"CPT", "CMR"
 ], "CAPTAIN"] call _setRankIf;
 
-[_unit, [
+[_this, [
 	"MAJ", "COL", "CC", "Fl.COM", "Fl.CPT"
 ], "MAJOR"] call _setRankIf;
 
-[_unit, [
+[_this, [
 	"MC", "CMD", "VAM", "AM", "GEN", "SGEN", "HGEN", "Dir"
 ], "COLONEL"] call _setRankIf;

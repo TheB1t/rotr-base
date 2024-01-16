@@ -35,16 +35,3 @@ creditsLines pushBack [
     "Удачной игры!",
     [profileName]
 ];
-
-publicVariable "west_sector";
-publicVariable "west_system";
-publicVariable "resistance_sector";
-publicVariable "resistance_system";
-publicVariable "east_sector";
-publicVariable "east_system";
-
-publicVariable "onScreenTime";
-publicVariable "creditsLines";
-
-"credits_show" call A3RE_M_fnc_loadFunction;
-"credits_showPreview" call A3RE_M_fnc_loadFunction;
