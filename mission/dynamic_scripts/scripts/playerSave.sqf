@@ -1,54 +1,56 @@
-_load = {
-	params ["_parameter_name", "_expected_type", "_code"];
+_save = {
+	params ["_parameter_name", "_code", ["_args", []]];
 
-	_parameter = (profileNamespace getVariable _parameter_name);
-	if (typeName _parameter == _expected_type) then {
-		_parameter call _code;
-	};
+	_value = _args call _code;
+	profileNamespace setVariable [_parameter_name, _value];
 };
 
-_load_string = {
-	params ["_parameter_name", "_code"];
-	[_parameter_name, "STRING", _code] call _load;
+_saveItems = {
+	params ["_parameter_name", "_items", "_types"];
+
+	[_parameter_name, {
+		params ["_items", "_types"];
+		_items select {
+			_type = (_x call BIS_fnc_itemType) select 1;
+			_type in _types;
+		} param [0, ""];
+	}, [_items, _types]] call _save;
 };
 
-_load_array = {
-	params ["_parameter_name", "_code"];
-	[_parameter_name, "ARRAY", _code] call _load;
+_saveAssignedItems = {
+	params ["_parameter_name", "_types"];
+	[_parameter_name, assignedItems player, _types] call _saveItems;
 };
 
-_addItem = {
-	player addItem _this;
-	player assignItem _this;
+_saveWeaponsItems = {
+	params ["_parameter_name", "_types"];
+	[_parameter_name, weaponsItems player, _types] call _saveItems;
 };
 
-_addWeapon = {
-	player addWeapon (_this select 0 param [0, ""]);
-	{
-		player addSecondaryWeaponItem (_x param [0, ""]);
-	} forEach _this;
-};
+["saved_uniform",			{ uniform player;				}] call _save;
+["saved_uniform_items",		{ uniformItems player;			}] call _save;
 
-["saved_uniform",			{ player forceAddUniform _this;		}] call _load_string;
-["saved_vest",				{ player AddVest _this;				}] call _load_string;
-["saved_backpack",			{ player addBackpack _this;			}] call _load_string;
+["saved_vest",				{ vest player;					}] call _save;
+["saved_vest_items",		{ vestItems player;				}] call _save;
 
-["saved_headgear",			{ player addHeadgear _this;			}] call _load_string;
-["saved_goggles",			{ player addGoggles _this;			}] call _load_string;
-["saved_hmd",				{ player addWeapon _this;			}] call _load_string;
-["saved_binocular",			{ player addWeapon _this;			}] call _load_string;
-["saved_binocularMagazine", { player addBinocularItem _this;	}] call _load_string;
+["saved_backpack",			{ backpack player;				}] call _save;
+["saved_backpack_items",	{ backpackItems player;			}] call _save;
 
-["saved_map",				_addItem] call _load_string;
-["saved_gps",				_addItem] call _load_string;
-["saved_radio",				_addItem] call _load_string;
-["saved_compass",			_addItem] call _load_string;
-["saved_watch", 			_addItem] call _load_string;
+["saved_headgear",			{ headgear player;				}] call _save;
+["saved_goggles",			{ goggles player;				}] call _save;
+["saved_hmd",				{ hmd player;					}] call _save;
+["saved_binocular",			{ binocular player;				}] call _save;
+["saved_binocularMagazine",	{ binocularMagazine player;		}] call _save;
 
-["saved_uniform_items",		{{ player addItemToUniform _x;	} forEach _this;	}] call _load_array;
-["saved_vest_items",		{{ player addItemToVest _x;		} forEach _this;	}] call _load_array;
-["saved_backpack_items",	{{ player addItemToBackpack _x;	} forEach _this;	}] call _load_array;
+["saved_map",				["Map"]							] call _saveAssignedItems;
+["saved_gps",				["GPS", "UAVTerminal"]			] call _saveAssignedItems;
+["saved_radio",				["Radio"]						] call _saveAssignedItems;
+["saved_compass",			["Compass"]						] call _saveAssignedItems;
+["saved_watch",				["Watch"]						] call _saveAssignedItems;
 
-["saved_primary_weapon",	_addWeapon] call _load_array;
-["saved_secondary_weapon",	_addWeapon] call _load_array;
-["saved_handgun_weapon",	_addWeapon] call _load_array;
+["saved_primary_weapon",	["Rifle", "SniperRifle", "AssaultRifle", "MachineGun", "Shotgun", "SubmachineGun"]	] call _saveWeaponsItems;
+["saved_secondary_weapon",	["Launcher", "RocketLauncher", "MissileLauncher", "GrenadeLauncher", "Cannon"]		] call _saveWeaponsItems;
+["saved_handgun_weapon",	["Handgun"]																			] call _saveWeaponsItems;
+
+systemChat "Снаряжение сохранено";
+saveProfileNamespace;

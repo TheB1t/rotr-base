@@ -1,3 +1,5 @@
+systemChat "ARC Bacta script activated!";
+
 _cooldownArmorArc = player getVariable ["cooldownArmorArc", 0];
 _timerCD = 300;
 _timerUpTime = 30;

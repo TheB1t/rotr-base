@@ -1,13 +1,13 @@
-sleep 3;
+sleep 10;
 
 switch (playerSide) do {
-	case west:			{ [west_sector, west_system] call credits_showPreview; };
-	case resistance:	{ [resistance_sector, resistance_system] call credits_showPreview; };
-	case east:			{ [east_sector, east_system] call credits_showPreview; };
+	case west:			{ [general_sector, general_system, general_planet] call credits_showPreview; };
+	case resistance:	{ [general_sector, general_system, general_planet] call credits_showPreview; };
+	case east:			{ [general_sector, general_system, general_planet] call credits_showPreview; };
 	case civilian:		{};
 };
 
-sleep 12;
+sleep 20;
 
 {
 	_x params ["_memberFunction", "_memberNames"];

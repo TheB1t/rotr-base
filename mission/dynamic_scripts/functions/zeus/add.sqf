@@ -7,11 +7,11 @@ _dedman = format["dedman%1", _index];
 
 	["zeus_process", _name] remoteExec ["A3RE_M_fnc_call", 2];
 
-	[{
+	[name _player, {
 		_index = getPlayerUID player;
 		_dedman = format["dedman%1", _index];
 		if (!isNil _dedman) then {
 			systemChat format ["Zeus added to player %1", _this];
 		};
-	}, name _player] remoteExec ["spawn", 0];
+	}] remoteExec ["spawn", 0];
 };

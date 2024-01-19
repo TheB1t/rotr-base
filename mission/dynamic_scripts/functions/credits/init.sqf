@@ -1,29 +1,18 @@
-general_sector = "Мадригал";
-general_system = "Алтис";
-
-west_sector = general_sector;
-west_system = general_system;
-resistance_sector = general_sector;
-resistance_system = general_system;
-east_sector = general_sector;
-east_system = general_system;
+general_sector = "Райобалло";
+general_system = "Малый Кесмер";
+general_planet = "Креста";
 
 onScreenTime = 3;
 creditsLines = [];
 
 creditsLines pushBack [
-	"Добро пожаловать на Revenge of the Republic|Arma 3", 
+	"Добро пожаловать на Revenge of the Republic | Arma 3", 
 	[profileName]
 ];
 
 creditsLines pushBack [
 	"Игровой проект Revenge of the Republic", 
 	["Created by ROTR Team"]
-];
-
-creditsLines pushBack [
-	"Разработчики...(мы работаем)",
-	["ROTR Team"]
 ];
 
 creditsLines pushBack [

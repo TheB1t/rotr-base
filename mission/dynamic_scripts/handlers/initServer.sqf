@@ -22,6 +22,7 @@ private _scripts = [
 	"chatCommands",
 	"medMenu",
 	"playerSave",
+	"playerLoad",
 	"weaponHand"
 ];
 
