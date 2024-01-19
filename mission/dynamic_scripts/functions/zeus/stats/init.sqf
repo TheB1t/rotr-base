@@ -1,3 +1,5 @@
+stats_disableKick = true;
+
 [missionNamespace, "OnDisplayRegistered", {	
 	params ["_display", "_class"];
 

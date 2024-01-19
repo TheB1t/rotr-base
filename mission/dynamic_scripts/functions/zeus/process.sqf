@@ -1,5 +1,5 @@
 private _var_name = _this+"Curator";
-		
+
 if (isNil _var_name) then {
 	["zeus_curator_create", _var_name] call A3RE_M_fnc_call;
 };

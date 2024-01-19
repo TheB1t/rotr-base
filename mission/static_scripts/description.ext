@@ -1,3 +1,5 @@
+#include "ActiveZeusList.cpp"
+
 cba_settings_hasSettingsFile=1;
 //enableDebugConsole = 1;
 respawn="BASE";
@@ -13,7 +15,6 @@ author="created by Artorias & Svarka";
 
 // zeusCompositionScriptLevel = 2;
 
-//Medcore
 #include "common.hpp"
 class RscTitles {
 	#include "namesleft.hpp"

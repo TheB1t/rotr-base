@@ -19,6 +19,7 @@ private _shared_objects = [
 	"script_chatCommands",
 	"script_medMenu",
 	"script_playerSave",
+	"script_playerLoad",
 	"script_weaponHand"
 ];
 

@@ -43,7 +43,7 @@ force force A3TI_HD_VISION_SHIP = true;
 force force A3TI_HD_VISION_UAV = true;
 force force A3TI_REMOVE_FILMGRAIN_RHS = true;
 
-// ACE Арсенал
+// ACE ÐÑ€ÑÐµÐ½Ð°Ð»
 force force ace_arsenal_allowDefaultLoadouts = true;
 force force ace_arsenal_allowSharedLoadouts = true;
 ace_arsenal_camInverted = false;
@@ -57,7 +57,7 @@ ace_arsenal_loadoutsSaveFace = false;
 ace_arsenal_loadoutsSaveInsignia = true;
 ace_arsenal_loadoutsSaveVoice = false;
 
-// ACE Артиллерия
+// ACE ÐÑ€Ñ‚Ð¸Ð»Ð»ÐµÑ€Ð¸Ñ
 force force ace_artillerytables_advancedCorrections = false;
 force force ace_artillerytables_disableArtilleryComputer = false;
 force force ace_mk6mortar_airResistanceEnabled = false;
@@ -65,7 +65,7 @@ force force ace_mk6mortar_allowCompass = true;
 force force ace_mk6mortar_allowComputerRangefinder = true;
 force force ace_mk6mortar_useAmmoHandling = false;
 
-// ACE Без категории
+// ACE Ð‘ÐµÐ· ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸
 ace_fastroping_autoAddFRIES = false;
 force force ace_fastroping_requireRopeItems = false;
 force force ace_gunbag_swapGunbagEnabled = true;
@@ -83,27 +83,27 @@ force ace_parachute_failureChance = 0;
 ace_parachute_hideAltimeter = false;
 ace_tagging_quickTag = 1;
 
-// ACE Блокировка транспорта
+// ACE Ð‘Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²ÐºÐ° Ñ‚Ñ€Ð°Ð½ÑÐ¿Ð¾Ñ€Ñ‚Ð°
 force force ace_vehiclelock_defaultLockpickStrength = 1;
 force force ace_vehiclelock_lockVehicleInventory = true;
 force force ace_vehiclelock_vehicleStartingLockState = 0;
 
-// ACE Быстрая посадка
+// ACE Ð‘Ñ‹ÑÑ‚Ñ€Ð°Ñ Ð¿Ð¾ÑÐ°Ð´ÐºÐ°
 force force ace_quickmount_distance = 10;
 force force ace_quickmount_enabled = true;
 ace_quickmount_enableMenu = 3;
 ace_quickmount_priority = 0;
 force force ace_quickmount_speed = 30;
 
-// ACE Взаимодействие
-force force ace_interaction_disableNegativeRating = true;
+// ACE Ð’Ð·Ð°Ð¸Ð¼Ð¾Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ðµ
+force force ace_interaction_disableNegativeRating = false;
 force ace_interaction_enableGroupRenaming = true;
 ace_interaction_enableMagazinePassing = false;
 force force ace_interaction_enableTeamManagement = true;
 ace_interaction_enableWeaponAttachments = true;
 force ace_interaction_interactWithTerrainObjects = false;
 
-// ACE Взрывчатка
+// ACE Ð’Ð·Ñ€Ñ‹Ð²Ñ‡Ð°Ñ‚ÐºÐ°
 ace_explosives_customTimerDefault = 30;
 force force ace_explosives_customTimerMax = 900;
 force force ace_explosives_customTimerMin = 5;
@@ -111,24 +111,24 @@ force force ace_explosives_explodeOnDefuse = false;
 force force ace_explosives_punishNonSpecialists = false;
 force force ace_explosives_requireSpecialist = false;
 
-// ACE Возгорание
+// ACE Ð’Ð¾Ð·Ð³Ð¾Ñ€Ð°Ð½Ð¸Ðµ
 force force ace_fire_dropWeapon = 0;
 force force ace_fire_enabled = true;
 force force ace_fire_enableFlare = false;
 force force ace_fire_enableScreams = true;
 
-// ACE Возрождение
+// ACE Ð’Ð¾Ð·Ñ€Ð¾Ð¶Ð´ÐµÐ½Ð¸Ðµ
 force force ace_respawn_removeDeadBodiesDisconnected = true;
 force force ace_respawn_savePreDeathGear = true;
 
-// ACE Гильзы
+// ACE Ð“Ð¸Ð»ÑŒÐ·Ñ‹
 force force ace_casings_enabled = true;
 force force ace_casings_maxCasings = 250;
 
-// ACE Гранаты
+// ACE Ð“Ñ€Ð°Ð½Ð°Ñ‚Ñ‹
 force force ace_grenades_convertExplosives = false;
 
-// ACE Громкость
+// ACE Ð“Ñ€Ð¾Ð¼ÐºÐ¾ÑÑ‚ÑŒ
 acex_volume_enabled = true;
 acex_volume_fadeDelay = 0;
 acex_volume_lowerInVehicles = false;
@@ -136,7 +136,7 @@ acex_volume_reduction = 8;
 force acex_volume_remindIfLowered = true;
 acex_volume_showNotification = true;
 
-// ACE Групповое вооружение (CSW)
+// ACE Ð“Ñ€ÑƒÐ¿Ð¿Ð¾Ð²Ð¾Ðµ Ð²Ð¾Ð¾Ñ€ÑƒÐ¶ÐµÐ½Ð¸Ðµ (CSW)
 force force ace_csw_ammoHandling = 0;
 force force ace_csw_defaultAssemblyMode = false;
 force force ace_csw_dragAfterDeploy = false;
@@ -144,7 +144,7 @@ force force ace_csw_handleExtraMagazines = false;
 force ace_csw_handleExtraMagazinesType = 0;
 force force ace_csw_progressBarTimeCoefficent = 1;
 
-// ACE Детонация
+// ACE Ð”ÐµÑ‚Ð¾Ð½Ð°Ñ†Ð¸Ñ
 force force ace_cookoff_ammoCookoffDuration = 0;
 force ace_cookoff_destroyVehicleAfterCookoff = false;
 force force ace_cookoff_enable = 0;
@@ -153,7 +153,7 @@ force force ace_cookoff_enableAmmoCookoff = false;
 force force ace_cookoff_enableFire = false;
 force force ace_cookoff_probabilityCoef = 0;
 
-// ACE Жесты на карте
+// ACE Ð–ÐµÑÑ‚Ñ‹ Ð½Ð° ÐºÐ°Ñ€Ñ‚Ðµ
 force force ace_map_gestures_allowCurator = true;
 force force ace_map_gestures_allowSpectator = true;
 force force ace_map_gestures_briefingMode = 0;
@@ -166,7 +166,7 @@ force force ace_map_gestures_maxRangeCamera = 14;
 force force ace_map_gestures_nameTextColor = [0.2,0.2,0.2,0.3];
 force force ace_map_gestures_onlyShowFriendlys = true;
 
-// ACE Зевс
+// ACE Ð—ÐµÐ²Ñ
 force force ace_zeus_autoAddObjects = true;
 force force ace_zeus_canCreateZeus = -1;
 force force ace_zeus_radioOrdnance = true;
@@ -175,16 +175,16 @@ force force ace_zeus_revealMines = 0;
 force force ace_zeus_zeusAscension = false;
 force force ace_zeus_zeusBird = false;
 
-// ACE Зритель
+// ACE Ð—Ñ€Ð¸Ñ‚ÐµÐ»ÑŒ
 force force ace_spectator_enableAI = false;
 ace_spectator_maxFollowDistance = 25;
 force force ace_spectator_restrictModes = 0;
 force force ace_spectator_restrictVisions = 0;
 
-// ACE ИИ
+// ACE Ð˜Ð˜
 ace_ai_assignNVG = false;
 
-// ACE Имена игроков
+// ACE Ð˜Ð¼ÐµÐ½Ð° Ð¸Ð³Ñ€Ð¾ÐºÐ¾Ð²
 force ace_nametags_ambientBrightnessAffectViewDist = 1;
 ace_nametags_defaultNametagColor = [1,0.6,0,1];
 ace_nametags_nametagColorBlue = [0,0,0.85,1];
@@ -195,22 +195,22 @@ ace_nametags_nametagColorYellow = [0.85,0.85,0,1];
 force force ace_nametags_playerNamesMaxAlpha = 0.8;
 force force ace_nametags_playerNamesViewDistance = 5;
 force force ace_nametags_showCursorTagForVehicles = true;
-ace_nametags_showNamesForAI = true;
+force ace_nametags_showNamesForAI = false;
 ace_nametags_showPlayerNames = 3;
 ace_nametags_showPlayerRanks = false;
 ace_nametags_showSoundWaves = 1;
 ace_nametags_showVehicleCrewInfo = false;
 force force ace_nametags_tagSize = 2;
 
-// ACE Инструменты карты
+// ACE Ð˜Ð½ÑÑ‚Ñ€ÑƒÐ¼ÐµÐ½Ñ‚Ñ‹ ÐºÐ°Ñ€Ñ‚Ñ‹
 ace_maptools_drawStraightLines = true;
 ace_maptools_rotateModifierKey = 1;
 
-// ACE Интерфейс
+// ACE Ð˜Ð½Ñ‚ÐµÑ€Ñ„ÐµÐ¹Ñ
 force force ace_ui_allowSelectiveUI = true;
 ace_ui_ammoCount = true;
 ace_ui_ammoType = true;
-ace_ui_commandMenu = true;
+force ace_ui_commandMenu = false;
 force ace_ui_enableSpeedIndicator = true;
 ace_ui_firingMode = true;
 ace_ui_groupBar = false;
@@ -245,7 +245,7 @@ ace_ui_weaponName = true;
 ace_ui_weaponNameBackground = true;
 ace_ui_zeroing = true;
 
-// ACE Карта
+// ACE ÐšÐ°Ñ€Ñ‚Ð°
 force force ace_map_BFT_Enabled = true;
 force force ace_map_BFT_HideAiGroups = true;
 force force ace_map_BFT_Interval = 1;
@@ -256,12 +256,12 @@ force force ace_map_mapIllumination = false;
 force force ace_map_mapLimitZoom = false;
 force force ace_map_mapShake = false;
 force force ace_map_mapShowCursorCoordinates = true;
-force force ace_markers_moveRestriction = 2;
+force force ace_markers_moveRestriction = 0;
 force force ace_markers_timestampEnabled = true;
 force force ace_markers_timestampFormat = "HH:MM";
 force force ace_markers_timestampHourFormat = 24;
 
-// ACE Логистика
+// ACE Ð›Ð¾Ð³Ð¸ÑÑ‚Ð¸ÐºÐ°
 ace_cargo_carryAfterUnload = true;
 force force ace_cargo_enable = true;
 force force ace_cargo_enableRename = false;
@@ -278,7 +278,7 @@ force ace_refuel_progressDuration = 2;
 force force ace_refuel_rate = 2;
 force ace_towing_addRopeToVehicleInventory = true;
 
-// ACE Медицина
+// ACE ÐœÐµÐ´Ð¸Ñ†Ð¸Ð½Ð°
 force force ace_medical_ai_enabledFor = 0;
 ace_medical_ai_requireItems = 0;
 force force ace_medical_AIDamageThreshold = 1;
@@ -298,7 +298,7 @@ force force ace_medical_limping = 1;
 force force ace_medical_painCoefficient = 0.3;
 force force ace_medical_painUnconsciousChance = 1;
 ace_medical_painUnconsciousThreshold = 0.5;
-force force ace_medical_playerDamageThreshold = 10;
+force force ace_medical_playerDamageThreshold = 5;
 force force ace_medical_spontaneousWakeUpChance = 1;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 30;
 force force ace_medical_statemachine_AIUnconsciousness = false;
@@ -348,7 +348,7 @@ force force ace_medical_treatment_treatmentTimeTourniquet = 5;
 force force ace_medical_treatment_woundReopenChance = 0;
 force force ace_medical_treatment_woundStitchTime = 2.5;
 
-// ACE Медицина Интерфейс
+// ACE ÐœÐµÐ´Ð¸Ñ†Ð¸Ð½Ð° Ð˜Ð½Ñ‚ÐµÑ€Ñ„ÐµÐ¹Ñ
 force force ace_medical_feedback_bloodVolumeEffectType = 2;
 force force ace_medical_feedback_enableHUDIndicators = true;
 force force ace_medical_feedback_painEffectType = 1;
@@ -380,13 +380,13 @@ force force ace_medical_gui_interactionMenuShowTriage = 1;
 force force ace_medical_gui_maxDistance = 10;
 force force ace_medical_gui_openAfterTreatment = true;
 ace_medical_gui_peekMedicalInfoReleaseDelay = 1;
-ace_medical_gui_peekMedicalOnHit = false;
+force ace_medical_gui_peekMedicalOnHit = true;
 ace_medical_gui_peekMedicalOnHitDuration = 1;
 force force ace_medical_gui_showBloodlossEntry = true;
-ace_medical_gui_showDamageEntry = false;
+force ace_medical_gui_showDamageEntry = true;
 ace_medical_gui_tourniquetWarning = false;
 
-// ACE Меню взаимодействия
+// ACE ÐœÐµÐ½ÑŽ Ð²Ð·Ð°Ð¸Ð¼Ð¾Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ
 ace_gestures_showOnInteractionMenu = 2;
 ace_interact_menu_actionOnKeyRelease = true;
 ace_interact_menu_addBuildingActions = true;
@@ -408,7 +408,7 @@ ace_interact_menu_textSize = 2;
 ace_interact_menu_useListMenu = true;
 ace_interact_menu_useListMenuSelf = true;
 
-// ACE Общие
+// ACE ÐžÐ±Ñ‰Ð¸Ðµ
 force force ace_common_allowFadeMusic = true;
 force force ace_common_checkPBOsAction = 2;
 force force ace_common_checkPBOsCheckAll = true;
@@ -420,7 +420,7 @@ ace_common_progressBarInfo = 2;
 ace_common_settingFeedbackIcons = 1;
 ace_common_settingProgressBarLocation = 0;
 
-// ACE Ограничение обзора
+// ACE ÐžÐ³Ñ€Ð°Ð½Ð¸Ñ‡ÐµÐ½Ð¸Ðµ Ð¾Ð±Ð·Ð¾Ñ€Ð°
 force force acex_viewrestriction_mode = 0;
 force force acex_viewrestriction_modeSelectiveAir = 0;
 force force acex_viewrestriction_modeSelectiveFoot = 0;
@@ -428,7 +428,7 @@ force force acex_viewrestriction_modeSelectiveLand = 0;
 force force acex_viewrestriction_modeSelectiveSea = 0;
 acex_viewrestriction_preserveView = false;
 
-// ACE Ограничитель дальности видимости
+// ACE ÐžÐ³Ñ€Ð°Ð½Ð¸Ñ‡Ð¸Ñ‚ÐµÐ»ÑŒ Ð´Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚Ð¸ Ð²Ð¸Ð´Ð¸Ð¼Ð¾ÑÑ‚Ð¸
 force force ace_viewdistance_enabled = false;
 force force ace_viewdistance_limitViewDistance = 12000;
 ace_viewdistance_objectViewDistanceCoeff = 0;
@@ -436,30 +436,30 @@ ace_viewdistance_viewDistanceAirVehicle = 0;
 ace_viewdistance_viewDistanceLandVehicle = 0;
 ace_viewdistance_viewDistanceOnFoot = 0;
 
-// ACE Окопы
+// ACE ÐžÐºÐ¾Ð¿Ñ‹
 force force ace_trenches_bigEnvelopeDigDuration = 25;
 force force ace_trenches_bigEnvelopeRemoveDuration = 15;
 force force ace_trenches_smallEnvelopeDigDuration = 10;
 force force ace_trenches_smallEnvelopeRemoveDuration = 5;
 
-// ACE Оружие
+// ACE ÐžÑ€ÑƒÐ¶Ð¸Ðµ
 ace_common_persistentLaserEnabled = false;
 ace_reload_displayText = true;
 ace_reload_showCheckAmmoSelf = false;
 ace_reloadlaunchers_displayStatusText = true;
 ace_weaponselect_displayText = true;
 
-// ACE Отклонение ветром
+// ACE ÐžÑ‚ÐºÐ»Ð¾Ð½ÐµÐ½Ð¸Ðµ Ð²ÐµÑ‚Ñ€Ð¾Ð¼
 force force ace_winddeflection_enabled = false;
 force force ace_winddeflection_simulationInterval = 0;
 force force ace_winddeflection_vehicleEnabled = false;
 
-// ACE Очки
+// ACE ÐžÑ‡ÐºÐ¸
 ace_goggles_effects = 0;
 ace_goggles_showClearGlasses = false;
 ace_goggles_showInThirdPerson = false;
 
-// ACE ПНВ
+// ACE ÐŸÐÐ’
 force force ace_nightvision_aimDownSightsBlur = 0;
 force force ace_nightvision_disableNVGsWithSights = false;
 force force ace_nightvision_effectScaling = 0;
@@ -467,7 +467,7 @@ force force ace_nightvision_fogScaling = 0;
 force force ace_nightvision_noiseScaling = 0;
 ace_nightvision_shutterEffects = false;
 
-// ACE Перегрев
+// ACE ÐŸÐµÑ€ÐµÐ³Ñ€ÐµÐ²
 force ace_overheating_cookoffCoef = 1;
 force ace_overheating_coolingCoef = 1;
 ace_overheating_displayTextOnJam = true;
@@ -484,11 +484,11 @@ force force ace_overheating_unJamFailChance = 0;
 force force ace_overheating_unJamOnreload = true;
 force ace_overheating_unJamOnSwapBarrel = false;
 
-// ACE Перегрузки
+// ACE ÐŸÐµÑ€ÐµÐ³Ñ€ÑƒÐ·ÐºÐ¸
 force force ace_gforces_coef = 0;
 force force ace_gforces_enabledFor = 0;
 
-// ACE Переключение юнитов
+// ACE ÐŸÐµÑ€ÐµÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ ÑŽÐ½Ð¸Ñ‚Ð¾Ð²
 force force ace_switchunits_enableSafeZone = false;
 force force ace_switchunits_enableSwitchUnits = false;
 force force ace_switchunits_safeZoneRadius = 0;
@@ -497,20 +497,20 @@ force force ace_switchunits_switchToEast = false;
 force force ace_switchunits_switchToIndependent = false;
 force force ace_switchunits_switchToWest = false;
 
-// ACE Перепаковка магазинов
+// ACE ÐŸÐµÑ€ÐµÐ¿Ð°ÐºÐ¾Ð²ÐºÐ° Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½Ð¾Ð²
 force force ace_magazinerepack_repackAnimation = true;
 force force ace_magazinerepack_repackLoadedMagazines = false;
 force force ace_magazinerepack_timePerAmmo = 1;
 force force ace_magazinerepack_timePerBeltLink = 1;
 force force ace_magazinerepack_timePerMagazine = 1;
 
-// ACE Перетаскивание
+// ACE ÐŸÐµÑ€ÐµÑ‚Ð°ÑÐºÐ¸Ð²Ð°Ð½Ð¸Ðµ
 ace_dragging_allowRunWithLightweight = true;
 ace_dragging_dragAndFire = true;
 ace_dragging_skipContainerWeight = false;
 ace_dragging_weightCoefficient = 1;
 
-// ACE Пилоны
+// ACE ÐŸÐ¸Ð»Ð¾Ð½Ñ‹
 force force ace_pylons_enabledForZeus = true;
 force force ace_pylons_enabledFromAmmoTrucks = true;
 force force ace_pylons_rearmNewPylons = true;
@@ -519,19 +519,19 @@ force force ace_pylons_requireToolkit = true;
 force force ace_pylons_searchDistance = 50;
 force force ace_pylons_timePerPylon = 1;
 
-// ACE Пленные
+// ACE ÐŸÐ»ÐµÐ½Ð½Ñ‹Ðµ
 force force ace_captives_allowHandcuffOwnSide = true;
 force force ace_captives_allowSurrender = true;
 force force ace_captives_requireSurrender = 2;
 force force ace_captives_requireSurrenderAi = true;
 
-// ACE Погода
+// ACE ÐŸÐ¾Ð³Ð¾Ð´Ð°
 force force ace_weather_enabled = false;
 ace_weather_showCheckAirTemperature = false;
 force force ace_weather_updateInterval = 0;
 force force ace_weather_windSimulation = false;
 
-// ACE Полевые рационы
+// ACE ÐŸÐ¾Ð»ÐµÐ²Ñ‹Ðµ Ñ€Ð°Ñ†Ð¸Ð¾Ð½Ñ‹
 force force acex_field_rations_affectAdvancedFatigue = false;
 force force acex_field_rations_enabled = false;
 acex_field_rations_hudShowLevel = 10;
@@ -544,7 +544,7 @@ force force acex_field_rations_timeWithoutFood = 504;
 force force acex_field_rations_timeWithoutWater = 168;
 force force acex_field_rations_waterSourceActions = 2;
 
-// ACE Прицелы
+// ACE ÐŸÑ€Ð¸Ñ†ÐµÐ»Ñ‹
 force force ace_scopes_correctZeroing = false;
 force force ace_scopes_deduceBarometricPressureFromTerrainAltitude = false;
 force force ace_scopes_defaultZeroRange = 100;
@@ -557,7 +557,7 @@ force force ace_scopes_zeroReferenceBarometricPressure = 1013.25;
 force force ace_scopes_zeroReferenceHumidity = 0;
 force force ace_scopes_zeroReferenceTemperature = 15;
 
-// ACE Продвинутая баллистика
+// ACE ÐŸÑ€Ð¾Ð´Ð²Ð¸Ð½ÑƒÑ‚Ð°Ñ Ð±Ð°Ð»Ð»Ð¸ÑÑ‚Ð¸ÐºÐ°
 force force ace_advanced_ballistics_ammoTemperatureEnabled = false;
 force force ace_advanced_ballistics_barrelLengthInfluenceEnabled = false;
 force force ace_advanced_ballistics_bulletTraceEnabled = false;
@@ -565,7 +565,7 @@ force force ace_advanced_ballistics_enabled = false;
 force force ace_advanced_ballistics_muzzleVelocityVariationEnabled = false;
 force force ace_advanced_ballistics_simulationInterval = 0;
 
-// ACE Продвинутая усталость
+// ACE ÐŸÑ€Ð¾Ð´Ð²Ð¸Ð½ÑƒÑ‚Ð°Ñ ÑƒÑÑ‚Ð°Ð»Ð¾ÑÑ‚ÑŒ
 ace_advanced_fatigue_deployedSwayFactor = 1;
 force force ace_advanced_fatigue_enabled = true;
 force force ace_advanced_fatigue_enableStaminaBar = true;
@@ -577,12 +577,12 @@ ace_advanced_fatigue_restedSwayFactor = 1;
 force force ace_advanced_fatigue_swayFactor = 0;
 force force ace_advanced_fatigue_terrainGradientFactor = 0;
 
-// ACE Продвинутое повреждение техники
+// ACE ÐŸÑ€Ð¾Ð´Ð²Ð¸Ð½ÑƒÑ‚Ð¾Ðµ Ð¿Ð¾Ð²Ñ€ÐµÐ¶Ð´ÐµÐ½Ð¸Ðµ Ñ‚ÐµÑ…Ð½Ð¸ÐºÐ¸
 force force ace_vehicle_damage_enableCarDamage = false;
 force force ace_vehicle_damage_enabled = false;
 force force ace_vehicle_damage_removeAmmoDuringCookoff = false;
 
-// ACE Ремонт
+// ACE Ð ÐµÐ¼Ð¾Ð½Ñ‚
 force force ace_repair_addSpareParts = true;
 force force ace_repair_autoShutOffEngineWhenStartingRepair = true;
 force force ace_repair_consumeItem_toolKit = 0;
@@ -607,17 +607,17 @@ ace_repair_timeCoefficientFullRepair = 1.5;
 ace_repair_wheelChangeTime = 10;
 force force ace_repair_wheelRepairRequiredItems = [];
 
-// ACE Сидение
+// ACE Ð¡Ð¸Ð´ÐµÐ½Ð¸Ðµ
 force force acex_sitting_enable = true;
 
-// ACE Симуляция осколков
+// ACE Ð¡Ð¸Ð¼ÑƒÐ»ÑÑ†Ð¸Ñ Ð¾ÑÐºÐ¾Ð»ÐºÐ¾Ð²
 force force ace_frag_enabled = false;
 force force ace_frag_maxTrack = 0;
 force force ace_frag_maxTrackPerFrame = 0;
 force force ace_frag_reflectionsEnabled = false;
 force force ace_frag_spallEnabled = false;
 
-// ACE Слух
+// ACE Ð¡Ð»ÑƒÑ…
 force force ace_hearing_autoAddEarplugsToUnits = false;
 force force ace_hearing_disableEarRinging = true;
 force force ace_hearing_earplugsVolume = 0.3;
@@ -625,14 +625,14 @@ force force ace_hearing_enableCombatDeafness = false;
 force force ace_hearing_enabledForZeusUnits = true;
 force force ace_hearing_unconsciousnessVolume = 0.1;
 
-// ACE Транспорт
+// ACE Ð¢Ñ€Ð°Ð½ÑÐ¿Ð¾Ñ€Ñ‚
 force ace_novehicleclanlogo_enabled = false;
 ace_vehicles_hideEjectAction = false;
 force force ace_vehicles_keepEngineRunning = true;
 ace_vehicles_speedLimiterStep = 10;
 force ace_viewports_enabled = true;
 
-// ACE Указание пальцем
+// ACE Ð£ÐºÐ°Ð·Ð°Ð½Ð¸Ðµ Ð¿Ð°Ð»ÑŒÑ†ÐµÐ¼
 force force ace_finger_enabled = true;
 ace_finger_indicatorColor = [0.83,0.68,0.21,0.75];
 ace_finger_indicatorForSelf = true;
@@ -640,27 +640,27 @@ force force ace_finger_maxRange = 15;
 force ace_finger_proximityScaling = false;
 force ace_finger_sizeCoef = 1;
 
-// ACE Улучшенный бросок гранат
+// ACE Ð£Ð»ÑƒÑ‡ÑˆÐµÐ½Ð½Ñ‹Ð¹ Ð±Ñ€Ð¾ÑÐ¾Ðº Ð³Ñ€Ð°Ð½Ð°Ñ‚
 ace_advanced_throwing_enabled = true;
 force force ace_advanced_throwing_enablePickUp = true;
 force force ace_advanced_throwing_enablePickUpAttached = true;
 ace_advanced_throwing_showMouseControls = true;
 ace_advanced_throwing_showThrowArc = true;
 
-// ACE Фортификация
+// ACE Ð¤Ð¾Ñ€Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ
 force ace_fortify_markObjectsOnMap = 0;
 force ace_fortify_timeCostCoefficient = 1;
 force ace_fortify_timeMin = 1.5;
 acex_fortify_settingHint = 1;
 
-// ACE Headless клиент
+// ACE Headless ÐºÐ»Ð¸ÐµÐ½Ñ‚
 force force acex_headless_delay = 0;
 force force acex_headless_enabled = false;
 force force acex_headless_endMission = 0;
 force force acex_headless_log = false;
 force force acex_headless_transferLoadout = 1;
 
-// Achilles - Доступные куратору режимы зрения
+// Achilles - Ð”Ð¾ÑÑ‚ÑƒÐ¿Ð½Ñ‹Ðµ ÐºÑƒÑ€Ð°Ñ‚Ð¾Ñ€Ñƒ Ñ€ÐµÐ¶Ð¸Ð¼Ñ‹ Ð·Ñ€ÐµÐ½Ð¸Ñ
 achilles_curator_vision_blackhot = false;
 achilles_curator_vision_blackhotgreencold = false;
 achilles_curator_vision_blackhotredcold = false;
@@ -671,7 +671,7 @@ achilles_curator_vision_redhot = false;
 achilles_curator_vision_whitehot = false;
 achilles_curator_vision_whitehotredcold = false;
 
-// Achilles - Доступные модули
+// Achilles - Ð”Ð¾ÑÑ‚ÑƒÐ¿Ð½Ñ‹Ðµ Ð¼Ð¾Ð´ÑƒÐ»Ð¸
 Achilles_var_Achilles_ACE_Heal_Module = true;
 Achilles_var_Achilles_ACE_ImmersiveHeal_Module = true;
 Achilles_var_Achilles_ACE_Injury_Module = true;
@@ -752,7 +752,7 @@ Achilles_var_Ares_Module_Zeus_Switch_Side = true;
 Achilles_var_Ares_Module_Zeus_Visibility = true;
 Achilles_var_ModulePunishment_F = true;
 
-// Achilles - Доступные фракции
+// Achilles - Ð”Ð¾ÑÑ‚ÑƒÐ¿Ð½Ñ‹Ðµ Ñ„Ñ€Ð°ÐºÑ†Ð¸Ð¸
 Achilles_var_125_ac = false;
 Achilles_var_198_ab = false;
 Achilles_var_212_Arcus_B1_Faction = false;
@@ -844,18 +844,18 @@ Achilles_var_SWLB_GAR = true;
 Achilles_var_SWLB_GAR_SOB = true;
 Achilles_var_Virtual_F = false;
 
-// Achilles - Значения по умолчанию
+// Achilles - Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
 Achilles_var_setRadioFrequenciesLR_Default = "30";
 Achilles_var_setRadioFrequenciesSR_Default = "30";
 
-// Achilles - Интерфейс пользователя
+// Achilles - Ð˜Ð½Ñ‚ÐµÑ€Ñ„ÐµÐ¹Ñ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ
 Achilles_var_iconSelection = "Achilles_var_iconSelection_Achilles";
 Achilles_var_moduleTreeCollapse = true;
 Achilles_var_moduleTreeDLC = true;
 Achilles_var_moduleTreeHelmet = true;
 Achilles_var_moduleTreeSearchPatch = true;
 
-// Achilles - Отладка
+// Achilles - ÐžÑ‚Ð»Ð°Ð´ÐºÐ°
 Achilles_Debug_Output_Enabled = false;
 
 // Alternative Running (Client Settings)
@@ -888,7 +888,7 @@ force DBA_StunDuration = 5;
 force force DBA_StunEnable = false;
 force DBA_StunHeavyDroids = false;
 
-// DUI - Радар команды - Именные жетоны
+// DUI - Ð Ð°Ð´Ð°Ñ€ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ - Ð˜Ð¼ÐµÐ½Ð½Ñ‹Ðµ Ð¶ÐµÑ‚Ð¾Ð½Ñ‹
 force diwako_dui_nametags_customRankStyle = "[[""PRIVATE"",""CORPORAL"",""SERGEANT"",""LIEUTENANT"",""CAPTAIN"",""MAJOR"",""COLONEL""],[""Pvt."",""Cpl."",""Sgt."",""Lt."",""Capt."",""Maj."",""Col.""]]";
 diwako_dui_nametags_deadColor = [0.2,0.2,0.2,1];
 diwako_dui_nametags_deadRenderDistance = 3.5;
@@ -913,7 +913,7 @@ diwako_dui_nametags_showUnconAsDead = true;
 diwako_dui_nametags_useLIS = true;
 diwako_dui_nametags_useSideIsFriendly = true;
 
-// DUI - Радар команды - Индикаторы
+// DUI - Ð Ð°Ð´Ð°Ñ€ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ - Ð˜Ð½Ð´Ð¸ÐºÐ°Ñ‚Ð¾Ñ€Ñ‹
 force diwako_dui_indicators_crew_range_enabled = false;
 diwako_dui_indicators_fov_scale = false;
 diwako_dui_indicators_icon_buddy = false;
@@ -927,7 +927,7 @@ diwako_dui_indicators_size = 1;
 diwako_dui_indicators_style = "standard";
 diwako_dui_indicators_useACENametagsRange = true;
 
-// DUI - Радар команды - Основное
+// DUI - Ð Ð°Ð´Ð°Ñ€ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ - ÐžÑÐ½Ð¾Ð²Ð½Ð¾Ðµ
 diwako_dui_ace_hide_interaction = true;
 diwako_dui_colors = "standard";
 diwako_dui_font = "RobotoCondensed";
@@ -942,7 +942,7 @@ diwako_dui_main_squadYellow = [1,1,0,1];
 diwako_dui_main_trackingColor = [0.93,0.26,0.93,1];
 diwako_dui_reset_ui_pos = false;
 
-// DUI - Радар команды - Радар
+// DUI - Ð Ð°Ð´Ð°Ñ€ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ - Ð Ð°Ð´Ð°Ñ€
 diwako_dui_compass_hide_alone_group = false;
 diwako_dui_compass_hide_blip_alone_group = false;
 diwako_dui_compass_icon_scale = 1;
@@ -1073,7 +1073,7 @@ force force IMS_StealthAI_Eyes = 40;
 force force IMS_WBK_CUSTOMCAMSERVER = true;
 force IMS_WBK_MAINFPTP = true;
 
-// JLTS - Оружие
+// JLTS - ÐžÑ€ÑƒÐ¶Ð¸Ðµ
 force force JLTS_settings_Common_dropShield = true;
 force force JLTS_settings_EMP_EMPEffectScope = 0;
 force force JLTS_settings_EMP_mainSwitch = 1;
@@ -1084,7 +1084,7 @@ force force JLTS_settings_EMP_repairTimeSecondary = 15;
 force force JLTS_settings_Stun_mainSwitch = 1;
 force force JLTS_settings_Stun_worksInVehicles = true;
 
-// JLTS - Отладка
+// JLTS - ÐžÑ‚Ð»Ð°Ð´ÐºÐ°
 force force JLTS_settings_Debug_chat = false;
 force force JLTS_settings_Debug_mainSwitch = 0;
 force force JLTS_settings_Debug_rpt = false;
@@ -1431,7 +1431,7 @@ mti_doors_lockpick_slow_failChance = 0.05;
 
 // MokTech Industries - Equipment
 mti_equipment_flagsEnabled = true;
-mti_equipment_knifeEnabled = true;
+force mti_equipment_knifeEnabled = false;
 mti_equipment_nvg_customBrightness = 5;
 mti_equipment_nvg_customColour = [0.592,0.89,0.306];
 mti_equipment_nvg_customContrast = 5;
@@ -1635,7 +1635,7 @@ force force RD501_ZL_Enabled = false;
 RD501_Radio_Dialog_Selector_Dialog = "rt1523g_radio_dialog";
 RD501_Radio_Dialog_Selector_Enabled = false;
 
-// TFAR - Глобальные настройки
+// TFAR - Ð“Ð»Ð¾Ð±Ð°Ð»ÑŒÐ½Ñ‹Ðµ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸
 force force TFAR_AICanHearPlayer = false;
 force force TFAR_AICanHearSpeaker = false;
 force force TFAR_allowDebugging = true;
@@ -1688,7 +1688,7 @@ force force TFAR_Teamspeak_Channel_Password = "11111111";
 force force tfar_terrain_interception_coefficient = 7;
 force force TFAR_voiceCone = true;
 
-// TFAR - Настройки клиента
+// TFAR - ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð°
 TFAR_curatorCamEars = true;
 TFAR_default_radioVolume = 6;
 TFAR_intercomDucking = 0.2;
@@ -1753,7 +1753,7 @@ force force UVO_option_soundsSamplePitch = 0.8;
 
 // WebKnight Droids
 force force WBK_Droid_b1_damage = "2";
-force force WBK_Droid_b2_damage = "5";
+force force WBK_Droid_b2_damage = "4";
 
 // WebKnight's Zombies
 force WBK_ZombiesIsUseBitingAnimation = true;
@@ -1805,7 +1805,7 @@ zen_vision_enableRedHotCold = false;
 zen_vision_enableWhiteHot = false;
 zen_vision_enableWhiteHotRedCold = false;
 
-// Zeus Enhanced - Атрибуты
+// Zeus Enhanced - ÐÑ‚Ñ€Ð¸Ð±ÑƒÑ‚Ñ‹
 zen_attributes_enableAbilities = true;
 zen_attributes_enableAmmo = true;
 zen_attributes_enableArsenal = true;

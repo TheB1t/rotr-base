@@ -1,3 +1,5 @@
+systemChat "ARC Stimulator script activated!";
+
 _cdStimpack = 780;
 _energyStimpack = 180;
 _cd = player getVariable ["_cdStimpack", 0];

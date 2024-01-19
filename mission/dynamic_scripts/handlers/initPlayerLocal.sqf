@@ -5,12 +5,14 @@ private _init_sequence = [
 	["zeus_verify",		_player, true],
 	["zeus_stats_init",		[]],
 
+	["arc_init",			[], true],
+
 	["credits_init",		[]],
 	["credits_show",		[], true],
 
 	["script_chatCommands",	[], true],
 	["script_medMenu",		[], true],
-	["script_playerSave",	[], true],
+	["script_playerLoad",	[], true],
 	["script_weaponHand",	[], true],
 
 	["script_rank",		_player]

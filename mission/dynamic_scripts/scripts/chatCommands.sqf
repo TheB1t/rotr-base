@@ -40,30 +40,5 @@
 }] call CAU_xChat_fnc_addCommand;
 
 ["save",{
-	profileNamespace setVariable ["saved_uniform", uniform player];
-	profileNamespace setVariable ["saved_uniform_items", uniformItems player];
-
-	profileNamespace setVariable ["saved_vest", vest player];
-	profileNamespace setVariable ["saved_vest_items", vestItems player];
-
-	profileNamespace setVariable ["saved_backpack", backpack player];
-	profileNamespace setVariable ["saved_backpack_items", backpackItems player];
-
-	profileNamespace setVariable ["saved_headgear", headgear player];
-	profileNamespace setVariable ["saved_goggles", goggles player];
-	profileNamespace setVariable ["saved_hmd", hmd player];
-	profileNamespace setVariable ["saved_binocular", binocular player];
-	profileNamespace setVariable ["saved_binocularMagazine", binocularMagazine player];
-
-	profileNamespace setVariable ["saved_map", assignedItems player select {_x call BIS_fnc_itemType select 1 == "Map"} param [0, ""]];
-	profileNamespace setVariable ["saved_gps", assignedItems player select {_x call BIS_fnc_itemType select 1 in ["GPS", "UAVTerminal"]} param [0, ""]];
-	profileNamespace setVariable ["saved_radio", assignedItems player select {_x call BIS_fnc_itemType select 1 == "Radio"} param [0, ""]];
-	profileNamespace setVariable ["saved_compass", assignedItems player select {_x call BIS_fnc_itemType select 1 == "Compass"} param [0, ""]];
-	profileNamespace setVariable ["saved_watch", assignedItems player select {_x call BIS_fnc_itemType select 1 == "Watch"} param [0, ""]];
-
-	profileNamespace setVariable ["saved_primary_weapon", weaponsItems player select {_x call BIS_fnc_itemType select 1 in ["Rifle", "SniperRifle", "AssaultRifle", "MachineGun", "Shotgun", "SubmachineGun"]} param [0, ""]];
-	profileNamespace setVariable ["saved_secondary_weapon", weaponsItems player select {_x call BIS_fnc_itemType select 1 in ["Launcher", "RocketLauncher", "MissileLauncher", "GrenadeLauncher", "Cannon"]} param [0, ""]];
-	profileNamespace setVariable ["saved_handgun_weapon", weaponsItems player select {_x call BIS_fnc_itemType select 1 == "Handgun"} param [0, ""]];
-	systemChat "Снаряжение сохранено";
-	saveProfileNamespace;
+   ["script_playerSave", []] call A3RE_M_fnc_call;
 }] call CAU_xChat_fnc_addCommand;

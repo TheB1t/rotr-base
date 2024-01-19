@@ -1,8 +1,10 @@
 params ["_newUnit", "_oldUnit", "_respawn", "_respawnDelay"];
 
+removeAllActions player;
+
 private _reinit_sequence = [
 	["zeus_verify",		_newUnit],
-	["script_playerSave",	[]],
+	["script_playerLoad",	[]],
 	["arc_init",			[]]
 ];
 
