@@ -12,7 +12,6 @@ sleep 20;
 {
 	_x params ["_memberFunction", "_memberNames"];
 
-	sleep 2;
 	_finalText = format ["<t size='0.55' color='#ffd700' align='right'>%1<br /></t>", _memberFunction];
 	_finalText = _finalText + "<t size='0.70' color='#ffffff' align='right'>";
 	{

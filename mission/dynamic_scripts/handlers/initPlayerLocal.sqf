@@ -2,10 +2,14 @@ params ["_player", "_didJIP"];
 ["InitializePlayer", [player, true]] call BIS_fnc_dynamicGroups;
 
 private _init_sequence = [
-	["zeus_verify",		_player, true],
+	["teleports_buildAll",	[], true],
+	["medical_init",		[], true],
+
+	["zeus_verify",		_player],
 	["zeus_stats_init",		[]],
 
 	["arc_init",			[], true],
+	["rc_init",				[], true],
 
 	["credits_init",		[]],
 	["credits_show",		[], true],

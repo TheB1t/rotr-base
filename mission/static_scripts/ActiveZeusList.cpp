@@ -8,10 +8,10 @@
 
 #define CT_CONTROLS_TABLE	19
 
-#define CT_W				16
+#define CT_W				18
 #define CT_H				6
-#define CT_POS_X			GUI_GRID_CENTER_X + ((GW / 2) - (CT_W / 2))
-#define CT_POS_Y			GUI_GRID_CENTER_Y + (GH - (CT_H / 2))
+#define CT_POS_X			GUI_GRID_BOTTOMCENTER_X - (CT_W / 2)
+#define CT_POS_Y			GUI_GRID_BOTTOMCENTER_Y + (GH - CT_H)
 
 #define CT_ROW_H			1
 #define CT_HEADER_H			1
@@ -28,17 +28,22 @@
 #define BACK_X					0
 #define BACK_W					CT_W
 
+#define ROW_DELTA				(BACK_W / 16)
+
 #define ROW_COL0_X				BACK_X
-#define ROW_COL0_W				(BACK_W / 2)
+#define ROW_COL0_W				(ROW_DELTA * 5)
 
 #define ROW_COL1_X				(ROW_COL0_X + ROW_COL0_W)
-#define ROW_COL1_W				(BACK_W / 2)
+#define ROW_COL1_W				(ROW_DELTA * 5)
+
+#define ROW_COL2_X				(ROW_COL1_X + ROW_COL1_W)
+#define ROW_COL2_W				(ROW_DELTA * 6)
 
 #define HDR_COL0_X				ROW_COL0_X
-#define HDR_COL0_W				ROW_COL0_W
+#define HDR_COL0_W				(ROW_DELTA * 5)
 
 #define HDR_COL1_X				((HDR_COL0_X + HDR_COL0_W) + 2)
-#define HDR_COL1_W				(HDR_COL0_W / 2)
+#define HDR_COL1_W				(ROW_DELTA * 5)
 
 class ROTR_ActiveZeusList {
 	idc = -1;
@@ -83,7 +88,7 @@ class ROTR_ActiveZeusList {
 			controlH		= CT_ROW_H			* GUI_GRID_H;
 		};
 
-		class Name {
+		class IngameName {
 			controlBaseClassPath[] = {"RscText"};
 
 			columnX			= ROW_COL0_X		* GUI_GRID_W;
@@ -93,11 +98,20 @@ class ROTR_ActiveZeusList {
 			controlH		= ROW_CTRL_H		* GUI_GRID_H;
 		};
 
-		class UID {
+		class RealName {
 			controlBaseClassPath[] = {"RscText"};
 
 			columnX			= ROW_COL1_X		* GUI_GRID_W;
 			columnW			= ROW_COL1_W		* GUI_GRID_W;
+
+			controlOffsetY	= ROW_CTRL_OFFSET	* GUI_GRID_H;
+			controlH		= ROW_CTRL_H		* GUI_GRID_H;
+		};
+		class UID {
+			controlBaseClassPath[] = {"RscText"};
+
+			columnX			= ROW_COL2_X		* GUI_GRID_W;
+			columnW			= ROW_COL2_W		* GUI_GRID_W;
 
 			controlOffsetY	= ROW_CTRL_OFFSET	* GUI_GRID_H;
 			controlH		= ROW_CTRL_H		* GUI_GRID_H;

@@ -1,17 +1,16 @@
-stats_disableKick = true;
-
 [missionNamespace, "OnDisplayRegistered", {	
 	params ["_display", "_class"];
 
     if (_class == "RscDisplayCurator") then {
         _active_curators = missionNamespace getVariable ["active_curators", []];
+        _curator = [player, clientOwner];
 
-        if (!(player in _active_curators)) then {
-            _active_curators pushBack player;
-            missionNamespace setVariable["active_curators", _active_curators, true];
+        if (!(_curator in _active_curators)) then {
+            _active_curators pushBack _curator;
+            missionNamespace setVariable ["active_curators", _active_curators, true];
         };
 
-        [] remoteExec ["zeus_stats_draw", 0];
+        _active_curators remoteExec ["zeus_stats_draw", 0];
     };
 }] call BIS_fnc_addScriptedEventHandler;
 
@@ -20,9 +19,11 @@ stats_disableKick = true;
 
     if (_class == "RscDisplayCurator") then {
         _active_curators = missionNamespace getVariable ["active_curators", []];
-        _active_curators deleteAt (_active_curators find player);
-        missionNamespace setVariable["active_curators", _active_curators, true];
+        _curator = [player, clientOwner];
 
-        [] remoteExec ["zeus_stats_draw", 0];
+        _active_curators deleteAt (_active_curators find _curator);
+        missionNamespace setVariable ["active_curators", _active_curators, true];
+
+        _active_curators remoteExec ["zeus_stats_draw", 0];
     };
 }] call BIS_fnc_addScriptedEventHandler;

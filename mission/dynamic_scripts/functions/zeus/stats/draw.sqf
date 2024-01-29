@@ -2,9 +2,19 @@ if (isServer) exitwith {};
 
 disableSerialization;
 
-_active_curators = missionNamespace getVariable ["active_curators", []];
+_active_curators = _this;
 
-if (player in _active_curators) then {
+{
+	_x params ["_player", "_machine"];
+	if (isNull _player) then {
+		systemChat format ["Remove obsolete zeus entry (machine %1)", _machine];
+
+		private _index = _active_curators find _x;
+		_active_curators deleteAt _index;
+	};
+} forEach _active_curators;
+
+if ([player, clientOwner] in _active_curators) then {
 	waitUntil { !isNull (findDisplay 312) };
 
 	_display	= findDisplay 312;
@@ -21,35 +31,27 @@ if (player in _active_curators) then {
 
 	_ctrlHeaderBackground	ctrlSetBackgroundColor [0.5, 0.5, 0.5, 0.5];
 	_ctrlDescription		ctrlSetText "Активные зевсы";
-	_ctrlKickButton			ctrlSetText "Разлогинить";
-	_ctrlKickButton			setVariable ["root", _ctrl];
-
-	_ctrlKickButton ctrlAddEventHandler ["ButtonClick", {
-		params ["_control"];
-
-		if (stats_disableKick) then {
-			systemChat "Kick functionality disabled, contact with Bit for more information.";
-		} else {
-			_root = _control getVariable "root";
-			_active_curators = missionNamespace getVariable ["active_curators", []];
-			_selected = _active_curators select ctCurSel _root;
-
-			[[], {
-				waitUntil { !isNull (findDisplay 312) };
-
-				_display = findDisplay 312;
-				_display closeDisplay 1;
-			}] remoteExec ["spawn", owner _selected];
-		};
-	}];
+	_ctrlKickButton			ctrlSetText "Выкинуть";
+	_ctrlKickButton			ctrlAddEventHandler ["ButtonClick", zeus_stats_handlers_throwOut];
 
 	{
+		_x params ["_player", "_machine"];
+
 		ctAddRow _ctrl params ["_ind", "_row"];
-		_row params ["_ctrlBackground", "_ctrlName", "_ctrlUID"];
+		_row params ["_ctrlBackground", "_ctrlIngameName", "_ctrlRealName", "_ctrlUID"];
 
 		_ctrlBackground	ctrlSetBackgroundColor [0.5, 0.5, 0.5, 0.3];
-		_ctrlName		ctrlSetText name _x;
-		_ctrlUID		ctrlSetText getPlayerUID _x;
+		_ctrlIngameName	ctrlSetText name _player;
+		_ctrlUID		ctrlSetText getPlayerUID _player;
+
+		_zeus = zeusUsers select {	(_x select 0) == (getPlayerUID _player)	};
+
+		if (count _zeus > 0) then {
+			_user = (_zeus select 0);
+			_ctrlRealName ctrlSetText (_user select 2);
+		} else {
+			_ctrlRealName ctrlSetText "Unauthorized";
+		};
 	} forEach _active_curators;
 
 	_ctrl ctSetCurSel 0;
