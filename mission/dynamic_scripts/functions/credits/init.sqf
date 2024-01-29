@@ -1,3 +1,5 @@
+general_project_name = "Revenge of the Republic";
+
 general_sector = "Райобалло";
 general_system = "Малый Кесмер";
 general_planet = "Креста";
@@ -6,12 +8,12 @@ onScreenTime = 3;
 creditsLines = [];
 
 creditsLines pushBack [
-	"Добро пожаловать на Revenge of the Republic | Arma 3", 
+	format ["Добро пожаловать на %1", general_project_name],
 	[profileName]
 ];
 
 creditsLines pushBack [
-	"Игровой проект Revenge of the Republic", 
+	format ["Игровой проект %1", general_project_name],
 	["Created by ROTR Team"]
 ];
 

@@ -40,5 +40,5 @@
 }] call CAU_xChat_fnc_addCommand;
 
 ["save",{
-   ["script_playerSave", []] call A3RE_M_fnc_call;
+    call script_playerSave;
 }] call CAU_xChat_fnc_addCommand;

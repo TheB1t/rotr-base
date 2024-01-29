@@ -1,9 +1,16 @@
+#include "infiSTAR_AdminMenu.hpp"
 #include "ActiveZeusList.cpp"
+
+class CfgClient {
+    class SpawnerCfg {
+        #include "spawnerCfg.cpp"
+    };
+};
 
 cba_settings_hasSettingsFile=1;
 //enableDebugConsole = 1;
-respawn="BASE";
-respawnButton=1;
+// respawn="BASE";
+// respawnButton=1;
 respawnOnStart=-1;
 disabledAI=1;
 

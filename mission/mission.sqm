@@ -22,14 +22,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=4691;
+		nextID=4533;
 	};
 	class Camera
 	{
-		pos[]={6730.3892,34.548752,656.1972};
-		dir[]={-0.90958458,-0.40185654,0.10686195};
-		up[]={-0.39927495,0.9156009,0.046905916};
-		aside[]={0.11670711,-4.6013156e-007,0.99323851};
+		pos[]={6820.5527,94.612778,650.24182};
+		dir[]={-0.72075105,-0.69335848,-0.0056511401};
+		up[]={-0.69340611,0.72049165,-0.0054398035};
+		aside[]={-0.0078272158,5.1440456e-006,1.0000517};
 	};
 };
 binarizationWanted=0;
@@ -61251,7 +61251,6 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				health=0.56777352;
 				name="GAR_RS";
 				dynamicSimulation=1;
 			};
@@ -61279,7 +61278,7 @@ class Mission
 										singleType="ARRAY";
 										class value
 										{
-											items=322;
+											items=310;
 											class Item0
 											{
 												class data
@@ -62901,7 +62900,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Z6_Small";
+													value="3AS_DC17S_F";
 												};
 											};
 											class Item203
@@ -62909,7 +62908,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA";
+													value="3AS_DC17STest_F";
 												};
 											};
 											class Item204
@@ -62973,7 +62972,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Red";
+													value="optic_ACO_grn";
 												};
 											};
 											class Item212
@@ -62981,7 +62980,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_ACO_grn";
+													value="optic_Nightstalker";
 												};
 											};
 											class Item213
@@ -62989,7 +62988,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Blue";
+													value="optic_Aco";
 												};
 											};
 											class Item214
@@ -62997,7 +62996,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Green";
+													value="optic_Holosight_smg";
 												};
 											};
 											class Item215
@@ -63005,7 +63004,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Nightstalker";
+													value="optic_Hamr";
 												};
 											};
 											class Item216
@@ -63013,7 +63012,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Aco";
+													value="optic_ACO_grn_smg";
 												};
 											};
 											class Item217
@@ -63021,7 +63020,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Holosight_smg";
+													value="3AS_Optic_LEScope_DC15A";
 												};
 											};
 											class Item218
@@ -63029,7 +63028,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Green";
+													value="optic_NVS";
 												};
 											};
 											class Item219
@@ -63037,7 +63036,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Red";
+													value="optic_DMS";
 												};
 											};
 											class Item220
@@ -63045,7 +63044,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Hamr";
+													value="3AS_Optic_VK38X";
 												};
 											};
 											class Item221
@@ -63053,7 +63052,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_ACO_grn_smg";
+													value="optic_lrps";
 												};
 											};
 											class Item222
@@ -63061,7 +63060,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Blue";
+													value="optic_Aco_smg";
 												};
 											};
 											class Item223
@@ -63069,7 +63068,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Yellow";
+													value="optic_Holosight";
 												};
 											};
 											class Item224
@@ -63077,7 +63076,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_LEScope_DC15A";
+													value="OPTRE_M7_Laser";
 												};
 											};
 											class Item225
@@ -63085,7 +63084,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_NVS";
+													value="acc_pointer_IR";
 												};
 											};
 											class Item226
@@ -63093,7 +63092,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_DMS";
+													value="OPTRE_BMR_Laser";
 												};
 											};
 											class Item227
@@ -63101,7 +63100,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Yellow";
+													value="acc_flashlight";
 												};
 											};
 											class Item228
@@ -63109,7 +63108,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_VK38X";
+													value="ACE_DBAL_A3_Green";
 												};
 											};
 											class Item229
@@ -63117,7 +63116,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_lrps";
+													value="acc_flashlight_pistol";
 												};
 											};
 											class Item230
@@ -63125,7 +63124,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Aco_smg";
+													value="OPTRE_M45_Flashlight";
 												};
 											};
 											class Item231
@@ -63133,7 +63132,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Holosight";
+													value="OPTRE_M7_Flashlight";
 												};
 											};
 											class Item232
@@ -63141,7 +63140,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M7_Laser";
+													value="OPTRE_M6C_Laser";
 												};
 											};
 											class Item233
@@ -63149,7 +63148,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_pointer_IR";
+													value="OPTRE_M6G_Flashlight";
 												};
 											};
 											class Item234
@@ -63157,7 +63156,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_BMR_Laser";
+													value="OPTRE_M12_Laser";
 												};
 											};
 											class Item235
@@ -63165,7 +63164,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA_flashlight";
+													value="ACE_DBAL_A3_Red";
 												};
 											};
 											class Item236
@@ -63173,7 +63172,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_flashlight";
+													value="ACE_SPIR";
 												};
 											};
 											class Item237
@@ -63181,7 +63180,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_DBAL_A3_Green";
+													value="ACE_acc_pointer_green";
 												};
 											};
 											class Item238
@@ -63189,7 +63188,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M45_Flashlight";
+													value="muzzle_snds_L";
 												};
 											};
 											class Item239
@@ -63197,7 +63196,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M7_Flashlight";
+													value="3AS_Muzzle_LE_DC15A";
 												};
 											};
 											class Item240
@@ -63205,7 +63204,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M6C_Laser";
+													value="3AS_Bipod_VK38X_f";
 												};
 											};
 											class Item241
@@ -63213,7 +63212,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M6G_Flashlight";
+													value="UGL_FlareGreen_F";
 												};
 											};
 											class Item242
@@ -63221,7 +63220,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M12_Laser";
+													value="UGL_FlareYellow_F";
 												};
 											};
 											class Item243
@@ -63229,7 +63228,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_DBAL_A3_Red";
+													value="1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item244
@@ -63237,7 +63236,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_SPIR";
+													value="OPTRE_1Rnd_MasterKey_Pellets";
 												};
 											};
 											class Item245
@@ -63245,7 +63244,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_acc_pointer_green";
+													value="ACE_40mm_Flare_ir";
 												};
 											};
 											class Item246
@@ -63253,7 +63252,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="muzzle_snds_L";
+													value="OPTRE_3Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item247
@@ -63261,7 +63260,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Muzzle_LE_DC15A";
+													value="3AS_16Rnd_EC20_Mag";
 												};
 											};
 											class Item248
@@ -63269,7 +63268,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Bipod_VK38X_f";
+													value="3AS_60Rnd_EM30_mag";
 												};
 											};
 											class Item249
@@ -63277,7 +63276,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareGreen_F";
+													value="UGL_FlareWhite_F";
 												};
 											};
 											class Item250
@@ -63285,7 +63284,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareYellow_F";
+													value="UGL_FlareCIR_F";
 												};
 											};
 											class Item251
@@ -63293,7 +63292,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeBlue_Grenade_shell";
+													value="3Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item252
@@ -63301,7 +63300,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_MasterKey_Pellets";
+													value="3Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item253
@@ -63309,7 +63308,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_ir";
+													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item254
@@ -63317,7 +63316,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_3Rnd_MasterKey_Pellets";
 												};
 											};
 											class Item255
@@ -63325,7 +63324,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EM30_mag";
+													value="3AS_10Rnd_EC80_Mag";
 												};
 											};
 											class Item256
@@ -63333,7 +63332,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareWhite_F";
+													value="OPTRE_1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item257
@@ -63341,7 +63340,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareCIR_F";
+													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item258
@@ -63349,7 +63348,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeGreen_Grenade_shell";
+													value="OPTRE_signalSmokeY";
 												};
 											};
 											class Item259
@@ -63357,7 +63356,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeBlue_Grenade_shell";
+													value="OPTRE_3Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item260
@@ -63365,7 +63364,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_3Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item261
@@ -63373,7 +63372,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_MasterKey_Pellets";
+													value="3Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item262
@@ -63381,7 +63380,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_10Rnd_EC80_Mag";
+													value="ACE_40mm_Flare_red";
 												};
 											};
 											class Item263
@@ -63389,7 +63388,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_Smoke_Grenade_shell";
+													value="OPTRE_3Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item264
@@ -63397,7 +63396,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
+													value="OPTRE_signalSmokeG";
 												};
 											};
 											class Item265
@@ -63405,7 +63404,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeY";
+													value="ACE_40mm_Flare_white";
 												};
 											};
 											class Item266
@@ -63413,7 +63412,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeRed_Grenade_shell";
+													value="OPTRE_3Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item267
@@ -63421,7 +63420,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokePurple_Grenade_shell";
+													value="3Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item268
@@ -63429,7 +63428,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_stun_mag_short";
+													value="OPTRE_3Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item269
@@ -63437,7 +63436,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeRed_Grenade_shell";
+													value="3AS_45Rnd_EC50_Mag";
 												};
 											};
 											class Item270
@@ -63445,7 +63444,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_red";
+													value="1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item271
@@ -63453,7 +63452,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeGreen_Grenade_shell";
+													value="3Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item272
@@ -63461,7 +63460,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeG";
+													value="OPTRE_signalSmokeR";
 												};
 											};
 											class Item273
@@ -63469,7 +63468,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_white";
+													value="1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item274
@@ -63477,7 +63476,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeBlue_Grenade_shell";
+													value="1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item275
@@ -63485,7 +63484,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_HE_Grenade_shell";
+													value="1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item276
@@ -63493,7 +63492,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeOrange_Grenade_shell";
+													value="3Rnd_UGL_FlareGreen_F";
 												};
 											};
 											class Item277
@@ -63501,7 +63500,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_45Rnd_EC50_Mag";
+													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item278
@@ -63509,7 +63508,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_signalSmokeB";
 												};
 											};
 											class Item279
@@ -63517,7 +63516,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokePurple_Grenade_shell";
+													value="ls_mag_aa_plx";
 												};
 											};
 											class Item280
@@ -63525,7 +63524,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeR";
+													value="3Rnd_UGL_FlareWhite_F";
 												};
 											};
 											class Item281
@@ -63533,7 +63532,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_stun_mag_long";
+													value="3Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item282
@@ -63541,7 +63540,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_Smoke_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item283
@@ -63549,7 +63548,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokePurple_Grenade_shell";
+													value="OPTRE_signalSmokeP";
 												};
 											};
 											class Item284
@@ -63557,7 +63556,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeOrange_Grenade_shell";
+													value="OPTRE_3Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item285
@@ -63565,7 +63564,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareGreen_F";
+													value="3AS_16Rnd_EM20_Mag";
 												};
 											};
 											class Item286
@@ -63573,7 +63572,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
+													value="ls_mag_rpg_1rnd";
 												};
 											};
 											class Item287
@@ -63581,7 +63580,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeB";
+													value="3AS_10Rnd_EM80_Mag";
 												};
 											};
 											class Item288
@@ -63589,7 +63588,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_mag_aa_plx";
+													value="3AS_60Rnd_EC30_mag";
 												};
 											};
 											class Item289
@@ -63597,7 +63596,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareWhite_F";
+													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item290
@@ -63605,7 +63604,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeYellow_Grenade_shell";
+													value="1Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item291
@@ -63613,7 +63612,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
+													value="3Rnd_UGL_FlareRed_F";
 												};
 											};
 											class Item292
@@ -63621,7 +63620,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeP";
+													value="3Rnd_UGL_FlareYellow_F";
 												};
 											};
 											class Item293
@@ -63629,7 +63628,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_Smoke_Grenade_shell";
+													value="OPTRE_1Rnd_MasterKey_Slugs";
 												};
 											};
 											class Item294
@@ -63637,7 +63636,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_mag_rpg_1rnd";
+													value="ACE_40mm_Flare_green";
 												};
 											};
 											class Item295
@@ -63645,7 +63644,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_10Rnd_EM80_Mag";
+													value="3AS_45Rnd_EM50_Mag";
 												};
 											};
 											class Item296
@@ -63653,7 +63652,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EC30_mag";
+													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item297
@@ -63661,7 +63660,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
+													value="OPTRE_signalSmokeO";
 												};
 											};
 											class Item298
@@ -63669,7 +63668,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_HE_Grenade_shell";
+													value="OPTRE_3Rnd_MasterKey_Slugs";
 												};
 											};
 											class Item299
@@ -63677,7 +63676,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareRed_F";
+													value="3Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item300
@@ -63685,7 +63684,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareYellow_F";
+													value="ACE_HuntIR_M203";
 												};
 											};
 											class Item301
@@ -63693,7 +63692,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_MasterKey_Slugs";
+													value="3AS_60Rnd_Test_mag";
 												};
 											};
 											class Item302
@@ -63701,7 +63700,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_green";
+													value="UGL_FlareRed_F";
 												};
 											};
 											class Item303
@@ -63709,7 +63708,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_45Rnd_EM50_Mag";
+													value="1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item304
@@ -63717,7 +63716,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
+													value="1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item305
@@ -63725,7 +63724,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeO";
+													value="3Rnd_UGL_FlareCIR_F";
 												};
 											};
 											class Item306
@@ -63733,7 +63732,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_MasterKey_Slugs";
+													value="3Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item307
@@ -63741,7 +63740,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA_mag";
+													value="WBK_Cybercrystal";
 												};
 											};
 											class Item308
@@ -63749,7 +63748,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_Smoke_Grenade_shell";
+													value="MTI_Z6_Small";
 												};
 											};
 											class Item309
@@ -63757,103 +63756,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_HuntIR_M203";
-												};
-											};
-											class Item310
-											{
-												class data
-												{
-													singleType="STRING";
-													value="UGL_FlareRed_F";
-												};
-											};
-											class Item311
-											{
-												class data
-												{
-													singleType="STRING";
-													value="1Rnd_SmokeRed_Grenade_shell";
-												};
-											};
-											class Item312
-											{
-												class data
-												{
-													singleType="STRING";
-													value="1Rnd_SmokeGreen_Grenade_shell";
-												};
-											};
-											class Item313
-											{
-												class data
-												{
-													singleType="STRING";
-													value="3Rnd_UGL_FlareCIR_F";
-												};
-											};
-											class Item314
-											{
-												class data
-												{
-													singleType="STRING";
-													value="3Rnd_SmokeOrange_Grenade_shell";
-												};
-											};
-											class Item315
-											{
-												class data
-												{
-													singleType="STRING";
 													value="MTI_Z6_Small_mag";
-												};
-											};
-											class Item316
-											{
-												class data
-												{
-													singleType="STRING";
-													value="WBK_Cybercrystal";
-												};
-											};
-											class Item317
-											{
-												class data
-												{
-													singleType="STRING";
-													value="SEA_Helmet_P1_Base";
-												};
-											};
-											class Item318
-											{
-												class data
-												{
-													singleType="STRING";
-													value="SEA_Helmet_P1_Commander";
-												};
-											};
-											class Item319
-											{
-												class data
-												{
-													singleType="STRING";
-													value="SEA_Helmet_P1_Captain";
-												};
-											};
-											class Item320
-											{
-												class data
-												{
-													singleType="STRING";
-													value="SEA_Helmet_P1_Helmet_Sergeant";
-												};
-											};
-											class Item321
-											{
-												class data
-												{
-													singleType="STRING";
-													value="SEA_Helmet_P1_Lieutenant";
 												};
 											};
 										};
@@ -63913,7 +63816,7 @@ class Mission
 										singleType="ARRAY";
 										class value
 										{
-											items=339;
+											items=332;
 											class Item0
 											{
 												class data
@@ -65639,7 +65542,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_weapon_aa_plx1";
+													value="3AS_DC17S_F";
 												};
 											};
 											class Item216
@@ -65647,7 +65550,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15A_GL";
+													value="3AS_DC17STest_F";
 												};
 											};
 											class Item217
@@ -65655,7 +65558,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15A_F";
+													value="ls_weapon_aa_plx1";
 												};
 											};
 											class Item218
@@ -65663,7 +65566,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15S_F";
+													value="3AS_DC15A_GL";
 												};
 											};
 											class Item219
@@ -65671,7 +65574,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Valken38X_F";
+													value="3AS_DC15A_F";
 												};
 											};
 											class Item220
@@ -65679,7 +65582,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_ZH73";
+													value="3AS_DC15S_F";
 												};
 											};
 											class Item221
@@ -65687,7 +65590,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Verpine";
+													value="3AS_Valken38X_F";
 												};
 											};
 											class Item222
@@ -65695,7 +65598,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA";
+													value="MTI_ZH73";
 												};
 											};
 											class Item223
@@ -65703,7 +65606,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_Red_DC15A";
+													value="MTI_Verpine";
 												};
 											};
 											class Item224
@@ -65711,7 +65614,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_optic_holo_DC15S";
+													value="3AS_Optic_Red_DC15A";
 												};
 											};
 											class Item225
@@ -65719,7 +65622,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Holosight_red";
+													value="3AS_optic_holo_DC15S";
 												};
 											};
 											class Item226
@@ -65727,7 +65630,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HRCO_blu";
+													value="MTI_Holosight_red";
 												};
 											};
 											class Item227
@@ -65735,7 +65638,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HMRCO_blu";
+													value="MTI_HRCO_blu";
 												};
 											};
 											class Item228
@@ -65743,7 +65646,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HRCO_red";
+													value="MTI_HMRCO_blu";
 												};
 											};
 											class Item229
@@ -65751,7 +65654,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Red";
+													value="MTI_HRCO_red";
 												};
 											};
 											class Item230
@@ -65791,7 +65694,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Blue";
+													value="MTI_Holosight_grn";
 												};
 											};
 											class Item235
@@ -65799,7 +65702,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Green";
+													value="MTI_HMRCO_grn";
 												};
 											};
 											class Item236
@@ -65807,7 +65710,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Green";
+													value="3AS_Optic_LEScope_DC15A";
 												};
 											};
 											class Item237
@@ -65815,7 +65718,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Holosight_grn";
+													value="3AS_Optic_VK38X";
 												};
 											};
 											class Item238
@@ -65823,7 +65726,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Red";
+													value="OPTRE_M7_Laser";
 												};
 											};
 											class Item239
@@ -65831,7 +65734,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Blue";
+													value="acc_pointer_IR";
 												};
 											};
 											class Item240
@@ -65839,7 +65742,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_HMRCO_grn";
+													value="OPTRE_BMR_Laser";
 												};
 											};
 											class Item241
@@ -65847,7 +65750,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Yellow";
+													value="MTI_pointerIR_noModel";
 												};
 											};
 											class Item242
@@ -65855,7 +65758,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_LEScope_DC15A";
+													value="acc_flashlight";
 												};
 											};
 											class Item243
@@ -65863,7 +65766,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Yellow";
+													value="ACE_DBAL_A3_Green";
 												};
 											};
 											class Item244
@@ -65871,7 +65774,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_VK38X";
+													value="acc_flashlight_pistol";
 												};
 											};
 											class Item245
@@ -65879,7 +65782,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M7_Laser";
+													value="OPTRE_M45_Flashlight";
 												};
 											};
 											class Item246
@@ -65887,7 +65790,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_pointer_IR";
+													value="OPTRE_M7_Flashlight";
 												};
 											};
 											class Item247
@@ -65895,7 +65798,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_BMR_Laser";
+													value="OPTRE_M6C_Laser";
 												};
 											};
 											class Item248
@@ -65903,7 +65806,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_pointerIR_noModel";
+													value="OPTRE_M6G_Flashlight";
 												};
 											};
 											class Item249
@@ -65911,7 +65814,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA_flashlight";
+													value="MTI_flashlight_noModel";
 												};
 											};
 											class Item250
@@ -65919,7 +65822,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_flashlight";
+													value="OPTRE_M12_Laser";
 												};
 											};
 											class Item251
@@ -65927,7 +65830,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_DBAL_A3_Green";
+													value="ACE_DBAL_A3_Red";
 												};
 											};
 											class Item252
@@ -65935,7 +65838,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M45_Flashlight";
+													value="ACE_SPIR";
 												};
 											};
 											class Item253
@@ -65943,7 +65846,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M7_Flashlight";
+													value="ACE_acc_pointer_green";
 												};
 											};
 											class Item254
@@ -65951,7 +65854,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M6C_Laser";
+													value="3AS_Muzzle_LE_DC15A";
 												};
 											};
 											class Item255
@@ -65959,7 +65862,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M6G_Flashlight";
+													value="3AS_Bipod_VK38X_f";
 												};
 											};
 											class Item256
@@ -65967,7 +65870,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_flashlight_noModel";
+													value="UGL_FlareGreen_F";
 												};
 											};
 											class Item257
@@ -65975,7 +65878,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M12_Laser";
+													value="UGL_FlareYellow_F";
 												};
 											};
 											class Item258
@@ -65983,7 +65886,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_DBAL_A3_Red";
+													value="1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item259
@@ -65991,7 +65894,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_SPIR";
+													value="OPTRE_1Rnd_MasterKey_Pellets";
 												};
 											};
 											class Item260
@@ -65999,7 +65902,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_acc_pointer_green";
+													value="ACE_40mm_Flare_ir";
 												};
 											};
 											class Item261
@@ -66007,7 +65910,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Muzzle_LE_DC15A";
+													value="OPTRE_3Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item262
@@ -66015,7 +65918,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Bipod_VK38X_f";
+													value="3AS_16Rnd_EC20_Mag";
 												};
 											};
 											class Item263
@@ -66023,7 +65926,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareGreen_F";
+													value="UGL_FlareWhite_F";
 												};
 											};
 											class Item264
@@ -66031,7 +65934,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareYellow_F";
+													value="UGL_FlareCIR_F";
 												};
 											};
 											class Item265
@@ -66039,7 +65942,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeBlue_Grenade_shell";
+													value="3Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item266
@@ -66047,7 +65950,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_MasterKey_Pellets";
+													value="3Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item267
@@ -66055,7 +65958,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_ir";
+													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item268
@@ -66063,7 +65966,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_3Rnd_MasterKey_Pellets";
 												};
 											};
 											class Item269
@@ -66071,7 +65974,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareWhite_F";
+													value="3AS_60Rnd_EM30_mag";
 												};
 											};
 											class Item270
@@ -66079,7 +65982,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareCIR_F";
+													value="OPTRE_1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item271
@@ -66087,7 +65990,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeGreen_Grenade_shell";
+													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item272
@@ -66095,7 +65998,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeBlue_Grenade_shell";
+													value="OPTRE_signalSmokeY";
 												};
 											};
 											class Item273
@@ -66103,7 +66006,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_3Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item274
@@ -66111,7 +66014,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_MasterKey_Pellets";
+													value="OPTRE_3Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item275
@@ -66119,7 +66022,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EM30_mag";
+													value="3AS_10Rnd_EC80_Mag";
 												};
 											};
 											class Item276
@@ -66127,7 +66030,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_Smoke_Grenade_shell";
+													value="3Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item277
@@ -66135,7 +66038,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
+													value="ACE_40mm_Flare_red";
 												};
 											};
 											class Item278
@@ -66143,7 +66046,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeY";
+													value="OPTRE_3Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item279
@@ -66151,7 +66054,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeRed_Grenade_shell";
+													value="OPTRE_signalSmokeG";
 												};
 											};
 											class Item280
@@ -66159,7 +66062,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokePurple_Grenade_shell";
+													value="ACE_40mm_Flare_white";
 												};
 											};
 											class Item281
@@ -66167,7 +66070,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_10Rnd_EC80_Mag";
+													value="OPTRE_3Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item282
@@ -66175,7 +66078,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_stun_mag_short";
+													value="3Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item283
@@ -66183,7 +66086,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeRed_Grenade_shell";
+													value="OPTRE_3Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item284
@@ -66191,7 +66094,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_red";
+													value="MTI_stun_mag";
 												};
 											};
 											class Item285
@@ -66199,7 +66102,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeGreen_Grenade_shell";
+													value="MTI_Verpine_mag_AI_Latheniol";
 												};
 											};
 											class Item286
@@ -66207,7 +66110,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeG";
+													value="MTI_Verpine_mag_ion";
 												};
 											};
 											class Item287
@@ -66215,7 +66118,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_white";
+													value="3AS_45Rnd_EC50_Mag";
 												};
 											};
 											class Item288
@@ -66223,7 +66126,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeBlue_Grenade_shell";
+													value="1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item289
@@ -66231,7 +66134,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_HE_Grenade_shell";
+													value="3Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item290
@@ -66239,7 +66142,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeOrange_Grenade_shell";
+													value="OPTRE_signalSmokeR";
 												};
 											};
 											class Item291
@@ -66247,7 +66150,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_stun_mag";
+													value="1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item292
@@ -66255,7 +66158,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Verpine_mag_AI_Latheniol";
+													value="1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item293
@@ -66263,7 +66166,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Verpine_mag_ion";
+													value="1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item294
@@ -66271,7 +66174,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_45Rnd_EC50_Mag";
+													value="3Rnd_UGL_FlareGreen_F";
 												};
 											};
 											class Item295
@@ -66279,7 +66182,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item296
@@ -66287,7 +66190,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokePurple_Grenade_shell";
+													value="OPTRE_signalSmokeB";
 												};
 											};
 											class Item297
@@ -66295,7 +66198,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeR";
+													value="MTI_ion_mag";
 												};
 											};
 											class Item298
@@ -66303,7 +66206,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_stun_mag_long";
+													value="MTI_Verpine_mag_AI_Deraformine";
 												};
 											};
 											class Item299
@@ -66311,7 +66214,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_Smoke_Grenade_shell";
+													value="MTI_Verpine_mag_acid";
 												};
 											};
 											class Item300
@@ -66319,7 +66222,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokePurple_Grenade_shell";
+													value="ls_mag_aa_plx";
 												};
 											};
 											class Item301
@@ -66327,7 +66230,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeOrange_Grenade_shell";
+													value="3Rnd_UGL_FlareWhite_F";
 												};
 											};
 											class Item302
@@ -66335,7 +66238,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareGreen_F";
+													value="3Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item303
@@ -66343,7 +66246,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item304
@@ -66351,7 +66254,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeB";
+													value="OPTRE_signalSmokeP";
 												};
 											};
 											class Item305
@@ -66359,7 +66262,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_ion_mag";
+													value="OPTRE_3Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item306
@@ -66367,7 +66270,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Verpine_mag_AI_Deraformine";
+													value="MTI_ZH73_mag";
 												};
 											};
 											class Item307
@@ -66375,7 +66278,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Verpine_mag_acid";
+													value="3AS_16Rnd_EM20_Mag";
 												};
 											};
 											class Item308
@@ -66383,7 +66286,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_mag_aa_plx";
+													value="ls_mag_rpg_1rnd";
 												};
 											};
 											class Item309
@@ -66391,7 +66294,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareWhite_F";
+													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item310
@@ -66399,7 +66302,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeYellow_Grenade_shell";
+													value="3AS_60Rnd_EC30_mag";
 												};
 											};
 											class Item311
@@ -66407,7 +66310,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
+													value="3AS_10Rnd_EM80_Mag";
 												};
 											};
 											class Item312
@@ -66415,7 +66318,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeP";
+													value="MTI_Verpine_mag";
 												};
 											};
 											class Item313
@@ -66423,7 +66326,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_Smoke_Grenade_shell";
+													value="1Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item314
@@ -66431,7 +66334,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_ZH73_mag";
+													value="MTI_Verpine_mag_APDS";
 												};
 											};
 											class Item315
@@ -66439,7 +66342,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_mag_rpg_1rnd";
+													value="3Rnd_UGL_FlareRed_F";
 												};
 											};
 											class Item316
@@ -66447,7 +66350,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
+													value="3Rnd_UGL_FlareYellow_F";
 												};
 											};
 											class Item317
@@ -66455,7 +66358,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EC30_mag";
+													value="OPTRE_1Rnd_MasterKey_Slugs";
 												};
 											};
 											class Item318
@@ -66463,7 +66366,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_10Rnd_EM80_Mag";
+													value="ACE_40mm_Flare_green";
 												};
 											};
 											class Item319
@@ -66471,7 +66374,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Verpine_mag";
+													value="3AS_45Rnd_EM50_Mag";
 												};
 											};
 											class Item320
@@ -66479,7 +66382,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_HE_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item321
@@ -66487,7 +66390,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Verpine_mag_APDS";
+													value="OPTRE_signalSmokeO";
 												};
 											};
 											class Item322
@@ -66495,7 +66398,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareRed_F";
+													value="OPTRE_3Rnd_MasterKey_Slugs";
 												};
 											};
 											class Item323
@@ -66503,7 +66406,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareYellow_F";
+													value="MTI_Verpine_mag_tracking";
 												};
 											};
 											class Item324
@@ -66511,7 +66414,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_MasterKey_Slugs";
+													value="3Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item325
@@ -66519,7 +66422,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_green";
+													value="ACE_HuntIR_M203";
 												};
 											};
 											class Item326
@@ -66527,7 +66430,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_45Rnd_EM50_Mag";
+													value="3AS_60Rnd_Test_mag";
 												};
 											};
 											class Item327
@@ -66535,7 +66438,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
+													value="UGL_FlareRed_F";
 												};
 											};
 											class Item328
@@ -66543,7 +66446,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeO";
+													value="1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item329
@@ -66551,7 +66454,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_MasterKey_Slugs";
+													value="1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item330
@@ -66559,66 +66462,10 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Verpine_mag_tracking";
-												};
-											};
-											class Item331
-											{
-												class data
-												{
-													singleType="STRING";
-													value="JLTS_DC17SA_mag";
-												};
-											};
-											class Item332
-											{
-												class data
-												{
-													singleType="STRING";
-													value="3Rnd_Smoke_Grenade_shell";
-												};
-											};
-											class Item333
-											{
-												class data
-												{
-													singleType="STRING";
-													value="ACE_HuntIR_M203";
-												};
-											};
-											class Item334
-											{
-												class data
-												{
-													singleType="STRING";
-													value="UGL_FlareRed_F";
-												};
-											};
-											class Item335
-											{
-												class data
-												{
-													singleType="STRING";
-													value="1Rnd_SmokeRed_Grenade_shell";
-												};
-											};
-											class Item336
-											{
-												class data
-												{
-													singleType="STRING";
-													value="1Rnd_SmokeGreen_Grenade_shell";
-												};
-											};
-											class Item337
-											{
-												class data
-												{
-													singleType="STRING";
 													value="3Rnd_UGL_FlareCIR_F";
 												};
 											};
-											class Item338
+											class Item331
 											{
 												class data
 												{
@@ -66649,7 +66496,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7061.8291,25.465187,581.53998};
+				position[]={7061.8291,25.464895,581.54028};
 				angles[]={0,0.19198622,0};
 			};
 			side="Empty";
@@ -66661,7 +66508,7 @@ class Mission
 			};
 			id=16451;
 			type="repammobox2";
-			atlOffset=0.018964767;
+			atlOffset=0.018672943;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -66683,7 +66530,7 @@ class Mission
 										singleType="ARRAY";
 										class value
 										{
-											items=348;
+											items=341;
 											class Item0
 											{
 												class data
@@ -68537,7 +68384,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA";
+													value="3AS_DC17STest_F";
 												};
 											};
 											class Item232
@@ -68545,7 +68392,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_Red_DC15A";
+													value="3AS_DC17S_F";
 												};
 											};
 											class Item233
@@ -68553,7 +68400,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_optic_holo_DC15S";
+													value="3AS_Optic_Red_DC15A";
 												};
 											};
 											class Item234
@@ -68561,7 +68408,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_tws_mg";
+													value="3AS_optic_holo_DC15S";
 												};
 											};
 											class Item235
@@ -68569,7 +68416,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_SOS";
+													value="optic_tws_mg";
 												};
 											};
 											class Item236
@@ -68577,7 +68424,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_MRCO";
+													value="optic_SOS";
 												};
 											};
 											class Item237
@@ -68585,7 +68432,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_tws";
+													value="optic_MRCO";
 												};
 											};
 											class Item238
@@ -68593,7 +68440,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_DC15L";
+													value="optic_tws";
 												};
 											};
 											class Item239
@@ -68601,7 +68448,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Arco";
+													value="3AS_Optic_DC15L";
 												};
 											};
 											class Item240
@@ -68609,7 +68456,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Red";
+													value="optic_Arco";
 												};
 											};
 											class Item241
@@ -68625,7 +68472,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Blue";
+													value="optic_Nightstalker";
 												};
 											};
 											class Item243
@@ -68633,7 +68480,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Green";
+													value="optic_Aco";
 												};
 											};
 											class Item244
@@ -68641,7 +68488,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Nightstalker";
+													value="optic_Holosight_smg";
 												};
 											};
 											class Item245
@@ -68649,7 +68496,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Aco";
+													value="optic_Hamr";
 												};
 											};
 											class Item246
@@ -68657,7 +68504,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Holosight_smg";
+													value="optic_ACO_grn_smg";
 												};
 											};
 											class Item247
@@ -68665,7 +68512,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Green";
+													value="3AS_Optic_LEScope_DC15A";
 												};
 											};
 											class Item248
@@ -68673,7 +68520,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Red";
+													value="optic_NVS";
 												};
 											};
 											class Item249
@@ -68681,7 +68528,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Hamr";
+													value="optic_DMS";
 												};
 											};
 											class Item250
@@ -68689,7 +68536,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_ACO_grn_smg";
+													value="3AS_Optic_VK38X";
 												};
 											};
 											class Item251
@@ -68697,7 +68544,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Blue";
+													value="optic_lrps";
 												};
 											};
 											class Item252
@@ -68705,7 +68552,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Yellow";
+													value="optic_Aco_smg";
 												};
 											};
 											class Item253
@@ -68713,7 +68560,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_LEScope_DC15A";
+													value="optic_Holosight";
 												};
 											};
 											class Item254
@@ -68721,7 +68568,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_NVS";
+													value="OPTRE_M7_Laser";
 												};
 											};
 											class Item255
@@ -68729,7 +68576,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_DMS";
+													value="acc_pointer_IR";
 												};
 											};
 											class Item256
@@ -68737,7 +68584,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Yellow";
+													value="OPTRE_BMR_Laser";
 												};
 											};
 											class Item257
@@ -68745,7 +68592,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_VK38X";
+													value="acc_flashlight";
 												};
 											};
 											class Item258
@@ -68753,7 +68600,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_lrps";
+													value="ACE_DBAL_A3_Green";
 												};
 											};
 											class Item259
@@ -68761,7 +68608,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Aco_smg";
+													value="acc_flashlight_pistol";
 												};
 											};
 											class Item260
@@ -68769,7 +68616,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Holosight";
+													value="OPTRE_M45_Flashlight";
 												};
 											};
 											class Item261
@@ -68777,7 +68624,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M7_Laser";
+													value="OPTRE_M7_Flashlight";
 												};
 											};
 											class Item262
@@ -68785,7 +68632,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_pointer_IR";
+													value="OPTRE_M6C_Laser";
 												};
 											};
 											class Item263
@@ -68793,7 +68640,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_BMR_Laser";
+													value="OPTRE_M6G_Flashlight";
 												};
 											};
 											class Item264
@@ -68801,7 +68648,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA_flashlight";
+													value="OPTRE_M12_Laser";
 												};
 											};
 											class Item265
@@ -68809,7 +68656,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_flashlight";
+													value="ACE_DBAL_A3_Red";
 												};
 											};
 											class Item266
@@ -68817,7 +68664,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_DBAL_A3_Green";
+													value="ACE_SPIR";
 												};
 											};
 											class Item267
@@ -68825,7 +68672,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M45_Flashlight";
+													value="ACE_acc_pointer_green";
 												};
 											};
 											class Item268
@@ -68833,7 +68680,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M7_Flashlight";
+													value="muzzle_snds_L";
 												};
 											};
 											class Item269
@@ -68841,7 +68688,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M6C_Laser";
+													value="3AS_Muzzle_LE_DC15A";
 												};
 											};
 											class Item270
@@ -68849,7 +68696,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M6G_Flashlight";
+													value="3AS_Bipod_VK38X_f";
 												};
 											};
 											class Item271
@@ -68857,7 +68704,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M12_Laser";
+													value="3AS_Bipod_DC15L_f";
 												};
 											};
 											class Item272
@@ -68865,7 +68712,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_DBAL_A3_Red";
+													value="UGL_FlareGreen_F";
 												};
 											};
 											class Item273
@@ -68873,7 +68720,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_SPIR";
+													value="UGL_FlareYellow_F";
 												};
 											};
 											class Item274
@@ -68881,7 +68728,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_acc_pointer_green";
+													value="1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item275
@@ -68889,7 +68736,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="muzzle_snds_L";
+													value="OPTRE_1Rnd_MasterKey_Pellets";
 												};
 											};
 											class Item276
@@ -68897,7 +68744,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Muzzle_LE_DC15A";
+													value="ACE_40mm_Flare_ir";
 												};
 											};
 											class Item277
@@ -68905,7 +68752,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Bipod_VK38X_f";
+													value="OPTRE_3Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item278
@@ -68913,7 +68760,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Bipod_DC15L_f";
+													value="3AS_16Rnd_EC20_Mag";
 												};
 											};
 											class Item279
@@ -68921,7 +68768,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareGreen_F";
+													value="3AS_200Rnd_EM40_Mag";
 												};
 											};
 											class Item280
@@ -68929,7 +68776,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareYellow_F";
+													value="UGL_FlareWhite_F";
 												};
 											};
 											class Item281
@@ -68937,7 +68784,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeBlue_Grenade_shell";
+													value="UGL_FlareCIR_F";
 												};
 											};
 											class Item282
@@ -68945,7 +68792,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_MasterKey_Pellets";
+													value="3Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item283
@@ -68953,7 +68800,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_ir";
+													value="3Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item284
@@ -68961,7 +68808,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item285
@@ -68969,7 +68816,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_200Rnd_EM40_Mag";
+													value="OPTRE_3Rnd_MasterKey_Pellets";
 												};
 											};
 											class Item286
@@ -68977,7 +68824,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareWhite_F";
+													value="3AS_60Rnd_EM30_mag";
 												};
 											};
 											class Item287
@@ -68985,7 +68832,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareCIR_F";
+													value="3AS_10Rnd_EC80_Mag";
 												};
 											};
 											class Item288
@@ -68993,7 +68840,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeGreen_Grenade_shell";
+													value="OPTRE_1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item289
@@ -69001,7 +68848,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeBlue_Grenade_shell";
+													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item290
@@ -69009,7 +68856,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_signalSmokeY";
 												};
 											};
 											class Item291
@@ -69017,7 +68864,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_MasterKey_Pellets";
+													value="OPTRE_3Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item292
@@ -69025,7 +68872,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EM30_mag";
+													value="OPTRE_3Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item293
@@ -69033,7 +68880,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_10Rnd_EC80_Mag";
+													value="3Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item294
@@ -69041,7 +68888,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_Smoke_Grenade_shell";
+													value="ACE_40mm_Flare_red";
 												};
 											};
 											class Item295
@@ -69049,7 +68896,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
+													value="OPTRE_3Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item296
@@ -69057,7 +68904,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeY";
+													value="OPTRE_signalSmokeG";
 												};
 											};
 											class Item297
@@ -69065,7 +68912,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeRed_Grenade_shell";
+													value="ACE_40mm_Flare_white";
 												};
 											};
 											class Item298
@@ -69073,7 +68920,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokePurple_Grenade_shell";
+													value="OPTRE_3Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item299
@@ -69081,7 +68928,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_stun_mag_short";
+													value="3Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item300
@@ -69089,7 +68936,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeRed_Grenade_shell";
+													value="OPTRE_3Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item301
@@ -69097,7 +68944,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_red";
+													value="3AS_45Rnd_EC50_Mag";
 												};
 											};
 											class Item302
@@ -69105,7 +68952,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeGreen_Grenade_shell";
+													value="1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item303
@@ -69113,7 +68960,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeG";
+													value="3Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item304
@@ -69121,7 +68968,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_white";
+													value="OPTRE_signalSmokeR";
 												};
 											};
 											class Item305
@@ -69129,7 +68976,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeBlue_Grenade_shell";
+													value="3AS_200Rnd_EC40_Mag";
 												};
 											};
 											class Item306
@@ -69137,7 +68984,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_HE_Grenade_shell";
+													value="1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item307
@@ -69145,7 +68992,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeOrange_Grenade_shell";
+													value="1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item308
@@ -69153,7 +69000,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_45Rnd_EC50_Mag";
+													value="1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item309
@@ -69161,7 +69008,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeYellow_Grenade_shell";
+													value="3Rnd_UGL_FlareGreen_F";
 												};
 											};
 											class Item310
@@ -69169,7 +69016,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokePurple_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item311
@@ -69177,7 +69024,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeR";
+													value="OPTRE_signalSmokeB";
 												};
 											};
 											class Item312
@@ -69185,7 +69032,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_stun_mag_long";
+													value="ls_mag_aa_plx";
 												};
 											};
 											class Item313
@@ -69193,7 +69040,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_200Rnd_EC40_Mag";
+													value="3Rnd_UGL_FlareWhite_F";
 												};
 											};
 											class Item314
@@ -69201,7 +69048,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_Smoke_Grenade_shell";
+													value="3Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item315
@@ -69209,7 +69056,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokePurple_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item316
@@ -69217,7 +69064,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeOrange_Grenade_shell";
+													value="OPTRE_signalSmokeP";
 												};
 											};
 											class Item317
@@ -69225,7 +69072,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareGreen_F";
+													value="OPTRE_3Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item318
@@ -69233,7 +69080,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
+													value="3AS_16Rnd_EM20_Mag";
 												};
 											};
 											class Item319
@@ -69241,7 +69088,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeB";
+													value="ls_mag_rpg_1rnd";
 												};
 											};
 											class Item320
@@ -69249,7 +69096,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_mag_aa_plx";
+													value="3AS_10Rnd_EM80_Mag";
 												};
 											};
 											class Item321
@@ -69257,7 +69104,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareWhite_F";
+													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item322
@@ -69265,7 +69112,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeYellow_Grenade_shell";
+													value="3AS_60Rnd_EC30_mag";
 												};
 											};
 											class Item323
@@ -69273,7 +69120,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
+													value="1Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item324
@@ -69281,7 +69128,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeP";
+													value="3Rnd_UGL_FlareRed_F";
 												};
 											};
 											class Item325
@@ -69289,7 +69136,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_Smoke_Grenade_shell";
+													value="3Rnd_UGL_FlareYellow_F";
 												};
 											};
 											class Item326
@@ -69297,7 +69144,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_mag_rpg_1rnd";
+													value="OPTRE_1Rnd_MasterKey_Slugs";
 												};
 											};
 											class Item327
@@ -69305,7 +69152,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_10Rnd_EM80_Mag";
+													value="ACE_40mm_Flare_green";
 												};
 											};
 											class Item328
@@ -69313,7 +69160,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
+													value="3AS_45Rnd_EM50_Mag";
 												};
 											};
 											class Item329
@@ -69321,7 +69168,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EC30_mag";
+													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item330
@@ -69329,7 +69176,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_HE_Grenade_shell";
+													value="OPTRE_signalSmokeO";
 												};
 											};
 											class Item331
@@ -69337,7 +69184,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareRed_F";
+													value="OPTRE_3Rnd_MasterKey_Slugs";
 												};
 											};
 											class Item332
@@ -69345,7 +69192,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareYellow_F";
+													value="3Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item333
@@ -69353,7 +69200,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_MasterKey_Slugs";
+													value="ACE_HuntIR_M203";
 												};
 											};
 											class Item334
@@ -69361,7 +69208,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_green";
+													value="3AS_60Rnd_Test_mag";
 												};
 											};
 											class Item335
@@ -69369,7 +69216,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_45Rnd_EM50_Mag";
+													value="UGL_FlareRed_F";
 												};
 											};
 											class Item336
@@ -69377,7 +69224,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
+													value="1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item337
@@ -69385,7 +69232,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeO";
+													value="1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item338
@@ -69393,7 +69240,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_MasterKey_Slugs";
+													value="3Rnd_UGL_FlareCIR_F";
 												};
 											};
 											class Item339
@@ -69401,66 +69248,10 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA_mag";
-												};
-											};
-											class Item340
-											{
-												class data
-												{
-													singleType="STRING";
-													value="3Rnd_Smoke_Grenade_shell";
-												};
-											};
-											class Item341
-											{
-												class data
-												{
-													singleType="STRING";
-													value="ACE_HuntIR_M203";
-												};
-											};
-											class Item342
-											{
-												class data
-												{
-													singleType="STRING";
-													value="UGL_FlareRed_F";
-												};
-											};
-											class Item343
-											{
-												class data
-												{
-													singleType="STRING";
-													value="1Rnd_SmokeRed_Grenade_shell";
-												};
-											};
-											class Item344
-											{
-												class data
-												{
-													singleType="STRING";
-													value="1Rnd_SmokeGreen_Grenade_shell";
-												};
-											};
-											class Item345
-											{
-												class data
-												{
-													singleType="STRING";
-													value="3Rnd_UGL_FlareCIR_F";
-												};
-											};
-											class Item346
-											{
-												class data
-												{
-													singleType="STRING";
 													value="3Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
-											class Item347
+											class Item340
 											{
 												class data
 												{
@@ -69491,7 +69282,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7000.2139,25.464188,590.59998};
+				position[]={7000.2139,25.464279,590.59961};
 				angles[]={0,0.17453292,0};
 			};
 			side="Empty";
@@ -69503,7 +69294,7 @@ class Mission
 			};
 			id=16452;
 			type="repammobox2";
-			atlOffset=0.017965317;
+			atlOffset=0.01805687;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -69525,7 +69316,7 @@ class Mission
 										singleType="ARRAY";
 										class value
 										{
-											items=226;
+											items=219;
 											class Item0
 											{
 												class data
@@ -71043,7 +70834,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15S_F";
+													value="3AS_DC17S_F";
 												};
 											};
 											class Item190
@@ -71051,7 +70842,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA";
+													value="3AS_DC17STest_F";
 												};
 											};
 											class Item191
@@ -71059,7 +70850,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_optic_holo_DC15S";
+													value="3AS_DC15S_F";
 												};
 											};
 											class Item192
@@ -71067,7 +70858,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_tws_mg";
+													value="3AS_optic_holo_DC15S";
 												};
 											};
 											class Item193
@@ -71075,7 +70866,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_SOS";
+													value="optic_tws_mg";
 												};
 											};
 											class Item194
@@ -71083,7 +70874,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_MRCO";
+													value="optic_SOS";
 												};
 											};
 											class Item195
@@ -71091,7 +70882,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_tws";
+													value="optic_MRCO";
 												};
 											};
 											class Item196
@@ -71099,7 +70890,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Arco";
+													value="optic_tws";
 												};
 											};
 											class Item197
@@ -71107,7 +70898,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Red";
+													value="optic_Arco";
 												};
 											};
 											class Item198
@@ -71123,7 +70914,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Blue";
+													value="optic_Nightstalker";
 												};
 											};
 											class Item200
@@ -71131,7 +70922,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Green";
+													value="optic_Aco";
 												};
 											};
 											class Item201
@@ -71139,7 +70930,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Nightstalker";
+													value="optic_Holosight_smg";
 												};
 											};
 											class Item202
@@ -71147,7 +70938,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Aco";
+													value="optic_Hamr";
 												};
 											};
 											class Item203
@@ -71155,7 +70946,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Holosight_smg";
+													value="optic_ACO_grn_smg";
 												};
 											};
 											class Item204
@@ -71163,7 +70954,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Green";
+													value="optic_NVS";
 												};
 											};
 											class Item205
@@ -71171,7 +70962,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Red";
+													value="optic_DMS";
 												};
 											};
 											class Item206
@@ -71179,7 +70970,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Hamr";
+													value="optic_lrps";
 												};
 											};
 											class Item207
@@ -71187,7 +70978,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_ACO_grn_smg";
+													value="optic_Aco_smg";
 												};
 											};
 											class Item208
@@ -71195,7 +70986,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Blue";
+													value="optic_Holosight";
 												};
 											};
 											class Item209
@@ -71203,7 +70994,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Yellow";
+													value="acc_pointer_IR";
 												};
 											};
 											class Item210
@@ -71211,7 +71002,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_NVS";
+													value="acc_flashlight";
 												};
 											};
 											class Item211
@@ -71219,7 +71010,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_DMS";
+													value="acc_flashlight_pistol";
 												};
 											};
 											class Item212
@@ -71227,7 +71018,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Yellow";
+													value="muzzle_snds_L";
 												};
 											};
 											class Item213
@@ -71235,7 +71026,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_lrps";
+													value="3AS_16Rnd_EC20_Mag";
 												};
 											};
 											class Item214
@@ -71243,7 +71034,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Aco_smg";
+													value="3AS_60Rnd_EM30_mag";
 												};
 											};
 											class Item215
@@ -71251,7 +71042,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Holosight";
+													value="3AS_16Rnd_EM20_Mag";
 												};
 											};
 											class Item216
@@ -71259,7 +71050,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_pointer_IR";
+													value="3AS_60Rnd_EC30_mag";
 												};
 											};
 											class Item217
@@ -71267,66 +71058,10 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA_flashlight";
+													value="3AS_60Rnd_Test_mag";
 												};
 											};
 											class Item218
-											{
-												class data
-												{
-													singleType="STRING";
-													value="acc_flashlight";
-												};
-											};
-											class Item219
-											{
-												class data
-												{
-													singleType="STRING";
-													value="muzzle_snds_L";
-												};
-											};
-											class Item220
-											{
-												class data
-												{
-													singleType="STRING";
-													value="3AS_60Rnd_EM30_mag";
-												};
-											};
-											class Item221
-											{
-												class data
-												{
-													singleType="STRING";
-													value="JLTS_stun_mag_short";
-												};
-											};
-											class Item222
-											{
-												class data
-												{
-													singleType="STRING";
-													value="JLTS_stun_mag_long";
-												};
-											};
-											class Item223
-											{
-												class data
-												{
-													singleType="STRING";
-													value="3AS_60Rnd_EC30_mag";
-												};
-											};
-											class Item224
-											{
-												class data
-												{
-													singleType="STRING";
-													value="JLTS_DC17SA_mag";
-												};
-											};
-											class Item225
 											{
 												class data
 												{
@@ -71357,7 +71092,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6970.02,25.464188,593.98297};
+				position[]={6970.0205,25.46422,593.98303};
 				angles[]={0,0.17453292,0};
 			};
 			side="Empty";
@@ -71369,7 +71104,7 @@ class Mission
 			};
 			id=16453;
 			type="repammobox2";
-			atlOffset=0.017965317;
+			atlOffset=0.017997742;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -71391,7 +71126,7 @@ class Mission
 										singleType="ARRAY";
 										class value
 										{
-											items=329;
+											items=322;
 											class Item0
 											{
 												class data
@@ -73085,7 +72820,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15A_GL";
+													value="OPTRE_M7_Laser";
 												};
 											};
 											class Item212
@@ -73093,7 +72828,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15A_F";
+													value="acc_pointer_IR";
 												};
 											};
 											class Item213
@@ -73101,7 +72836,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15S_F";
+													value="OPTRE_BMR_Laser";
 												};
 											};
 											class Item214
@@ -73109,7 +72844,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Valken38X_F";
+													value="acc_flashlight";
 												};
 											};
 											class Item215
@@ -73117,7 +72852,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="mti_clone_knife";
+													value="ACE_DBAL_A3_Green";
 												};
 											};
 											class Item216
@@ -73125,7 +72860,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA";
+													value="OPTRE_M45_Flashlight";
 												};
 											};
 											class Item217
@@ -73133,7 +72868,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_Red_DC15A";
+													value="OPTRE_M7_Flashlight";
 												};
 											};
 											class Item218
@@ -73141,7 +72876,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_optic_holo_DC15S";
+													value="OPTRE_M6C_Laser";
 												};
 											};
 											class Item219
@@ -73149,7 +72884,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_tws_mg";
+													value="OPTRE_M6G_Flashlight";
 												};
 											};
 											class Item220
@@ -73157,7 +72892,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_SOS";
+													value="OPTRE_M12_Laser";
 												};
 											};
 											class Item221
@@ -73165,7 +72900,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_MRCO";
+													value="ACE_DBAL_A3_Red";
 												};
 											};
 											class Item222
@@ -73173,7 +72908,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_tws";
+													value="ACE_SPIR";
 												};
 											};
 											class Item223
@@ -73181,7 +72916,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Arco";
+													value="ACE_acc_pointer_green";
 												};
 											};
 											class Item224
@@ -73189,7 +72924,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Red";
+													value="3AS_DC15A_GL";
 												};
 											};
 											class Item225
@@ -73197,7 +72932,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_ACO_grn";
+													value="3AS_DC15A_F";
 												};
 											};
 											class Item226
@@ -73205,7 +72940,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Blue";
+													value="3AS_DC15S_F";
 												};
 											};
 											class Item227
@@ -73213,7 +72948,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Green";
+													value="3AS_Valken38X_F";
 												};
 											};
 											class Item228
@@ -73221,7 +72956,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Nightstalker";
+													value="3AS_DC17STest_F";
 												};
 											};
 											class Item229
@@ -73229,7 +72964,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Aco";
+													value="3AS_DC17S_F";
 												};
 											};
 											class Item230
@@ -73237,7 +72972,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Holosight_smg";
+													value="mti_clone_knife";
 												};
 											};
 											class Item231
@@ -73245,7 +72980,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Green";
+													value="3AS_Optic_Red_DC15A";
 												};
 											};
 											class Item232
@@ -73253,7 +72988,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Red";
+													value="3AS_optic_holo_DC15S";
 												};
 											};
 											class Item233
@@ -73261,7 +72996,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Hamr";
+													value="optic_tws_mg";
 												};
 											};
 											class Item234
@@ -73269,7 +73004,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_ACO_grn_smg";
+													value="optic_SOS";
 												};
 											};
 											class Item235
@@ -73277,7 +73012,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Blue";
+													value="optic_MRCO";
 												};
 											};
 											class Item236
@@ -73285,7 +73020,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Yellow";
+													value="optic_tws";
 												};
 											};
 											class Item237
@@ -73293,7 +73028,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_LEScope_DC15A";
+													value="optic_Arco";
 												};
 											};
 											class Item238
@@ -73301,7 +73036,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_NVS";
+													value="optic_ACO_grn";
 												};
 											};
 											class Item239
@@ -73309,7 +73044,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_DMS";
+													value="optic_Nightstalker";
 												};
 											};
 											class Item240
@@ -73317,7 +73052,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Yellow";
+													value="optic_Aco";
 												};
 											};
 											class Item241
@@ -73325,7 +73060,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_VK38X";
+													value="optic_Holosight_smg";
 												};
 											};
 											class Item242
@@ -73333,7 +73068,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_lrps";
+													value="optic_Hamr";
 												};
 											};
 											class Item243
@@ -73341,7 +73076,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Aco_smg";
+													value="optic_ACO_grn_smg";
 												};
 											};
 											class Item244
@@ -73349,7 +73084,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Holosight";
+													value="3AS_Optic_LEScope_DC15A";
 												};
 											};
 											class Item245
@@ -73357,7 +73092,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M7_Laser";
+													value="optic_NVS";
 												};
 											};
 											class Item246
@@ -73365,7 +73100,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_pointer_IR";
+													value="optic_DMS";
 												};
 											};
 											class Item247
@@ -73373,7 +73108,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_BMR_Laser";
+													value="3AS_Optic_VK38X";
 												};
 											};
 											class Item248
@@ -73381,7 +73116,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA_flashlight";
+													value="optic_lrps";
 												};
 											};
 											class Item249
@@ -73389,7 +73124,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_flashlight";
+													value="optic_Aco_smg";
 												};
 											};
 											class Item250
@@ -73397,7 +73132,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_DBAL_A3_Green";
+													value="optic_Holosight";
 												};
 											};
 											class Item251
@@ -73405,7 +73140,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M45_Flashlight";
+													value="acc_flashlight_pistol";
 												};
 											};
 											class Item252
@@ -73413,7 +73148,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M7_Flashlight";
+													value="muzzle_snds_L";
 												};
 											};
 											class Item253
@@ -73421,7 +73156,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M6C_Laser";
+													value="3AS_Muzzle_LE_DC15A";
 												};
 											};
 											class Item254
@@ -73429,7 +73164,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M6G_Flashlight";
+													value="3AS_Bipod_VK38X_f";
 												};
 											};
 											class Item255
@@ -73437,7 +73172,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M12_Laser";
+													value="UGL_FlareGreen_F";
 												};
 											};
 											class Item256
@@ -73445,7 +73180,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_DBAL_A3_Red";
+													value="UGL_FlareYellow_F";
 												};
 											};
 											class Item257
@@ -73453,7 +73188,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_SPIR";
+													value="1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item258
@@ -73461,7 +73196,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_acc_pointer_green";
+													value="OPTRE_1Rnd_MasterKey_Pellets";
 												};
 											};
 											class Item259
@@ -73469,7 +73204,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="muzzle_snds_L";
+													value="ACE_40mm_Flare_ir";
 												};
 											};
 											class Item260
@@ -73477,7 +73212,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Muzzle_LE_DC15A";
+													value="OPTRE_3Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item261
@@ -73485,7 +73220,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Bipod_VK38X_f";
+													value="3AS_16Rnd_EC20_Mag";
 												};
 											};
 											class Item262
@@ -73493,7 +73228,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareGreen_F";
+													value="UGL_FlareWhite_F";
 												};
 											};
 											class Item263
@@ -73501,7 +73236,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareYellow_F";
+													value="UGL_FlareCIR_F";
 												};
 											};
 											class Item264
@@ -73509,7 +73244,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeBlue_Grenade_shell";
+													value="3Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item265
@@ -73517,7 +73252,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_MasterKey_Pellets";
+													value="3Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item266
@@ -73525,7 +73260,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_ir";
+													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item267
@@ -73533,7 +73268,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_3Rnd_MasterKey_Pellets";
 												};
 											};
 											class Item268
@@ -73541,7 +73276,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareWhite_F";
+													value="3AS_60Rnd_EM30_mag";
 												};
 											};
 											class Item269
@@ -73549,7 +73284,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareCIR_F";
+													value="OPTRE_1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item270
@@ -73557,7 +73292,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeGreen_Grenade_shell";
+													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item271
@@ -73565,7 +73300,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeBlue_Grenade_shell";
+													value="OPTRE_signalSmokeY";
 												};
 											};
 											class Item272
@@ -73573,7 +73308,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_3Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item273
@@ -73581,7 +73316,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_MasterKey_Pellets";
+													value="OPTRE_3Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item274
@@ -73589,7 +73324,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EM30_mag";
+													value="3AS_10Rnd_EC80_Mag";
 												};
 											};
 											class Item275
@@ -73597,7 +73332,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_Smoke_Grenade_shell";
+													value="3Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item276
@@ -73605,7 +73340,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
+													value="ACE_40mm_Flare_red";
 												};
 											};
 											class Item277
@@ -73613,7 +73348,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeY";
+													value="OPTRE_3Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item278
@@ -73621,7 +73356,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeRed_Grenade_shell";
+													value="OPTRE_signalSmokeG";
 												};
 											};
 											class Item279
@@ -73629,7 +73364,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokePurple_Grenade_shell";
+													value="ACE_40mm_Flare_white";
 												};
 											};
 											class Item280
@@ -73637,7 +73372,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_10Rnd_EC80_Mag";
+													value="OPTRE_3Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item281
@@ -73645,7 +73380,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_stun_mag_short";
+													value="3Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item282
@@ -73653,7 +73388,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeRed_Grenade_shell";
+													value="OPTRE_3Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item283
@@ -73661,7 +73396,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_red";
+													value="3AS_45Rnd_EC50_Mag";
 												};
 											};
 											class Item284
@@ -73669,7 +73404,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeGreen_Grenade_shell";
+													value="1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item285
@@ -73677,7 +73412,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeG";
+													value="3Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item286
@@ -73685,7 +73420,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_white";
+													value="OPTRE_signalSmokeR";
 												};
 											};
 											class Item287
@@ -73693,7 +73428,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeBlue_Grenade_shell";
+													value="1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item288
@@ -73701,7 +73436,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_HE_Grenade_shell";
+													value="1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item289
@@ -73709,7 +73444,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeOrange_Grenade_shell";
+													value="1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item290
@@ -73717,7 +73452,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_45Rnd_EC50_Mag";
+													value="3Rnd_UGL_FlareGreen_F";
 												};
 											};
 											class Item291
@@ -73725,7 +73460,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item292
@@ -73733,7 +73468,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokePurple_Grenade_shell";
+													value="OPTRE_signalSmokeB";
 												};
 											};
 											class Item293
@@ -73741,7 +73476,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeR";
+													value="ls_mag_aa_plx";
 												};
 											};
 											class Item294
@@ -73749,7 +73484,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_stun_mag_long";
+													value="3Rnd_UGL_FlareWhite_F";
 												};
 											};
 											class Item295
@@ -73757,7 +73492,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_Smoke_Grenade_shell";
+													value="3Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item296
@@ -73765,7 +73500,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokePurple_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item297
@@ -73773,7 +73508,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeOrange_Grenade_shell";
+													value="OPTRE_signalSmokeP";
 												};
 											};
 											class Item298
@@ -73781,7 +73516,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareGreen_F";
+													value="OPTRE_3Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item299
@@ -73789,7 +73524,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
+													value="3AS_16Rnd_EM20_Mag";
 												};
 											};
 											class Item300
@@ -73797,7 +73532,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeB";
+													value="ls_mag_rpg_1rnd";
 												};
 											};
 											class Item301
@@ -73805,7 +73540,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_mag_aa_plx";
+													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item302
@@ -73813,7 +73548,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareWhite_F";
+													value="3AS_60Rnd_EC30_mag";
 												};
 											};
 											class Item303
@@ -73821,7 +73556,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeYellow_Grenade_shell";
+													value="3AS_10Rnd_EM80_Mag";
 												};
 											};
 											class Item304
@@ -73829,7 +73564,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
+													value="1Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item305
@@ -73837,7 +73572,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeP";
+													value="3Rnd_UGL_FlareRed_F";
 												};
 											};
 											class Item306
@@ -73845,7 +73580,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_Smoke_Grenade_shell";
+													value="3Rnd_UGL_FlareYellow_F";
 												};
 											};
 											class Item307
@@ -73853,7 +73588,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_mag_rpg_1rnd";
+													value="OPTRE_1Rnd_MasterKey_Slugs";
 												};
 											};
 											class Item308
@@ -73861,7 +73596,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
+													value="ACE_40mm_Flare_green";
 												};
 											};
 											class Item309
@@ -73869,7 +73604,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EC30_mag";
+													value="3AS_45Rnd_EM50_Mag";
 												};
 											};
 											class Item310
@@ -73877,7 +73612,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_10Rnd_EM80_Mag";
+													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item311
@@ -73885,7 +73620,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_HE_Grenade_shell";
+													value="OPTRE_signalSmokeO";
 												};
 											};
 											class Item312
@@ -73893,7 +73628,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareRed_F";
+													value="OPTRE_3Rnd_MasterKey_Slugs";
 												};
 											};
 											class Item313
@@ -73901,7 +73636,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareYellow_F";
+													value="3Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item314
@@ -73909,7 +73644,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_MasterKey_Slugs";
+													value="ACE_HuntIR_M203";
 												};
 											};
 											class Item315
@@ -73917,7 +73652,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_green";
+													value="3AS_60Rnd_Test_mag";
 												};
 											};
 											class Item316
@@ -73925,7 +73660,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_45Rnd_EM50_Mag";
+													value="UGL_FlareRed_F";
 												};
 											};
 											class Item317
@@ -73933,7 +73668,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
+													value="1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item318
@@ -73941,7 +73676,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeO";
+													value="1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item319
@@ -73949,7 +73684,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_MasterKey_Slugs";
+													value="3Rnd_UGL_FlareCIR_F";
 												};
 											};
 											class Item320
@@ -73957,66 +73692,10 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA_mag";
-												};
-											};
-											class Item321
-											{
-												class data
-												{
-													singleType="STRING";
-													value="3Rnd_Smoke_Grenade_shell";
-												};
-											};
-											class Item322
-											{
-												class data
-												{
-													singleType="STRING";
-													value="ACE_HuntIR_M203";
-												};
-											};
-											class Item323
-											{
-												class data
-												{
-													singleType="STRING";
-													value="UGL_FlareRed_F";
-												};
-											};
-											class Item324
-											{
-												class data
-												{
-													singleType="STRING";
-													value="1Rnd_SmokeRed_Grenade_shell";
-												};
-											};
-											class Item325
-											{
-												class data
-												{
-													singleType="STRING";
-													value="1Rnd_SmokeGreen_Grenade_shell";
-												};
-											};
-											class Item326
-											{
-												class data
-												{
-													singleType="STRING";
-													value="3Rnd_UGL_FlareCIR_F";
-												};
-											};
-											class Item327
-											{
-												class data
-												{
-													singleType="STRING";
 													value="3Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
-											class Item328
+											class Item321
 											{
 												class data
 												{
@@ -75024,7 +74703,7 @@ class Mission
 										singleType="ARRAY";
 										class value
 										{
-											items=270;
+											items=256;
 											class Item0
 											{
 												class data
@@ -75934,7 +75613,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15A_GL";
+													value="3AS_DC17S_F";
 												};
 											};
 											class Item114
@@ -75942,7 +75621,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15A_F";
+													value="3AS_DC17STest_F";
 												};
 											};
 											class Item115
@@ -75950,7 +75629,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15S_F";
+													value="3AS_DC15A_GL";
 												};
 											};
 											class Item116
@@ -75958,7 +75637,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Valken38X_F";
+													value="3AS_DC15A_F";
 												};
 											};
 											class Item117
@@ -75966,7 +75645,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_WestarM5_GL";
+													value="3AS_DC15S_F";
 												};
 											};
 											class Item118
@@ -75974,7 +75653,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_WestarM5_F";
+													value="3AS_Valken38X_F";
 												};
 											};
 											class Item119
@@ -75982,7 +75661,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15L_F";
+													value="3AS_WestarM5_GL";
 												};
 											};
 											class Item120
@@ -75990,7 +75669,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="MTI_Z6_Small";
+													value="3AS_WestarM5_F";
 												};
 											};
 											class Item121
@@ -75998,7 +75677,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3as_P1_Base";
+													value="3AS_Optic_Red_DC15A";
 												};
 											};
 											class Item122
@@ -76006,7 +75685,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3as_P1_CPT";
+													value="3AS_optic_holo_DC15S";
 												};
 											};
 											class Item123
@@ -76014,7 +75693,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3as_P1_CC";
+													value="optic_tws_mg";
 												};
 											};
 											class Item124
@@ -76022,7 +75701,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3as_P1_LT";
+													value="optic_SOS";
 												};
 											};
 											class Item125
@@ -76030,7 +75709,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3as_P1_Pilot_helmet";
+													value="optic_MRCO";
 												};
 											};
 											class Item126
@@ -76038,7 +75717,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3as_P1_Sgt";
+													value="3AS_Optic_Scope_WestarM5";
 												};
 											};
 											class Item127
@@ -76046,7 +75725,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_LPB1_BSC_ANA_V3";
+													value="optic_tws";
 												};
 											};
 											class Item128
@@ -76054,7 +75733,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Clone_Phase1_Armor";
+													value="optic_Arco";
 												};
 											};
 											class Item129
@@ -76062,7 +75741,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Clone_Phase1_Armor_Captain";
+													value="optic_ACO_grn";
 												};
 											};
 											class Item130
@@ -76070,7 +75749,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Clone_Phase1_Dirty_Armor_Captain";
+													value="optic_Nightstalker";
 												};
 											};
 											class Item131
@@ -76078,7 +75757,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Clone_Phase1_Armor_Commander";
+													value="optic_Aco";
 												};
 											};
 											class Item132
@@ -76086,7 +75765,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Clone_Phase1_Dirty_Armor_Commander";
+													value="optic_Holosight_smg";
 												};
 											};
 											class Item133
@@ -76094,7 +75773,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Clone_Phase1_Dirty_Armor";
+													value="optic_Hamr";
 												};
 											};
 											class Item134
@@ -76102,7 +75781,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Clone_Phase1_Armor_Lieutenant";
+													value="optic_ACO_grn_smg";
 												};
 											};
 											class Item135
@@ -76110,7 +75789,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Clone_Phase1_Dirty_Armor_Lieutenant";
+													value="3AS_Optic_LEScope_DC15A";
 												};
 											};
 											class Item136
@@ -76118,7 +75797,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Clone_Phase1_Dirty_Armor_Sergeant";
+													value="optic_NVS";
 												};
 											};
 											class Item137
@@ -76126,7 +75805,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Clone_Phase1_Armor_Sergeant";
+													value="optic_DMS";
 												};
 											};
 											class Item138
@@ -76134,7 +75813,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_CloneVestARC";
+													value="3AS_Optic_VK38X";
 												};
 											};
 											class Item139
@@ -76142,7 +75821,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_CloneVestARCCadet";
+													value="optic_lrps";
 												};
 											};
 											class Item140
@@ -76150,7 +75829,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_splint";
+													value="optic_Aco_smg";
 												};
 											};
 											class Item141
@@ -76158,7 +75837,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA";
+													value="optic_Holosight";
 												};
 											};
 											class Item142
@@ -76166,7 +75845,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_Red_DC15A";
+													value="OPTRE_M7_Laser";
 												};
 											};
 											class Item143
@@ -76174,7 +75853,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_optic_holo_DC15S";
+													value="acc_pointer_IR";
 												};
 											};
 											class Item144
@@ -76182,7 +75861,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_tws_mg";
+													value="OPTRE_BMR_Laser";
 												};
 											};
 											class Item145
@@ -76190,7 +75869,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_SOS";
+													value="acc_flashlight";
 												};
 											};
 											class Item146
@@ -76198,7 +75877,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_MRCO";
+													value="ACE_DBAL_A3_Green";
 												};
 											};
 											class Item147
@@ -76206,7 +75885,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_Scope_WestarM5";
+													value="acc_flashlight_pistol";
 												};
 											};
 											class Item148
@@ -76214,7 +75893,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_tws";
+													value="OPTRE_M45_Flashlight";
 												};
 											};
 											class Item149
@@ -76222,7 +75901,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_DC15L";
+													value="OPTRE_M7_Flashlight";
 												};
 											};
 											class Item150
@@ -76230,7 +75909,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Arco";
+													value="OPTRE_M6C_Laser";
 												};
 											};
 											class Item151
@@ -76238,7 +75917,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Red";
+													value="OPTRE_M6G_Flashlight";
 												};
 											};
 											class Item152
@@ -76246,7 +75925,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_ACO_grn";
+													value="OPTRE_M12_Laser";
 												};
 											};
 											class Item153
@@ -76254,7 +75933,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Blue";
+													value="ACE_DBAL_A3_Red";
 												};
 											};
 											class Item154
@@ -76262,7 +75941,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Green";
+													value="ACE_SPIR";
 												};
 											};
 											class Item155
@@ -76270,7 +75949,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Nightstalker";
+													value="ACE_acc_pointer_green";
 												};
 											};
 											class Item156
@@ -76278,7 +75957,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Aco";
+													value="muzzle_snds_L";
 												};
 											};
 											class Item157
@@ -76286,7 +75965,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Holosight_smg";
+													value="3AS_Muzzle_LE_DC15A";
 												};
 											};
 											class Item158
@@ -76294,7 +75973,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Green";
+													value="3AS_Bipod_VK38X_f";
 												};
 											};
 											class Item159
@@ -76302,7 +75981,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Red";
+													value="UGL_FlareGreen_F";
 												};
 											};
 											class Item160
@@ -76310,7 +75989,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Hamr";
+													value="UGL_FlareYellow_F";
 												};
 											};
 											class Item161
@@ -76318,7 +75997,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_ACO_grn_smg";
+													value="1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item162
@@ -76326,7 +76005,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Blue";
+													value="OPTRE_1Rnd_MasterKey_Pellets";
 												};
 											};
 											class Item163
@@ -76334,7 +76013,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Yellow";
+													value="ACE_40mm_Flare_ir";
 												};
 											};
 											class Item164
@@ -76342,7 +76021,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_LEScope_DC15A";
+													value="OPTRE_3Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item165
@@ -76350,7 +76029,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_NVS";
+													value="3AS_16Rnd_EC20_Mag";
 												};
 											};
 											class Item166
@@ -76358,7 +76037,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_DMS";
+													value="UGL_FlareWhite_F";
 												};
 											};
 											class Item167
@@ -76366,7 +76045,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Yellow";
+													value="UGL_FlareCIR_F";
 												};
 											};
 											class Item168
@@ -76374,7 +76053,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_VK38X";
+													value="3Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item169
@@ -76382,7 +76061,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_lrps";
+													value="3Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item170
@@ -76390,7 +76069,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Aco_smg";
+													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item171
@@ -76398,7 +76077,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="optic_Holosight";
+													value="OPTRE_3Rnd_MasterKey_Pellets";
 												};
 											};
 											class Item172
@@ -76406,7 +76085,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M7_Laser";
+													value="3AS_60Rnd_EM30_mag";
 												};
 											};
 											class Item173
@@ -76414,7 +76093,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_pointer_IR";
+													value="OPTRE_1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item174
@@ -76422,7 +76101,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_BMR_Laser";
+													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item175
@@ -76430,7 +76109,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA_flashlight";
+													value="OPTRE_signalSmokeY";
 												};
 											};
 											class Item176
@@ -76438,7 +76117,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_flashlight";
+													value="OPTRE_3Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item177
@@ -76446,7 +76125,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_DBAL_A3_Green";
+													value="OPTRE_3Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item178
@@ -76454,7 +76133,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M45_Flashlight";
+													value="3AS_10Rnd_EC80_Mag";
 												};
 											};
 											class Item179
@@ -76462,7 +76141,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M7_Flashlight";
+													value="3Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item180
@@ -76470,7 +76149,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M6C_Laser";
+													value="ACE_40mm_Flare_red";
 												};
 											};
 											class Item181
@@ -76478,7 +76157,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M6G_Flashlight";
+													value="OPTRE_3Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item182
@@ -76486,7 +76165,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M12_Laser";
+													value="OPTRE_signalSmokeG";
 												};
 											};
 											class Item183
@@ -76494,7 +76173,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_DBAL_A3_Red";
+													value="ACE_40mm_Flare_white";
 												};
 											};
 											class Item184
@@ -76502,7 +76181,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_SPIR";
+													value="OPTRE_3Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item185
@@ -76510,7 +76189,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_acc_pointer_green";
+													value="3AS_6Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item186
@@ -76518,7 +76197,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="muzzle_snds_L";
+													value="3Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item187
@@ -76526,7 +76205,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Muzzle_LE_DC15A";
+													value="OPTRE_3Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item188
@@ -76534,7 +76213,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Bipod_VK38X_f";
+													value="3AS_45Rnd_EC50_Mag";
 												};
 											};
 											class Item189
@@ -76542,7 +76221,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Bipod_DC15L_f";
+													value="1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item190
@@ -76550,7 +76229,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareGreen_F";
+													value="3Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item191
@@ -76558,7 +76237,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareYellow_F";
+													value="OPTRE_signalSmokeR";
 												};
 											};
 											class Item192
@@ -76566,7 +76245,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeBlue_Grenade_shell";
+													value="1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item193
@@ -76574,7 +76253,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_MasterKey_Pellets";
+													value="1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item194
@@ -76582,7 +76261,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_ir";
+													value="1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item195
@@ -76590,7 +76269,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeYellow_Grenade_shell";
+													value="3Rnd_UGL_FlareGreen_F";
 												};
 											};
 											class Item196
@@ -76598,7 +76277,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareWhite_F";
+													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item197
@@ -76606,7 +76285,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareCIR_F";
+													value="OPTRE_signalSmokeB";
 												};
 											};
 											class Item198
@@ -76614,7 +76293,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeGreen_Grenade_shell";
+													value="3AS_60Rnd_EM50_RedPlasma";
 												};
 											};
 											class Item199
@@ -76622,7 +76301,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeBlue_Grenade_shell";
+													value="ls_mag_aa_plx";
 												};
 											};
 											class Item200
@@ -76630,7 +76309,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
+													value="3Rnd_UGL_FlareWhite_F";
 												};
 											};
 											class Item201
@@ -76638,7 +76317,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_MasterKey_Pellets";
+													value="3Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item202
@@ -76646,7 +76325,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EM30_mag";
+													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item203
@@ -76654,7 +76333,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_200Rnd_EM40_Mag";
+													value="OPTRE_signalSmokeP";
 												};
 											};
 											class Item204
@@ -76662,7 +76341,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_Smoke_Grenade_shell";
+													value="OPTRE_3Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item205
@@ -76670,7 +76349,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
+													value="3AS_16Rnd_EM20_Mag";
 												};
 											};
 											class Item206
@@ -76678,7 +76357,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeY";
+													value="ls_mag_rpg_1rnd";
 												};
 											};
 											class Item207
@@ -76686,7 +76365,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeRed_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item208
@@ -76694,7 +76373,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokePurple_Grenade_shell";
+													value="3AS_60Rnd_EC30_mag";
 												};
 											};
 											class Item209
@@ -76702,7 +76381,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_10Rnd_EC80_Mag";
+													value="3AS_10Rnd_EM80_Mag";
 												};
 											};
 											class Item210
@@ -76710,7 +76389,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_stun_mag_short";
+													value="1Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item211
@@ -76718,7 +76397,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeRed_Grenade_shell";
+													value="3Rnd_UGL_FlareRed_F";
 												};
 											};
 											class Item212
@@ -76726,7 +76405,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_red";
+													value="3Rnd_UGL_FlareYellow_F";
 												};
 											};
 											class Item213
@@ -76734,7 +76413,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeGreen_Grenade_shell";
+													value="OPTRE_1Rnd_MasterKey_Slugs";
 												};
 											};
 											class Item214
@@ -76742,7 +76421,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeG";
+													value="ACE_40mm_Flare_green";
 												};
 											};
 											class Item215
@@ -76750,7 +76429,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_white";
+													value="3AS_45Rnd_EM50_Mag";
 												};
 											};
 											class Item216
@@ -76758,7 +76437,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeBlue_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item217
@@ -76766,7 +76445,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_6Rnd_HE_Grenade_shell";
+													value="OPTRE_signalSmokeO";
 												};
 											};
 											class Item218
@@ -76774,7 +76453,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_HE_Grenade_shell";
+													value="OPTRE_3Rnd_MasterKey_Slugs";
 												};
 											};
 											class Item219
@@ -76782,7 +76461,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeOrange_Grenade_shell";
+													value="3Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item220
@@ -76790,7 +76469,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_45Rnd_EC50_Mag";
+													value="ACE_HuntIR_M203";
 												};
 											};
 											class Item221
@@ -76798,7 +76477,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeYellow_Grenade_shell";
+													value="3AS_60Rnd_EC50_Mag";
 												};
 											};
 											class Item222
@@ -76806,7 +76485,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokePurple_Grenade_shell";
+													value="3AS_60Rnd_Test_mag";
 												};
 											};
 											class Item223
@@ -76814,7 +76493,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeR";
+													value="UGL_FlareRed_F";
 												};
 											};
 											class Item224
@@ -76822,7 +76501,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_stun_mag_long";
+													value="1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item225
@@ -76830,7 +76509,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_Smoke_Grenade_shell";
+													value="1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item226
@@ -76838,7 +76517,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokePurple_Grenade_shell";
+													value="3Rnd_UGL_FlareCIR_F";
 												};
 											};
 											class Item227
@@ -76846,7 +76525,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeOrange_Grenade_shell";
+													value="3Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item228
@@ -76854,7 +76533,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareGreen_F";
+													value="WBK_Cybercrystal";
 												};
 											};
 											class Item229
@@ -76862,7 +76541,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
+													value="3AS_DC15L_F";
 												};
 											};
 											class Item230
@@ -76870,7 +76549,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeB";
+													value="3AS_Optic_DC15L";
 												};
 											};
 											class Item231
@@ -76878,7 +76557,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EM50_RedPlasma";
+													value="3AS_Bipod_DC15L_f";
 												};
 											};
 											class Item232
@@ -76886,7 +76565,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_200Rnd_EC40_Mag";
+													value="3AS_200Rnd_EM40_Mag";
 												};
 											};
 											class Item233
@@ -76894,7 +76573,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_mag_aa_plx";
+													value="3AS_200Rnd_EC40_Mag";
 												};
 											};
 											class Item234
@@ -76902,7 +76581,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareWhite_F";
+													value="MTI_Z6_Small";
 												};
 											};
 											class Item235
@@ -76910,7 +76589,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeYellow_Grenade_shell";
+													value="MTI_Z6_Small_mag";
 												};
 											};
 											class Item236
@@ -76918,7 +76597,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
+													value="3as_P1_Base";
 												};
 											};
 											class Item237
@@ -76926,7 +76605,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeP";
+													value="3as_P1_CPT";
 												};
 											};
 											class Item238
@@ -76934,7 +76613,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_Smoke_Grenade_shell";
+													value="3as_P1_CC";
 												};
 											};
 											class Item239
@@ -76942,7 +76621,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_mag_rpg_1rnd";
+													value="3as_P1_LT";
 												};
 											};
 											class Item240
@@ -76950,7 +76629,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
+													value="3as_P1_Pilot_helmet";
 												};
 											};
 											class Item241
@@ -76958,7 +76637,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EC30_mag";
+													value="3as_P1_Sgt";
 												};
 											};
 											class Item242
@@ -76966,7 +76645,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_10Rnd_EM80_Mag";
+													value="3AS_LPB1_BSC_ANA_V3";
 												};
 											};
 											class Item243
@@ -76974,7 +76653,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_HE_Grenade_shell";
+													value="3AS_Clone_Phase1_Armor";
 												};
 											};
 											class Item244
@@ -76982,7 +76661,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareRed_F";
+													value="3AS_Clone_Phase1_Armor_Captain";
 												};
 											};
 											class Item245
@@ -76990,7 +76669,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareYellow_F";
+													value="3AS_Clone_Phase1_Dirty_Armor_Captain";
 												};
 											};
 											class Item246
@@ -76998,7 +76677,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_MasterKey_Slugs";
+													value="3AS_Clone_Phase1_Armor_Commander";
 												};
 											};
 											class Item247
@@ -77006,7 +76685,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_green";
+													value="3AS_Clone_Phase1_Dirty_Armor_Commander";
 												};
 											};
 											class Item248
@@ -77014,7 +76693,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_45Rnd_EM50_Mag";
+													value="3AS_Clone_Phase1_Dirty_Armor";
 												};
 											};
 											class Item249
@@ -77022,7 +76701,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
+													value="3AS_Clone_Phase1_Armor_Lieutenant";
 												};
 											};
 											class Item250
@@ -77030,7 +76709,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeO";
+													value="3AS_Clone_Phase1_Dirty_Armor_Lieutenant";
 												};
 											};
 											class Item251
@@ -77038,7 +76717,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_MasterKey_Slugs";
+													value="3AS_Clone_Phase1_Dirty_Armor_Sergeant";
 												};
 											};
 											class Item252
@@ -77046,7 +76725,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA_mag";
+													value="3AS_Clone_Phase1_Armor_Sergeant";
 												};
 											};
 											class Item253
@@ -77054,7 +76733,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_Smoke_Grenade_shell";
+													value="JLTS_CloneVestARC";
 												};
 											};
 											class Item254
@@ -77062,7 +76741,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_HuntIR_M203";
+													value="JLTS_CloneVestARCCadet";
 												};
 											};
 											class Item255
@@ -77070,119 +76749,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EC50_Mag";
-												};
-											};
-											class Item256
-											{
-												class data
-												{
-													singleType="STRING";
-													value="UGL_FlareRed_F";
-												};
-											};
-											class Item257
-											{
-												class data
-												{
-													singleType="STRING";
-													value="1Rnd_SmokeRed_Grenade_shell";
-												};
-											};
-											class Item258
-											{
-												class data
-												{
-													singleType="STRING";
-													value="1Rnd_SmokeGreen_Grenade_shell";
-												};
-											};
-											class Item259
-											{
-												class data
-												{
-													singleType="STRING";
-													value="3Rnd_UGL_FlareCIR_F";
-												};
-											};
-											class Item260
-											{
-												class data
-												{
-													singleType="STRING";
-													value="3Rnd_SmokeOrange_Grenade_shell";
-												};
-											};
-											class Item261
-											{
-												class data
-												{
-													singleType="STRING";
-													value="MTI_Z6_Small_mag";
-												};
-											};
-											class Item262
-											{
-												class data
-												{
-													singleType="STRING";
-													value="WBK_Cybercrystal";
-												};
-											};
-											class Item263
-											{
-												class data
-												{
-													singleType="STRING";
-													value="m10_helmet";
-												};
-											};
-											class Item264
-											{
-												class data
-												{
-													singleType="STRING";
-													value="IW_Team_Pilot1_LSEA";
-												};
-											};
-											class Item265
-											{
-												class data
-												{
-													singleType="STRING";
-													value="m10_pilot_uniform";
-												};
-											};
-											class Item266
-											{
-												class data
-												{
-													singleType="STRING";
-													value="m10_fordo_uniform";
-												};
-											};
-											class Item267
-											{
-												class data
-												{
-													singleType="STRING";
-													value="m10_arc_vest";
-												};
-											};
-											class Item268
-											{
-												class data
-												{
-													singleType="STRING";
-													value="IW_Team_ARC_Vest_Base_Class";
-												};
-											};
-											class Item269
-											{
-												class data
-												{
-													singleType="STRING";
-													value="m10_arc_vest_2";
+													value="ACE_splint";
 												};
 											};
 										};
@@ -83954,7 +83521,7 @@ class Mission
 										singleType="ARRAY";
 										class value
 										{
-											items=296;
+											items=289;
 											class Item0
 											{
 												class data
@@ -85392,7 +84959,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_weapon_aa_plx1";
+													value="3AS_DC17S_F";
 												};
 											};
 											class Item180
@@ -85400,7 +84967,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15A_GL";
+													value="3AS_DC17STest_F";
 												};
 											};
 											class Item181
@@ -85408,7 +84975,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15A_F";
+													value="ls_weapon_aa_plx1";
 												};
 											};
 											class Item182
@@ -85416,7 +84983,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_DC15S_F";
+													value="3AS_DC15A_GL";
 												};
 											};
 											class Item183
@@ -85424,7 +84991,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Valken38X_F";
+													value="3AS_DC15A_F";
 												};
 											};
 											class Item184
@@ -85432,7 +84999,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_arc_helmet";
+													value="3AS_DC15S_F";
 												};
 											};
 											class Item185
@@ -85440,7 +85007,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_arf_helmet";
+													value="3AS_Valken38X_F";
 												};
 											};
 											class Item186
@@ -85448,7 +85015,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_eng_helmet";
+													value="104_arc_helmet";
 												};
 											};
 											class Item187
@@ -85456,7 +85023,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_hat_helmet";
+													value="104_arf_helmet";
 												};
 											};
 											class Item188
@@ -85464,7 +85031,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_med_helmet";
+													value="104_eng_helmet";
 												};
 											};
 											class Item189
@@ -85472,7 +85039,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_mr_helmet";
+													value="104_hat_helmet";
 												};
 											};
 											class Item190
@@ -85480,7 +85047,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_st_helmet";
+													value="104_med_helmet";
 												};
 											};
 											class Item191
@@ -85488,7 +85055,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_arc_uniform";
+													value="104_mr_helmet";
 												};
 											};
 											class Item192
@@ -85496,7 +85063,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_eng_uniform";
+													value="104_st_helmet";
 												};
 											};
 											class Item193
@@ -85504,7 +85071,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_hat_uniform";
+													value="104_arc_uniform";
 												};
 											};
 											class Item194
@@ -85512,7 +85079,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_med_uniform";
+													value="104_eng_uniform";
 												};
 											};
 											class Item195
@@ -85520,7 +85087,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_st_uniform";
+													value="104_hat_uniform";
 												};
 											};
 											class Item196
@@ -85528,7 +85095,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_mr_uniform";
+													value="104_med_uniform";
 												};
 											};
 											class Item197
@@ -85536,7 +85103,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_arf_uniform";
+													value="104_st_uniform";
 												};
 											};
 											class Item198
@@ -85544,7 +85111,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="arc_104_vest";
+													value="104_mr_uniform";
 												};
 											};
 											class Item199
@@ -85552,7 +85119,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_backpack";
+													value="104_arf_uniform";
 												};
 											};
 											class Item200
@@ -85560,7 +85127,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="104_backpack_med";
+													value="arc_104_vest";
 												};
 											};
 											class Item201
@@ -85568,7 +85135,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA";
+													value="104_backpack";
 												};
 											};
 											class Item202
@@ -85576,7 +85143,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_Red_DC15A";
+													value="104_backpack_med";
 												};
 											};
 											class Item203
@@ -85584,7 +85151,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_optic_holo_DC15S";
+													value="3AS_Optic_Red_DC15A";
 												};
 											};
 											class Item204
@@ -85592,7 +85159,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Red";
+													value="3AS_optic_holo_DC15S";
 												};
 											};
 											class Item205
@@ -85600,7 +85167,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Blue";
+													value="3AS_Optic_LEScope_DC15A";
 												};
 											};
 											class Item206
@@ -85608,7 +85175,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Green";
+													value="3AS_Optic_VK38X";
 												};
 											};
 											class Item207
@@ -85616,7 +85183,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Green";
+													value="OPTRE_M7_Laser";
 												};
 											};
 											class Item208
@@ -85624,7 +85191,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Red";
+													value="acc_pointer_IR";
 												};
 											};
 											class Item209
@@ -85632,7 +85199,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Blue";
+													value="OPTRE_BMR_Laser";
 												};
 											};
 											class Item210
@@ -85640,7 +85207,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_One_Yellow";
+													value="acc_flashlight";
 												};
 											};
 											class Item211
@@ -85648,7 +85215,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_LEScope_DC15A";
+													value="ACE_DBAL_A3_Green";
 												};
 											};
 											class Item212
@@ -85656,7 +85223,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="SEA_Optic_Holo_Two_Yellow";
+													value="acc_flashlight_pistol";
 												};
 											};
 											class Item213
@@ -85664,7 +85231,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Optic_VK38X";
+													value="OPTRE_M45_Flashlight";
 												};
 											};
 											class Item214
@@ -85672,7 +85239,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M7_Laser";
+													value="OPTRE_M7_Flashlight";
 												};
 											};
 											class Item215
@@ -85680,7 +85247,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_pointer_IR";
+													value="OPTRE_M6C_Laser";
 												};
 											};
 											class Item216
@@ -85688,7 +85255,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_BMR_Laser";
+													value="OPTRE_M6G_Flashlight";
 												};
 											};
 											class Item217
@@ -85696,7 +85263,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_DC17SA_flashlight";
+													value="OPTRE_M12_Laser";
 												};
 											};
 											class Item218
@@ -85704,7 +85271,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="acc_flashlight";
+													value="ACE_DBAL_A3_Red";
 												};
 											};
 											class Item219
@@ -85712,7 +85279,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_DBAL_A3_Green";
+													value="ACE_SPIR";
 												};
 											};
 											class Item220
@@ -85720,7 +85287,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M45_Flashlight";
+													value="ACE_acc_pointer_green";
 												};
 											};
 											class Item221
@@ -85728,7 +85295,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M7_Flashlight";
+													value="3AS_Muzzle_LE_DC15A";
 												};
 											};
 											class Item222
@@ -85736,7 +85303,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M6C_Laser";
+													value="3AS_Bipod_VK38X_f";
 												};
 											};
 											class Item223
@@ -85744,7 +85311,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M6G_Flashlight";
+													value="UGL_FlareGreen_F";
 												};
 											};
 											class Item224
@@ -85752,7 +85319,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_M12_Laser";
+													value="UGL_FlareYellow_F";
 												};
 											};
 											class Item225
@@ -85760,7 +85327,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_DBAL_A3_Red";
+													value="1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item226
@@ -85768,7 +85335,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_SPIR";
+													value="OPTRE_1Rnd_MasterKey_Pellets";
 												};
 											};
 											class Item227
@@ -85776,7 +85343,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_acc_pointer_green";
+													value="ACE_40mm_Flare_ir";
 												};
 											};
 											class Item228
@@ -85784,7 +85351,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Muzzle_LE_DC15A";
+													value="OPTRE_3Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item229
@@ -85792,7 +85359,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_Bipod_VK38X_f";
+													value="3AS_16Rnd_EC20_Mag";
 												};
 											};
 											class Item230
@@ -85800,7 +85367,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareGreen_F";
+													value="UGL_FlareWhite_F";
 												};
 											};
 											class Item231
@@ -85808,7 +85375,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareYellow_F";
+													value="UGL_FlareCIR_F";
 												};
 											};
 											class Item232
@@ -85816,7 +85383,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeBlue_Grenade_shell";
+													value="3Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item233
@@ -85824,7 +85391,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_MasterKey_Pellets";
+													value="3Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item234
@@ -85832,7 +85399,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_ir";
+													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item235
@@ -85840,7 +85407,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_3Rnd_MasterKey_Pellets";
 												};
 											};
 											class Item236
@@ -85848,7 +85415,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareWhite_F";
+													value="3AS_60Rnd_EM30_mag";
 												};
 											};
 											class Item237
@@ -85856,7 +85423,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="UGL_FlareCIR_F";
+													value="OPTRE_1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item238
@@ -85864,7 +85431,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeGreen_Grenade_shell";
+													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item239
@@ -85872,7 +85439,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeBlue_Grenade_shell";
+													value="OPTRE_signalSmokeY";
 												};
 											};
 											class Item240
@@ -85880,7 +85447,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_3Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item241
@@ -85888,7 +85455,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_MasterKey_Pellets";
+													value="OPTRE_3Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item242
@@ -85896,7 +85463,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EM30_mag";
+													value="3AS_10Rnd_EC80_Mag";
 												};
 											};
 											class Item243
@@ -85904,7 +85471,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_Smoke_Grenade_shell";
+													value="3Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item244
@@ -85912,7 +85479,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokePurple_Grenade_shell";
+													value="ACE_40mm_Flare_red";
 												};
 											};
 											class Item245
@@ -85920,7 +85487,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeY";
+													value="OPTRE_3Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item246
@@ -85928,7 +85495,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeRed_Grenade_shell";
+													value="OPTRE_signalSmokeG";
 												};
 											};
 											class Item247
@@ -85936,7 +85503,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokePurple_Grenade_shell";
+													value="ACE_40mm_Flare_white";
 												};
 											};
 											class Item248
@@ -85944,7 +85511,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_10Rnd_EC80_Mag";
+													value="OPTRE_3Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item249
@@ -85952,7 +85519,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_stun_mag_short";
+													value="3Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item250
@@ -85960,7 +85527,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeRed_Grenade_shell";
+													value="OPTRE_3Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item251
@@ -85968,7 +85535,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_red";
+													value="3AS_45Rnd_EC50_Mag";
 												};
 											};
 											class Item252
@@ -85976,7 +85543,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeGreen_Grenade_shell";
+													value="1Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item253
@@ -85984,7 +85551,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeG";
+													value="3Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item254
@@ -85992,7 +85559,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_white";
+													value="OPTRE_signalSmokeR";
 												};
 											};
 											class Item255
@@ -86000,7 +85567,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeBlue_Grenade_shell";
+													value="1Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item256
@@ -86008,7 +85575,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_HE_Grenade_shell";
+													value="1Rnd_SmokePurple_Grenade_shell";
 												};
 											};
 											class Item257
@@ -86016,7 +85583,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_SmokeOrange_Grenade_shell";
+													value="1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item258
@@ -86024,7 +85591,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_45Rnd_EC50_Mag";
+													value="3Rnd_UGL_FlareGreen_F";
 												};
 											};
 											class Item259
@@ -86032,7 +85599,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeYellow_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
 												};
 											};
 											class Item260
@@ -86040,7 +85607,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokePurple_Grenade_shell";
+													value="OPTRE_signalSmokeB";
 												};
 											};
 											class Item261
@@ -86048,7 +85615,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeR";
+													value="ls_mag_aa_plx";
 												};
 											};
 											class Item262
@@ -86056,7 +85623,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="JLTS_stun_mag_long";
+													value="3Rnd_UGL_FlareWhite_F";
 												};
 											};
 											class Item263
@@ -86064,7 +85631,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_Smoke_Grenade_shell";
+													value="3Rnd_SmokeYellow_Grenade_shell";
 												};
 											};
 											class Item264
@@ -86072,7 +85639,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokePurple_Grenade_shell";
+													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
 												};
 											};
 											class Item265
@@ -86080,7 +85647,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_SmokeOrange_Grenade_shell";
+													value="OPTRE_signalSmokeP";
 												};
 											};
 											class Item266
@@ -86088,7 +85655,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareGreen_F";
+													value="OPTRE_3Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item267
@@ -86096,7 +85663,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeOrange_Grenade_shell";
+													value="3AS_16Rnd_EM20_Mag";
 												};
 											};
 											class Item268
@@ -86104,7 +85671,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeB";
+													value="ls_mag_rpg_1rnd";
 												};
 											};
 											class Item269
@@ -86112,7 +85679,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_mag_aa_plx";
+													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item270
@@ -86120,7 +85687,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareWhite_F";
+													value="3AS_60Rnd_EC30_mag";
 												};
 											};
 											class Item271
@@ -86128,7 +85695,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_SmokeYellow_Grenade_shell";
+													value="3AS_10Rnd_EM80_Mag";
 												};
 											};
 											class Item272
@@ -86136,7 +85703,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeBlue_Grenade_shell";
+													value="1Rnd_HE_Grenade_shell";
 												};
 											};
 											class Item273
@@ -86144,7 +85711,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeP";
+													value="3Rnd_UGL_FlareRed_F";
 												};
 											};
 											class Item274
@@ -86152,7 +85719,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_Smoke_Grenade_shell";
+													value="3Rnd_UGL_FlareYellow_F";
 												};
 											};
 											class Item275
@@ -86160,7 +85727,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ls_mag_rpg_1rnd";
+													value="OPTRE_1Rnd_MasterKey_Slugs";
 												};
 											};
 											class Item276
@@ -86168,7 +85735,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeRed_Grenade_shell";
+													value="ACE_40mm_Flare_green";
 												};
 											};
 											class Item277
@@ -86176,7 +85743,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_60Rnd_EC30_mag";
+													value="3AS_45Rnd_EM50_Mag";
 												};
 											};
 											class Item278
@@ -86184,7 +85751,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_10Rnd_EM80_Mag";
+													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item279
@@ -86192,7 +85759,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="1Rnd_HE_Grenade_shell";
+													value="OPTRE_signalSmokeO";
 												};
 											};
 											class Item280
@@ -86200,7 +85767,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareRed_F";
+													value="OPTRE_3Rnd_MasterKey_Slugs";
 												};
 											};
 											class Item281
@@ -86208,7 +85775,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3Rnd_UGL_FlareYellow_F";
+													value="3Rnd_Smoke_Grenade_shell";
 												};
 											};
 											class Item282
@@ -86216,7 +85783,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_MasterKey_Slugs";
+													value="ACE_HuntIR_M203";
 												};
 											};
 											class Item283
@@ -86224,7 +85791,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="ACE_40mm_Flare_green";
+													value="3AS_60Rnd_Test_mag";
 												};
 											};
 											class Item284
@@ -86232,7 +85799,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="3AS_45Rnd_EM50_Mag";
+													value="UGL_FlareRed_F";
 												};
 											};
 											class Item285
@@ -86240,7 +85807,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_1Rnd_SmokeGreen_Grenade_shell";
+													value="1Rnd_SmokeRed_Grenade_shell";
 												};
 											};
 											class Item286
@@ -86248,7 +85815,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_signalSmokeO";
+													value="1Rnd_SmokeGreen_Grenade_shell";
 												};
 											};
 											class Item287
@@ -86256,66 +85823,10 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="OPTRE_3Rnd_MasterKey_Slugs";
-												};
-											};
-											class Item288
-											{
-												class data
-												{
-													singleType="STRING";
-													value="JLTS_DC17SA_mag";
-												};
-											};
-											class Item289
-											{
-												class data
-												{
-													singleType="STRING";
-													value="3Rnd_Smoke_Grenade_shell";
-												};
-											};
-											class Item290
-											{
-												class data
-												{
-													singleType="STRING";
-													value="ACE_HuntIR_M203";
-												};
-											};
-											class Item291
-											{
-												class data
-												{
-													singleType="STRING";
-													value="UGL_FlareRed_F";
-												};
-											};
-											class Item292
-											{
-												class data
-												{
-													singleType="STRING";
-													value="1Rnd_SmokeRed_Grenade_shell";
-												};
-											};
-											class Item293
-											{
-												class data
-												{
-													singleType="STRING";
-													value="1Rnd_SmokeGreen_Grenade_shell";
-												};
-											};
-											class Item294
-											{
-												class data
-												{
-													singleType="STRING";
 													value="3Rnd_UGL_FlareCIR_F";
 												};
 											};
-											class Item295
+											class Item288
 											{
 												class data
 												{

@@ -1,37 +1,9 @@
-private _functions = [
-	"zeus_init",
-	"zeus_add",
-	"zeus_verify",
-	"zeus_process",
-	"zeus_curator_init",
-	"zeus_curator_create",
-	"zeus_stats_init",
-	"zeus_stats_draw",
+"loader_generateLoadList"	call A3RE_M_fnc_loadFunction;
+"loader_load"				call A3RE_M_fnc_loadFunction;
+"loader_share"				call A3RE_M_fnc_loadFunction;
 
-	"arc_init",
-	"arc_redBacta",
-	"arc_stimulator",
+call loader_generateLoadList;
+call loader_load;
 
-	"credits_init",
-	"credits_show",
-	"credits_showPreview"
-];
-
-private _scripts = [
-	"rank",
-	"chatCommands",
-	"medMenu",
-	"playerSave",
-	"playerLoad",
-	"weaponHand"
-];
-
-{
-	_x call A3RE_M_fnc_loadFunction;
-} forEach _functions;
-
-{
-	_x call A3RE_M_fnc_loadScript;
-} forEach _scripts;
-
-["zeus_init",		[]] call A3RE_M_fnc_call;
+call zeus_init;
+call teleports_init;
