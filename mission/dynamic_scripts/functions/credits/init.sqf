@@ -2,7 +2,7 @@ general_project_name = "Revenge of the Republic";
 
 general_sector = "Райобалло";
 general_system = "Малый Кесмер";
-general_planet = "Креста";
+general_planet = "Ним-Дровис";
 
 onScreenTime = 3;
 creditsLines = [];

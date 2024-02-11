@@ -1,0 +1,19 @@
+[
+	"3AS_Muzzle_LE_DC15A",
+	"MTI_DC15LE_muzzle",
+	"LFP_DC17M_Attachment_GL",
+	"LFP_DC17M_Attachment_Blaster",
+	"3AS_RepublicDatapad_muzzle_Keyboard",
+	"SWLW_attachment_DC17M_at",
+	"SWLW_attachment_DC17M_blaster",
+	"SWLW_attachment_DC17M_sniper",
+	"Aux501_muzzle_surpressor",
+	"RD501_acc_surpressor",
+	"LFP_Westar55_Attachment_Sniper",
+	"LFP_Westar55_Attachment_GL",
+	"LFP_WestarM5_Attachment_Sniper",
+	"LFP_WestarM5_Attachment_GR",
+	"LFP_WestarM5_Attachment_Auto",
+	"muzzle_antenna_03_f",
+	"muzzle_antenna_01_f"
+];

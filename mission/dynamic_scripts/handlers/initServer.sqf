@@ -5,5 +5,9 @@
 call loader_generateLoadList;
 call loader_load;
 
+call utils_groups_initGC;
+
+call arsenal_init;
+
 call zeus_init;
 call teleports_init;

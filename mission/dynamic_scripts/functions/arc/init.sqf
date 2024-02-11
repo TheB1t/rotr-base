@@ -1,4 +1,4 @@
-systemChat "ARC Scripts initialized!";
+"ARC Scripts initialized!" call chat_logLocal;
 
 player addAction ["<t color='#2ECC71'>Вколоть боевой стимулятор</t>", {
 	call arc_stimulator;

@@ -1,4 +1,4 @@
 [
-	["rc_init",		true,	false],
-	["rc_armor",	true,	false]
+	["init",		true,	false],
+	["armor",		true,	false]
 ];

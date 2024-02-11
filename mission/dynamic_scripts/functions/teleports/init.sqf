@@ -1,18 +1,12 @@
 _teleports = [
-	["gar_spawn", "Спаун",
-		["gar_sob", "gar_jedi", "gar_nrp", "gar_rs"]
+	["gar_hangar", "Венатор Ангар",
+		["gar_mostik", "gar_control_room"]
 	],
-	["gar_sob", "База БСО",
-		["gar_spawn"]
+	["gar_mostik", "Венатор Мостик",
+		["gar_hangar", "gar_control_room"]
 	],
-	["gar_jedi", "Храм Джедаев",
-		["gar_spawn"]
-	],
-	["gar_nrp", "NONRP Зона",
-		["gar_spawn"]
-	],
-	["gar_rs", "База RS",
-		["gar_spawn"]
+	["gar_control_room", "Венатор Контрольная рубка",
+		["gar_hangar", "gar_mostik"]
 	]
 ];
 

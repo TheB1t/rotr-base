@@ -1,4 +1,4 @@
-systemChat "ARC Bacta script activated!";
+"ARC Bacta script activated!" call chat_logLocal;
 
 _cooldownArmorArc = player getVariable ["cooldownArmorArc", 0];
 _timerCD = 300;

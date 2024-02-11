@@ -11,7 +11,7 @@ _dedman = format["dedman%1", _index];
 		_index = getPlayerUID player;
 		_dedman = format["dedman%1", _index];
 		if (!isNil _dedman) then {
-			systemChat format ["Zeus added to player %1", _this];
+			(format ["Zeus added to player %1", _this]) call chat_logLocal;
 		};
 	}] remoteExec ["spawn", 0];
 };

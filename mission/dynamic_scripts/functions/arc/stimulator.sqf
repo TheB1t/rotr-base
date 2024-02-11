@@ -1,4 +1,4 @@
-systemChat "ARC Stimulator script activated!";
+"ARC Stimulator script activated!" call chat_logLocal;
 
 _cdStimpack = 780;
 _energyStimpack = 180;

@@ -1,11 +1,11 @@
 #!/bin/bash
 
-MACHINE="arma3server@workserv2"
+MACHINE="arma3server@workserv2new"
 
 ADDON_NAME="A3RE"
 
-MISSION_NAME="ROTR_Test2"
-MISSION_MAP="OPTRE_Madrigal"
+MISSION_NAME="ROTR_General_Mission"
+MISSION_MAP="LostIsland"
 
 SERVER_ADDON_FOLDER="servermods"
 SERVER_QUERY_SERVER_FOLDER="query_server"

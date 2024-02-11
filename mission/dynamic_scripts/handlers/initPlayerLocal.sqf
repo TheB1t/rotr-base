@@ -3,9 +3,16 @@ params ["_player", "_didJIP"];
 
 private _init_sequence = [
 	["teleports_buildAll",	[], true],
-	["medical_init",		[], true],
+	["utils_medical_init",	[], true],
 
-	["zeus_verify",		_player],
+	["freefallFix_init",	[]],
+
+	["chat_init", 			_player],
+	["chat_initChannels", 	[_player, nil], true],
+
+	["utils_player_load",	_player],
+
+	["zeus_verify",			_player],
 	["zeus_stats_init",		[]],
 
 	["arc_init",			[], true],
@@ -16,7 +23,6 @@ private _init_sequence = [
 
 	["script_chatCommands",	[], true],
 	["script_medMenu",		[], true],
-	["script_playerLoad",	[], true],
 	["script_weaponHand",	[], true],
 
 	["script_rank",		_player]
@@ -25,3 +31,5 @@ private _init_sequence = [
 {
 	_x call A3RE_M_fnc_call;
 } forEach _init_sequence;
+
+_player setVariable ['ACE_Medical_medicClass', 2];

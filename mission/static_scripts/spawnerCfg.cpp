@@ -8,11 +8,7 @@ class GAR_Ground {
             {"RD501_warden_tank_field",                         4, "true"},
             {"RD501_fast_infantry_transport_republic",          4, "true"},
             {"RD501_fast_infantry_transport_republic_medic",    4, "true"},
-            {"212th_BARC_Sidecar",                              6, "true"},
-            {"212th_BARC",                                      8, "true"},
-            {"212th_B_APC_Wheeled_aa_cannon_F",                 2, "true"},
-            {"212th_B_APC_Wheeled_02_cannon_F",                 4, "true"},
-            {"212th_B_APC_Wheeled_fs_cannon_F",                 2, "true"},
+            {"3as_Barc",                                        16, "true"},
             {"3AS_ISP",                                         2, "true"},
             {"3AS_ISP_Transport",                               3, "true"},
             {"3AS_Saber_M1",                                    2, "true"},
@@ -33,7 +29,7 @@ class GAR_Air {
     class VAR_2 {
         displayName = "Воздушная техника ВАР";
         vehicles[] = {
-            {"Aux501_Vehicles_Republic_Gunships_LAAT_C",        2, "true"},
+            {"3AS_LAATC",                                       2, "true"},
             {"RD501_LAAT_MKIII_Balls",                          5, "true"},
             {"MTI_arc_170",                                     2, "true"},
             {"3AS_Z95_Yellow",                                  1, "true"},
@@ -43,6 +39,7 @@ class GAR_Air {
             {"3as_V19_base",                                    1, "true"},
             {"MTI_BTLB",                                        2, "true"},
             {"3AS_LAAT_Mk1",                                    2, "true"},
+            {"MTI_Delta7_Base",                                 10, "true"},
             {"3AS_LAAT_Mk2",                                    2, "true"}
         };
 
@@ -103,24 +100,40 @@ class MERC_General {
     class VAR_5 {
         displayName = "Техника Наёмников";
         vehicles[] = {
-            {"OPTRE_m1015_mule_fuel_cma",                       100, "true"},
-            {"OPTRE_m1015_mule_ammo_cma",                       100, "true"},
-            {"OPTRE_M494_CMA",                                  100, "true"},
-            {"OPTRE_M875_SPH_CMA",                              100, "true"},
-            {"OPTRE_DME_hornet",                                100, "true"},
-            {"OPTRE_DME_SOCOM_Pelican",                         100, "true"},
-            {"OPTRE_DME_falcon_unarmed",                        100, "true"},
-            {"OPTRE_DME_falcon_armed",                          100, "true"},
-            {"OPTRE_M914_RV_CMA",                               100, "true"},
-            {"OPTRE_M813_TT_CMA",                               100, "true"},
-            {"OPTRE_M12R_AA_CMA",                               100, "true"},
-            {"OPTRE_M12G1_LRV_CMA",                             100, "true"},
-            {"OPTRE_M12A1_LRV_CMA",                             100, "true"},
-            {"OPTRE_M12_FAV_CMA",                               100, "true"},
-            {"OPTRE_M12_TD_CMA",                                100, "true"},
-            {"OPTRE_M12_FAV_APC_MED_CMA",                       100, "true"},
-            {"OPTRE_M12_LRV_CMA",                               100, "true"},
-            {"OPTRE_M12_FAV_APC_CMA",                           100, "true"}
+            {"OPTRE_M412_IFV_UNSC",                             -1, "true"},
+            {"OPTRE_M413_MGS_UNSC",                             -1, "true"},
+            {"OPTRE_UNSC_hornet",                               -1, "true"},
+            {"OPTRE_AV22C_Sparrowhawk",                         -1, "true"},
+            {"OPTRE_AV22A_Sparrowhawk",                         -1, "true"},
+            {"OPTRE_AV22_Sparrowhawk",                          -1, "true"},
+            {"OPTRA_AV22B_Sparrowhawk",                         -1, "true"},
+            {"OPTRE_Pelican_armed",                             -1, "true"},
+            {"OPTRE_UNSC_Falcon_armed",                         -1, "true"},
+            {"OPTRE_M12_FAV",                                   -1, "true"},
+            {"OPTRE_M813_TT",                                   -1, "true"},
+            {"OPTRE_m1087_stallion_covered_unsc",               -1, "true"},
+            {"OPTRE_M12_FAV_APC",                               -1, "true"},
+            {"OPTRE_M12A1_LRV",                                 -1, "true"},
+            {"OPTRE_M12G1_LRV",                                 -1, "true"},
+            {"OPTRE_M12R_AA",                                   -1, "true"},
+            {"OPTRE_cart",                                      -1, "true"},
+            {"OPTRE_YSS_-1_A_VTOL",                             -1, "true"},
+            {"OPTRE_M808B_UNSC",                                -1, "true"},
+            {"OPTRE_M808BM_UNSC",                               -1, "true"},
+            {"OPTRE_M808B2",                                    -1, "true"},
+            {"OPTRE_M808S",                                     -1, "true"},
+            {"OPTRE_M850_UNSC",                                 -1, "true"},
+            {"OPTRE_M494",                                      -1, "true"},
+            {"RD501_warden_tank_field",                         -1, "true"},
+            {"RD501_arc_170_blue",                              -1, "true"},
+            {"RD501_fast_infantry_transport_republic",          -1, "true"},
+            {"RD501_LAAT_MKIII_Balls",                          -1, "true"},
+            {"442_laat_2",                                      -1, "true"},
+            {"3as_LAAT_Mk2",                                    -1, "true"},
+            {"3AS_LAATC_Wampa",                                 -1, "true"},
+            {"3as_Z95_Republic",                                -1, "true"},
+            {"3as_arc_170_blue",                                -1, "true"},
+            {"3as_Barc",                                        -1, "true"}
         };
 
         spawnPoints[] = {

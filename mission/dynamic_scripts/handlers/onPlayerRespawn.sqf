@@ -4,8 +4,10 @@ removeAllActions _newUnit;
 removeAllActions _oldUnit;
 
 private _reinit_sequence = [
-	["zeus_verify",		_newUnit],
-	["script_playerLoad",	[]],
+	["chat_initChannels", 	[_newUnit, _oldUnit], true],
+
+	["zeus_verify",			_newUnit],
+	["utils_player_load",	_newUnit],
 	["arc_init",			[], true],
 	["rc_init",				[], true]
 ];
