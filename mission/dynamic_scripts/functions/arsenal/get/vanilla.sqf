@@ -1,0 +1,9 @@
+[
+	"ItemGPS",
+	"ItemCompass",
+	"ItemMap",
+	"itemWatch",
+	"MineDetector",
+	"Rangefinder",
+	"ToolKit"
+];

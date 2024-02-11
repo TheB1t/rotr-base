@@ -1,18 +1,17 @@
 disableSerialization;
 
-_helmets = [];
-
-_goggles = [];
-
-_assignedItems = [
-	"IW_Team_Medcore",
-	"IW_Team_Medcore_UAV"
+_allowedItems = [
+	[],
+	[],
+	[
+		"IW_Team_Medcore",
+		"IW_Team_Medcore_UAV"
+	],
+	[]
 ];
 
-_items = [];
-
-_hr_color_default = "#8888FF";
 _hr_colors = [
+	[0, "#8888FF"],
 	[70, "#88FF88"],
 	[130, "#FF8888"]
 ];
@@ -20,21 +19,19 @@ _hr_colors = [
 1005 cutRsc ["HudMedic", "PLAIN"];
 _ui = uiNamespace getVariable "HudMedic";
 
-while {true} do {
-	sleep 1;
+[1, [_ui, _hr_colors, _allowedItems], {
+	(_this select 1) params ["_ui", "_hr_colors", "_allowedItems"];
+	_allowedItems params ["_helmets", "_goggles", "_assignedItems", "_items"];
 
-	if (!alive player) then { 
-		continue;
-	};
-
-	_hudMedic = _ui displayCtrl 66666;
+	_is_alive			= alive player;
+	_hudMedic			= _ui displayCtrl 66666;
 
 	_is_helmet			= (headgear player) in _helmets;
 	_is_goggles			= (goggles player) in _goggles;
 	_is_assignedItem	= count (_assignedItems select { _x in (assignedItems player) }) > 0;
 	_is_item			= count (_items select { _x in (assignedItems player) }) > 0;
 
-	if (_is_helmet || _is_goggles || _is_assignedItem || _is_item) then {
+	if ((_is_helmet || _is_goggles || _is_assignedItem || _is_item) && _is_alive) then {
 		private _tmp = [];
 
 		_tmp pushBack format ["<t size='1.25' color='#FFCC00' shadow='1'>%1</t><br/>", "MedCore HUD"];
@@ -49,11 +46,11 @@ while {true} do {
             _bv		= (floor (_bv1 * 100)) / 100;
             _O2		= floor _spO2;
 
-			private _hr_color = _hr_color_default;
+			private _hr_color = "#FFFFFF";
 
 			{
 				_x params ["_val", "_color"];
-				if (_hr > _val) then {
+				if (_hr >= _val) then {
 					_hr_color = _color;
 				}
 			} forEach _hr_colors;
@@ -70,4 +67,4 @@ while {true} do {
 	};
 
 	_hudMedic ctrlCommit 0;
-}; 
+}, false] call A3RE_M_fnc_addTask;

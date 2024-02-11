@@ -1,5 +1,5 @@
 [
-	["credits_init",		true,	false],
-	["credits_show",		true,	false],
-	["credits_showPreview",	true,	false]
+	["init",		true,	false],
+	["show",		true,	false],
+	["showPreview",	true,	false]
 ];

@@ -1,4 +1,4 @@
-systemChat "RC Armor script activated!";
+"RC Armor script activated!" call chat_logLocal;
 
 _cooldownArmorRC = player getVariable ["cooldownArmorRC", 0];
 _timerCD = 600;

@@ -1,0 +1,11 @@
+[
+	"3AS_DetPack",
+	"SWLW_clones_spec_breach_mag",
+	"ls_mag_breach_remoteCharge",
+	"SWLW_DetPack_remote_mag",
+	"ls_mag_detPack_remoteCharge",
+	"M168_Remote_Mag",
+	"C7_Remote_Mag",
+	"C12_Remote_Mag",
+	"DemoCharge_Remote_Mag"
+];

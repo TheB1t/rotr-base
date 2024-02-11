@@ -11,7 +11,7 @@ if (count _zeus > 0) then {
 	_selected params ["_player", "_machine"];
 
 	if (_machine < 2) exitWith {
-		systemChat "Error: Bad machine id!";
+		"Error: Bad machine id!" call chat_logLocal;
 	};
 
 	_user = (_zeus select 0);
@@ -20,8 +20,9 @@ if (count _zeus > 0) then {
 		waitUntil { !isNull (findDisplay 312) };
 
 		(findDisplay 312) closeDisplay 1;
-		systemChat format ["%1 выкинул вас из интерфейса Zeus", _this];
+
+		(format ["%1 выкинул вас из интерфейса Zeus", _this]) call chat_logLocal;
 	}] remoteExec ["spawn", _machine];
 } else {
-	systemChat "You have no right to do this (throw out of Zeus)";
+	"You have no right to do this (throw out of Zeus)" call chat_logLocal;
 };

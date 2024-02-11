@@ -7,7 +7,7 @@ if (isNil _var_name) then {
 private _curator = missionNamespace getVariable [_var_name, objNull];
 private _player = missionNamespace getVariable [_this, objNull];
 
-(format ["_curator: %1, _player: %2 (%3)", _curator, _player, _this]) remoteExec ["diag_log", 2];
+(format ["_curator: %1, _player: %2 (%3)", _curator, _player, _this]) call A3RE_M_fnc_logServer;
 
 unassignCurator _curator;
 sleep 0.4;

@@ -7,8 +7,6 @@ _active_curators = _this;
 {
 	_x params ["_player", "_machine"];
 	if (isNull _player) then {
-		systemChat format ["Remove obsolete zeus entry (machine %1)", _machine];
-
 		private _index = _active_curators find _x;
 		_active_curators deleteAt _index;
 	};

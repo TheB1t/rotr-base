@@ -8,31 +8,25 @@ class CfgClient {
 };
 
 cba_settings_hasSettingsFile=1;
-//enableDebugConsole = 1;
+// enableDebugConsole = 1;
 // respawn="BASE";
 // respawnButton=1;
 respawnOnStart=-1;
 disabledAI=1;
-
 
 overviewPicture="data\overviewPicture.paa";
 onLoadName="Revenge of the Republic | STAR WARS RP";
 OnLoadMission="Добро пожаловать на RP сервер по Star Wars на Arma 3. Приятной игры!";
 author="created by Artorias & Svarka";
 
-// zeusCompositionScriptLevel = 2;
+zeusCompositionScriptLevel = 2;
 
-#include "common.hpp"
 class RscTitles {
-	#include "namesleft.hpp"
-	#include "cau\extendedchat\RscTitles.cpp" //Chat
+	#include "MedCoreGUI.hpp"
 };
 
 class CfgFunctions { 
 	#include "A3RE_M_Functions.hpp"
-
-	#include "cau\userinputmenus\CfgFunctions.cpp"
-	#include "cau\extendedchat\CfgFunctions.cpp"
 };
 
 class Params {
@@ -41,33 +35,3 @@ class Params {
 	#include "\a3\functions_f\Params\paramDaytimeHour.hpp"
 	#include "\a3\Functions_F_MP_Mark\Params\paramTimeAcceleration.hpp" 
 };
-
-class CfgEmoji {
-	#include "cau\extendedchat\emojipack\config.cpp"
-};
-
-//Chat Settings
-// Enables the use of emojis in chat. Automatically disabled if no emojis are found on the client
-CAU_xChat_emojis = 0; // 0 - disabled, 1 - enabled (default)
-// Toggle "<Name> connected" logs when a player loads into mission
-CAU_xChat_connectMessages = 0; // 0 - disabled, 1 - enabled (default)
-// Toggle "<Name> disconnected" logs when a player leaves the mission
-CAU_xChat_disconnectMessages = 0; // 0 - disabled, 1 - enabled (default)
-// Toggle "<Name1> was killed by <Name2>" and "<Name> was killed" when a player dies
-CAU_xChat_deathMessages = 0; // 0 - disabled, 1 - enabled (default)
-// Enables mentioning groups
-CAU_xChat_mentionGroups = 1; // 0 - disabled, 1 - enabled (groups of player's side, default), 2 - enabled (all groups)
-//Enables whisper command. Allows sending private chat messages to other players, groups and roles
-CAU_xChat_whisperCommand = 1; // 0 - disabled, 1 - enabled (default)
-
-#include "cau\userinputmenus\systems\_macros.inc"
-#include "cau\userinputmenus\systems\_defines.inc"
-#include "cau\userinputmenus\controls.cpp"
-#include "cau\userinputmenus\systems\displayColorPicker.cpp"
-#include "cau\userinputmenus\systems\displayGuiMessage.cpp"
-#include "cau\userinputmenus\systems\displayListbox.cpp"
-#include "cau\userinputmenus\systems\displayListboxMulti.cpp"
-#include "cau\userinputmenus\systems\displayProgressBar.cpp"
-#include "cau\userinputmenus\systems\displaySlider.cpp"
-#include "cau\userinputmenus\systems\displayText.cpp"
-#include "cau\userinputmenus\systems\displayTextMulti.cpp"
