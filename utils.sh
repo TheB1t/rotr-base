@@ -1,11 +1,11 @@
 #!/bin/bash
 
-MACHINE="arma3server@workserv2new"
+MACHINE="arma3server@workserv2"
 
 ADDON_NAME="A3RE"
 
 MISSION_NAME="ROTR_General_Mission"
-MISSION_MAP="LostIsland"
+MISSION_MAP="vt7"
 
 SERVER_ADDON_FOLDER="servermods"
 SERVER_QUERY_SERVER_FOLDER="query_server"
@@ -138,38 +138,45 @@ function load_query_server() {
 function main() {
     local action=$1; shift
 
-        case "$action" in
-    "deploy")
-            log LOG_INFO "Deploying..."
-            pack_addon ${ADDON_NAME}
-            pack_mission ${MISSION_FULL_NAME}
-            pack_query_server
+    case "$action" in
+        "deploy")
+                log LOG_INFO "Deploying..."
+                pack_addon ${ADDON_NAME}
+                pack_mission ${MISSION_FULL_NAME}
+                pack_query_server
 
-            load_addon ${ADDON_NAME} "${SERVER_ADDON_FOLDER}"
-            load_mission "${MISSION_FULL_NAME}"
-            load_query_server "${SERVER_QUERY_SERVER_FOLDER}"
-            log LOG_INFO "DONE!"
-            ;;
+                load_addon ${ADDON_NAME} "${SERVER_ADDON_FOLDER}"
+                load_mission "${MISSION_FULL_NAME}"
+                load_query_server "${SERVER_QUERY_SERVER_FOLDER}"
+                log LOG_INFO "DONE!"
+                ;;
 
-    "deploy_test")
-            log LOG_INFO "Deploying test..."
-            pack_addon ${ADDON_NAME}
-            pack_mission "test_${MISSION_FULL_NAME}"
-            pack_query_server
+        "deploy_test")
+                log LOG_INFO "Deploying test..."
+                pack_addon ${ADDON_NAME}
+                pack_mission "test_${MISSION_FULL_NAME}"
+                pack_query_server
 
-            load_addon ${ADDON_NAME} "${SERVER_ADDON_FOLDER}_test"
-            load_mission "test_${MISSION_FULL_NAME}"
-            load_query_server "${SERVER_QUERY_SERVER_FOLDER}_test"
+                load_addon ${ADDON_NAME} "${SERVER_ADDON_FOLDER}_test"
+                load_mission "test_${MISSION_FULL_NAME}"
+                load_query_server "${SERVER_QUERY_SERVER_FOLDER}_test"
 
 
-            ADDON_ROOT_FOLDER="@${ADDON_NAME}"
-            scp -r test/*.cfg ${MACHINE}:~/serverfiles/${SERVER_ADDON_FOLDER}_test/${ADDON_ROOT_FOLDER} 1>/dev/null
-            log LOG_INFO "DONE!"
-            ;;
-        *)
-            [[ -n "$action" ]] && echo "Not implemented action $1" || echo "Action not passed"     
-        ;;
-        esac
+                ADDON_ROOT_FOLDER="@${ADDON_NAME}"
+                scp -r test/*.cfg ${MACHINE}:~/serverfiles/${SERVER_ADDON_FOLDER}_test/${ADDON_ROOT_FOLDER} 1>/dev/null
+                log LOG_INFO "DONE!"
+                ;;
+
+        "sync_modules")
+                git submodule foreach git fetch
+                git submodule foreach git checkout main
+                git submodule foreach git reset --hard origin/main
+                ;;
+
+            *)
+                [[ -n "$action" ]] && echo "Not implemented action $1" || echo "Action not passed"     
+                ;;
+    esac
 
 }
 

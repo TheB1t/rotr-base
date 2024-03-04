@@ -4,8 +4,8 @@
 	private _custom_channels = missionNamespace getVariable "chat_customChannels";
 
 	if (isNil "_custom_channels") then {
-		_RPCID				= radioChannelCreate [[0.10, 0.0, 1, 1],		"RP Channel",	"<%CHANNEL_LABEL> %UNIT_NAME", [], true];
-		_NRPCID				= radioChannelCreate [[0.95, 0.10, 0.10, 1],	"NRP Channel",	"<%CHANNEL_LABEL> %UNIT_NAME", [], true];
+		_RPCID				= radioChannelCreate [[0.10, 0.0, 1, 1],		"RP Channel",	"<%CHANNEL_LABEL> %UNIT_NAME", [], false];
+		_NRPCID				= radioChannelCreate [[0.95, 0.10, 0.10, 1],	"NRP Channel",	"<%CHANNEL_LABEL> %UNIT_NAME", [], false];
 		_custom_channels	= [_RPCID, _NRPCID];
 	};
 

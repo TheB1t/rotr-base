@@ -1,8 +1,8 @@
 params ["_control"];
 
-_zeus = zeusUsers select {	(_x select 0) == (getPlayerUID player) && (_x select 1)	};
+_zeusEntryPos	= zeusUsers findIf { (_x select 0) == getPlayerUID player && (_x select 1) };
 
-if (count _zeus > 0) then {
+if (_zeusEntryPos != -1) then {
 	_display	= findDisplay 312;
 	_ctrl		= _display displayCtrl 69696;
 
@@ -14,9 +14,10 @@ if (count _zeus > 0) then {
 		"Error: Bad machine id!" call chat_logLocal;
 	};
 
-	_user = (_zeus select 0);
+	_zeus = zeusUsers select _zeusEntryPos;
+	_zeus params ["_uid", "_canThrowOut", "_isIventolog", "_realName"];
 
-	[_user select 2, {
+	[_realName, {
 		waitUntil { !isNull (findDisplay 312) };
 
 		(findDisplay 312) closeDisplay 1;

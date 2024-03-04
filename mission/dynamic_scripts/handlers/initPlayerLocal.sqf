@@ -8,20 +8,12 @@ private _init_sequence = [
 	["freefallFix_init",	[]],
 
 	["chat_init", 			_player],
-	["chat_initChannels", 	[_player, nil], true],
 
-	["utils_player_load",	_player],
-
-	["zeus_verify",			_player],
 	["zeus_stats_init",		[]],
-
-	["arc_init",			[], true],
-	["rc_init",				[], true],
 
 	["credits_init",		[]],
 	["credits_show",		[], true],
 
-	["script_chatCommands",	[], true],
 	["script_medMenu",		[], true],
 	["script_weaponHand",	[], true],
 

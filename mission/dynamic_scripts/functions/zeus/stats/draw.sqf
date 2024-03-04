@@ -42,11 +42,13 @@ if ([player, clientOwner] in _active_curators) then {
 		_ctrlIngameName	ctrlSetText name _player;
 		_ctrlUID		ctrlSetText getPlayerUID _player;
 
-		_zeus = zeusUsers select {	(_x select 0) == (getPlayerUID _player)	};
+		_zeusEntryPos	= zeusUsers findIf { (_x select 0) == getPlayerUID _player };
 
-		if (count _zeus > 0) then {
-			_user = (_zeus select 0);
-			_ctrlRealName ctrlSetText (_user select 2);
+		if (_zeusEntryPos != -1) then {
+			_zeus = zeusUsers select _zeusEntryPos;
+			_zeus params ["_uid", "_canThrowOut", "_isIventolog", "_realName"];
+
+			_ctrlRealName ctrlSetText _realName;
 		} else {
 			_ctrlRealName ctrlSetText "Unauthorized";
 		};

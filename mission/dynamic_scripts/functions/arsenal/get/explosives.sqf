@@ -7,5 +7,7 @@
 	"M168_Remote_Mag",
 	"C7_Remote_Mag",
 	"C12_Remote_Mag",
-	"DemoCharge_Remote_Mag"
+	"DemoCharge_Remote_Mag",
+	"TrainingMine_Mag",
+	"ACE_FlareTripMine_Mag"
 ];
