@@ -8,8 +8,7 @@ private _reinit_sequence = [
 
 	["zeus_verify",			_newUnit],
 	["utils_player_load",	_newUnit],
-	["arc_init",			[], true],
-	["rc_init",				[], true]
+	["arc_init",			[], true]
 ];
 
 {

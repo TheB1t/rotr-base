@@ -13,9 +13,6 @@ if (isNil "_prefix") then {
 addMissionEventHandler ["HandleChatMessage", {
 	params ["_channel", "_owner", "_from", "_text", "_person", "_name", "_strID", "_forcedDisplay", "_isPlayerMessage", "_sentenceType", "_chatMessageType", "_params"];
 
-	private _channelInfo = radioChannelInfo (_channel - 5);
-	_channelInfo params ["_colour", "_label", "_callSign", "_units", "_sentenceType", "_exists"];
-
 	private _commands	= missionNamespace getVariable "chat_commands";
 	private _prefix		= profileNamespace getVariable "chat_prefix";
 
@@ -26,19 +23,21 @@ addMissionEventHandler ["HandleChatMessage", {
 
 	private _first		= _cmd select [0, 1];
 	if (!(_first isEqualTo _prefix)) exitWith { false };
-	if (!(_person isEqualTo player)) exitWith { true };
 
-	_cmd = _cmd select [1, (count _cmd) - 1];
+	if (_owner == clientOwner) then {
+		_cmd = _cmd select [1, (count _cmd) - 1];
 
-	private _commandPos = _commands findIf { (_x select 0) == _cmd };
+		private _commandPos = _commands findIf { (_x select 0) == _cmd };
 
-	if (_commandPos != -1) then {
-		private _command = _commands select _commandPos;
-		[_command, _prefix, _args] call chat_execCommand;
-	} else {
-		(format ["Failed to find command '%1'", _cmd]) call chat_logLocal;
-		true
+		if (_commandPos != -1) then {
+			private _command = _commands select _commandPos;
+			[_command, _prefix, _args] call chat_execCommand;
+		} else {
+			(format ["Failed to find command '%1'", _cmd]) call chat_logLocal;
+		};
 	};
+
+	true;
 }];
 
 private _enabledChannels = [0, 1, 3, 5];
@@ -57,8 +56,6 @@ for "_i" from 0 to 6 do {
     } forEach _commands;
 
     (format ["Available commands: %1", _commandsNames joinString ", "]) call chat_logLocal;
-
-    true
 }] call chat_add_command;
 
 [

@@ -8,13 +8,12 @@ class CfgClient {
 };
 
 cba_settings_hasSettingsFile=1;
-// enableDebugConsole = 1;
-// respawn="BASE";
-// respawnButton=1;
-respawnOnStart=-1;
-disabledAI=1;
+respawn = "BASE";
+respawnDelay = 10;
+respawnTemplates[] = {"MenuPosition"};
+respawnOnStart = 0;
+disabledAI = 1;
 
-overviewPicture="data\overviewPicture.paa";
 onLoadName="Revenge of the Republic | STAR WARS RP";
 OnLoadMission="Добро пожаловать на RP сервер по Star Wars на Arma 3. Приятной игры!";
 author="created by Artorias & Svarka";

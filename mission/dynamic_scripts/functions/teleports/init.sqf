@@ -1,12 +1,16 @@
 _teleports = [
-	["gar_hangar", "Венатор Ангар",
-		["gar_mostik", "gar_control_room"]
+	["gar_kupol", "Спавн",
+		["gar_rs"]
 	],
-	["gar_mostik", "Венатор Мостик",
-		["gar_hangar", "gar_control_room"]
+	["gar_rs", "База RS",
+		["gar_kupol"]
 	],
-	["gar_control_room", "Венатор Контрольная рубка",
-		["gar_hangar", "gar_mostik"]
+
+	["merc_ship", "Корабль Наёмников",
+		["merc_ground"]
+	],
+	["merc_ground", "Суша",
+		["merc_ship"]
 	]
 ];
 

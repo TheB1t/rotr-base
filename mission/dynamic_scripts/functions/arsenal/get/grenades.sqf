@@ -1,0 +1,12 @@
+[
+	"Aux501_Weapons_Mags_flashnade",
+	"Aux501_Weapons_Mags_Smoke_Blue",
+	"Aux501_Weapons_Mags_Smoke_Green",
+	"Aux501_Weapons_Mags_Smoke_MASH",
+	"Aux501_Weapons_Mags_Smoke_Orange",
+	"Aux501_Weapons_Mags_Smoke_Purple",
+	"Aux501_Weapons_Mags_Smoke_Red",
+	"Aux501_Weapons_Mags_Smoke_White",
+	"Aux501_Weapons_Mags_Smoke_Yellow",
+	"Aux501_Weapons_Mags_Thermal_Imploder"
+];

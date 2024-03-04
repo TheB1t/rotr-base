@@ -13,7 +13,10 @@ class GAR_Ground {
             {"3AS_ISP_Transport",                               3, "true"},
             {"3AS_Saber_M1",                                    2, "true"},
             {"3AS_Saber_Super",                                 1, "true"},
-            {"3AS_Saber_M1G",                                   1, "true"}
+            {"3AS_Saber_M1G",                                   1, "true"},
+            {"212th_B_APC_Wheeled_02_cannon_F",                 3, "true"},
+            {"3AS_RX200_Base",                                  3, "true"},
+            {"3AS_AV7",                                         3, "true"}
         };
 
         spawnPoints[] = {
@@ -32,15 +35,16 @@ class GAR_Air {
             {"3AS_LAATC",                                       2, "true"},
             {"RD501_LAAT_MKIII_Balls",                          5, "true"},
             {"MTI_arc_170",                                     2, "true"},
-            {"3AS_Z95_Yellow",                                  1, "true"},
-            {"3AS_Z95_Blue",                                    1, "true"},
-            {"3AS_Z95_Republic",                                1, "true"},
+            {"3AS_Z95_Yellow",                                  2, "true"},
+            {"3AS_Z95_Blue",                                    2, "true"},
+            {"3AS_Z95_Republic",                                2, "true"},
             {"MTI_Z95",                                         2, "true"},
             {"3as_V19_base",                                    1, "true"},
             {"MTI_BTLB",                                        2, "true"},
             {"3AS_LAAT_Mk1",                                    2, "true"},
             {"MTI_Delta7_Base",                                 10, "true"},
-            {"3AS_LAAT_Mk2",                                    2, "true"}
+            {"3AS_LAAT_Mk2",                                    2, "true"},
+            {"MTI_nuclass",                                     3, "true"}
         };
 
         spawnPoints[] = {
@@ -133,7 +137,13 @@ class MERC_General {
             {"3AS_LAATC_Wampa",                                 -1, "true"},
             {"3as_Z95_Republic",                                -1, "true"},
             {"3as_arc_170_blue",                                -1, "true"},
-            {"3as_Barc",                                        -1, "true"}
+            {"3as_Barc",                                        -1, "true"},
+            {"C_SUV_01_F",                                      -1, "true"},
+            {"C_Quadbike_01_F",                                 -1, "true"},
+            {"C_Van_02_tranport_F",                             -1, "true"},
+            {"3AS_Nuclass",                                     -1, "true"},
+            {"C_Offroad_02_unarmed_F",                          -1, "true"},
+            {"C_Tractor_01_F",                                  -1, "true"}
         };
 
         spawnPoints[] = {
