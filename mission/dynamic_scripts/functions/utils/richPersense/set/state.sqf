@@ -1,0 +1,1 @@
+missionNamespace setVariable ["rich_persense_state", _this];

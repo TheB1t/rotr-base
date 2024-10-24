@@ -1,0 +1,1 @@
+missionNamespace getVariable [format ["rotr_player_%1", getPlayerUID _this], nil]

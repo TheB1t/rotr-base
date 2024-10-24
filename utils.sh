@@ -72,6 +72,7 @@ function pack_addon() {
     mv ${TEMP_DIR}/*.pbo ${OUTPUT_DIR}/${ADDON_ROOT_FOLDER}/addons
     cp ${ADDON_MODULE_DIR}/*.cfg ${OUTPUT_DIR}/${ADDON_ROOT_FOLDER}
     cp ${OUTPUT_DIR}/*.so ${OUTPUT_DIR}/${ADDON_ROOT_FOLDER}
+    cp ${OUTPUT_DIR}/*.dll ${OUTPUT_DIR}/${ADDON_ROOT_FOLDER}
 
     rm -rf ${TEMP_DIR}
 }
@@ -174,7 +175,7 @@ function main() {
                 ;;
 
             *)
-                [[ -n "$action" ]] && echo "Not implemented action $1" || echo "Action not passed"     
+                [[ -n "$action" ]] && echo "Not implemented action $1" || echo "Action not passed"
                 ;;
     esac
 
