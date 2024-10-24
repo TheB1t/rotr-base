@@ -1,0 +1,97 @@
+name: CMake on multiple platforms
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        build_type: [Release]
+        architecture: [x64, x86, Win32]
+        c_compiler: [gcc, cl]
+        include:
+          - os: windows-latest
+            c_compiler: cl
+            cpp_compiler: cl
+            architecture: x64
+          - os: windows-latest
+            c_compiler: cl
+            cpp_compiler: cl
+            architecture: Win32
+          - os: ubuntu-latest
+            c_compiler: gcc
+            cpp_compiler: g++
+          - os: ubuntu-latest
+            c_compiler: gcc
+            cpp_compiler: g++
+        exclude:
+          - os: windows-latest
+            c_compiler: gcc
+          - os: ubuntu-latest
+            c_compiler: cl
+          - os: windows-latest
+            architecture: x86
+          - os: ubuntu-latest
+            architecture: Win32
+          - os: ubuntu-latest
+            architecture: x86
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set reusable strings
+      id: strings
+      shell: bash
+      run: |
+        echo "build-output-dir=${{ github.workspace }}/build" >> "$GITHUB_OUTPUT"
+
+    - name: Install ODBC (Linux)
+      if: matrix.os == 'ubuntu-latest'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y unixodbc unixodbc-dev libmysqlcppconn-dev
+
+    - name: Get git modules
+      shell: bash
+      run: |
+        git submodule update --init --recursive
+
+    - name: Configure CMake (Linux)
+      if: matrix.os == 'ubuntu-latest'
+      run: >
+          cmake -B ${{ steps.strings.outputs.build-output-dir }}
+          -DCMAKE_CXX_COMPILER=${{ matrix.cpp_compiler }}
+          -DCMAKE_C_COMPILER=${{ matrix.c_compiler }}
+          -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
+          -S ${{ github.workspace }}
+
+    - name: Configure CMake (Windows)
+      if: matrix.os == 'windows-latest'
+      run: >
+          cmake -B ${{ steps.strings.outputs.build-output-dir }}
+          -DCMAKE_CXX_COMPILER=${{ matrix.cpp_compiler }}
+          -DCMAKE_C_COMPILER=${{ matrix.c_compiler }}
+          -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
+          -DCMAKE_GENERATOR_PLATFORM=${{ matrix.architecture }} 
+          -S ${{ github.workspace }}
+
+    - name: Build
+      run: cmake --build ${{ steps.strings.outputs.build-output-dir }} --config ${{ matrix.build_type }}
+
+    # - name: Test
+    #   working-directory: ${{ steps.strings.outputs.build-output-dir }}
+    #   run: ctest --build-config ${{ matrix.build_type }}
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: build-artifacts
+        path: ${{ github.workspace }}/output
